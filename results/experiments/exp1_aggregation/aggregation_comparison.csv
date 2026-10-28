@@ -1,0 +1,65 @@
+condition,classifier,aggregation_strategy,num_participants,accuracy,fold_mean_acc,fold_std_acc,sensitivity,specificity,precision,f1_score,roc_auc,tp,fp,tn,fn
+eyesClosed,Linear SVM,Mean (Baseline),58,89.66,89.9,8.79,93.33,85.71,87.5,90.32,95.36,28,4,24,2
+eyesClosed,Linear SVM,Median,58,91.38,91.57,8.99,96.67,85.71,87.88,92.06,94.52,29,4,24,1
+eyesClosed,Linear SVM,Trimmed Mean (10%),58,89.66,89.9,8.79,93.33,85.71,87.5,90.32,95.12,28,4,24,2
+eyesClosed,Linear SVM,Majority Vote,58,91.38,91.57,8.99,96.67,85.71,87.88,92.06,91.19,29,4,24,1
+eyesClosed,Quadratic SVM,Mean (Baseline),58,87.93,88.24,11.38,93.33,82.14,84.85,88.89,90.95,28,5,23,2
+eyesClosed,Quadratic SVM,Median,58,86.21,86.57,13.24,90.0,82.14,84.38,87.1,91.79,27,5,23,3
+eyesClosed,Quadratic SVM,Trimmed Mean (10%),58,87.93,88.24,11.38,93.33,82.14,84.85,88.89,90.95,28,5,23,2
+eyesClosed,Quadratic SVM,Majority Vote,58,86.21,86.57,13.24,90.0,82.14,84.38,87.1,86.07,27,5,23,3
+eyesClosed,Cubic SVM,Mean (Baseline),58,89.66,89.9,11.79,93.33,85.71,87.5,90.32,92.74,28,4,24,2
+eyesClosed,Cubic SVM,Median,58,89.66,90.14,13.47,93.33,85.71,87.5,90.32,92.98,28,4,24,2
+eyesClosed,Cubic SVM,Trimmed Mean (10%),58,89.66,89.9,11.79,93.33,85.71,87.5,90.32,92.74,28,4,24,2
+eyesClosed,Cubic SVM,Majority Vote,58,89.66,90.14,13.47,93.33,85.71,87.5,90.32,89.52,28,4,24,2
+eyesClosed,Fine Gaussian SVM,Mean (Baseline),58,50.0,49.71,10.03,86.67,10.71,50.98,64.2,42.74,26,25,3,4
+eyesClosed,Fine Gaussian SVM,Median,58,50.0,49.71,10.03,86.67,10.71,50.98,64.2,42.74,26,25,3,4
+eyesClosed,Fine Gaussian SVM,Trimmed Mean (10%),58,50.0,49.71,10.03,86.67,10.71,50.98,64.2,42.74,26,25,3,4
+eyesClosed,Fine Gaussian SVM,Majority Vote,58,50.0,49.71,10.03,86.67,10.71,50.98,64.2,48.69,26,25,3,4
+eyesClosed,Medium Gaussian SVM,Mean (Baseline),58,89.66,89.9,11.79,90.0,89.29,90.0,90.0,93.57,27,3,25,3
+eyesClosed,Medium Gaussian SVM,Median,58,87.93,88.48,13.14,90.0,85.71,87.1,88.52,94.29,27,4,24,3
+eyesClosed,Medium Gaussian SVM,Trimmed Mean (10%),58,89.66,89.9,11.79,90.0,89.29,90.0,90.0,93.69,27,3,25,3
+eyesClosed,Medium Gaussian SVM,Majority Vote,58,87.93,88.48,13.14,90.0,85.71,87.1,88.52,87.86,27,4,24,3
+eyesClosed,Weighted KNN,Mean (Baseline),58,86.21,86.57,10.66,86.67,85.71,86.67,86.67,92.14,26,4,24,4
+eyesClosed,Weighted KNN,Median,58,82.76,82.9,11.24,83.33,82.14,83.33,83.33,91.79,25,5,23,5
+eyesClosed,Weighted KNN,Trimmed Mean (10%),58,86.21,86.57,10.66,86.67,85.71,86.67,86.67,92.26,26,4,24,4
+eyesClosed,Weighted KNN,Majority Vote,58,82.76,82.9,11.24,83.33,82.14,83.33,83.33,82.74,25,5,23,5
+eyesClosed,Ensemble Bagged Tree,Mean (Baseline),58,86.21,86.81,14.82,93.33,78.57,82.35,87.5,91.43,28,6,22,2
+eyesClosed,Ensemble Bagged Tree,Median,58,86.21,86.81,14.82,93.33,78.57,82.35,87.5,91.73,28,6,22,2
+eyesClosed,Ensemble Bagged Tree,Trimmed Mean (10%),58,86.21,86.81,14.82,93.33,78.57,82.35,87.5,91.43,28,6,22,2
+eyesClosed,Ensemble Bagged Tree,Majority Vote,58,86.21,86.81,14.82,93.33,78.57,82.35,87.5,85.95,28,6,22,2
+eyesClosed,Neural Network Classifier,Mean (Baseline),58,89.66,89.9,11.79,90.0,89.29,90.0,90.0,94.4,27,3,25,3
+eyesClosed,Neural Network Classifier,Median,58,89.66,89.9,11.79,90.0,89.29,90.0,90.0,94.88,27,3,25,3
+eyesClosed,Neural Network Classifier,Trimmed Mean (10%),58,89.66,89.9,11.79,90.0,89.29,90.0,90.0,94.4,27,3,25,3
+eyesClosed,Neural Network Classifier,Majority Vote,58,89.66,89.9,11.79,90.0,89.29,90.0,90.0,89.64,27,3,25,3
+eyesOpen,Linear SVM,Mean (Baseline),61,88.52,88.14,12.63,90.62,86.21,87.88,89.23,95.69,29,4,25,3
+eyesOpen,Linear SVM,Median,61,88.52,88.14,12.63,90.62,86.21,87.88,89.23,95.37,29,4,25,3
+eyesOpen,Linear SVM,Trimmed Mean (10%),61,88.52,88.14,12.63,90.62,86.21,87.88,89.23,95.26,29,4,25,3
+eyesOpen,Linear SVM,Majority Vote,61,88.52,88.14,12.63,90.62,86.21,87.88,89.23,88.42,29,4,25,3
+eyesOpen,Quadratic SVM,Mean (Baseline),61,88.52,88.14,12.63,90.62,86.21,87.88,89.23,95.26,29,4,25,3
+eyesOpen,Quadratic SVM,Median,61,88.52,88.14,12.63,93.75,82.76,85.71,89.55,94.72,30,5,24,2
+eyesOpen,Quadratic SVM,Trimmed Mean (10%),61,88.52,88.14,12.63,90.62,86.21,87.88,89.23,95.37,29,4,25,3
+eyesOpen,Quadratic SVM,Majority Vote,61,88.52,88.14,12.63,93.75,82.76,85.71,89.55,88.25,30,5,24,2
+eyesOpen,Cubic SVM,Mean (Baseline),61,88.52,88.14,14.87,90.62,86.21,87.88,89.23,92.56,29,4,25,3
+eyesOpen,Cubic SVM,Median,61,86.89,86.48,14.32,90.62,82.76,85.29,87.88,93.43,29,5,24,3
+eyesOpen,Cubic SVM,Trimmed Mean (10%),61,90.16,89.81,13.02,90.62,89.66,90.62,90.62,93.0,29,3,26,3
+eyesOpen,Cubic SVM,Majority Vote,61,86.89,86.48,14.32,90.62,82.76,85.29,87.88,86.69,29,5,24,3
+eyesOpen,Fine Gaussian SVM,Mean (Baseline),61,52.46,51.86,11.21,96.88,3.45,52.54,68.13,44.23,31,28,1,1
+eyesOpen,Fine Gaussian SVM,Median,61,52.46,51.86,11.21,96.88,3.45,52.54,68.13,43.97,31,28,1,1
+eyesOpen,Fine Gaussian SVM,Trimmed Mean (10%),61,52.46,51.86,11.21,96.88,3.45,52.54,68.13,43.86,31,28,1,1
+eyesOpen,Fine Gaussian SVM,Majority Vote,61,52.46,51.86,11.21,96.88,3.45,52.54,68.13,50.16,31,28,1,1
+eyesOpen,Medium Gaussian SVM,Mean (Baseline),61,91.8,91.48,13.16,90.62,93.1,93.55,92.06,93.32,29,2,27,3
+eyesOpen,Medium Gaussian SVM,Median,61,90.16,89.81,13.02,90.62,89.66,90.62,90.62,92.67,29,3,26,3
+eyesOpen,Medium Gaussian SVM,Trimmed Mean (10%),61,91.8,91.48,13.16,90.62,93.1,93.55,92.06,93.43,29,2,27,3
+eyesOpen,Medium Gaussian SVM,Majority Vote,61,90.16,89.81,13.02,90.62,89.66,90.62,90.62,90.14,29,3,26,3
+eyesOpen,Weighted KNN,Mean (Baseline),61,88.52,88.14,12.63,90.62,86.21,87.88,89.23,94.61,29,4,25,3
+eyesOpen,Weighted KNN,Median,61,93.44,93.24,8.83,100.0,86.21,88.89,94.12,94.29,32,4,25,0
+eyesOpen,Weighted KNN,Trimmed Mean (10%),61,88.52,88.14,12.63,90.62,86.21,87.88,89.23,94.18,29,4,25,3
+eyesOpen,Weighted KNN,Majority Vote,61,93.44,93.24,8.83,100.0,86.21,88.89,94.12,93.1,32,4,25,0
+eyesOpen,Ensemble Bagged Tree,Mean (Baseline),61,86.89,86.48,14.32,90.62,82.76,85.29,87.88,93.43,29,5,24,3
+eyesOpen,Ensemble Bagged Tree,Median,61,85.25,84.81,13.52,90.62,79.31,82.86,86.57,93.48,29,6,23,3
+eyesOpen,Ensemble Bagged Tree,Trimmed Mean (10%),61,86.89,86.48,14.32,90.62,82.76,85.29,87.88,93.32,29,5,24,3
+eyesOpen,Ensemble Bagged Tree,Majority Vote,61,85.25,84.81,13.52,90.62,79.31,82.86,86.57,84.97,29,6,23,3
+eyesOpen,Neural Network Classifier,Mean (Baseline),61,91.8,91.48,13.16,90.62,93.1,93.55,92.06,96.01,29,2,27,3
+eyesOpen,Neural Network Classifier,Median,61,91.8,91.48,13.16,90.62,93.1,93.55,92.06,93.21,29,2,27,3
+eyesOpen,Neural Network Classifier,Trimmed Mean (10%),61,91.8,91.48,13.16,90.62,93.1,93.55,92.06,96.34,29,2,27,3
+eyesOpen,Neural Network Classifier,Majority Vote,61,91.8,91.48,13.16,90.62,93.1,93.55,92.06,91.86,29,2,27,3

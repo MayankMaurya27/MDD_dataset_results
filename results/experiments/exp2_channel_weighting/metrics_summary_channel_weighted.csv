@@ -1,0 +1,9 @@
+experiment,classifier,accuracy,fold_mean_acc,fold_std_acc,sensitivity,specificity,f1_score,roc_auc,tp,fp,tn,fn
+Channel-Weighted SPWVD (Frontal Dominant),Linear SVM,89.66,89.9,8.79,93.33,85.71,90.32,95.71,28,4,24,2
+Channel-Weighted SPWVD (Frontal Dominant),Quadratic SVM,86.21,86.57,10.66,90.0,82.14,87.1,91.31,27,5,23,3
+Channel-Weighted SPWVD (Frontal Dominant),Cubic SVM,87.93,87.9,11.58,90.0,85.71,88.52,93.57,27,4,24,3
+Channel-Weighted SPWVD (Frontal Dominant),Fine Gaussian SVM,50.0,49.71,10.03,86.67,10.71,64.2,44.64,26,25,3,4
+Channel-Weighted SPWVD (Frontal Dominant),Medium Gaussian SVM,91.38,91.57,11.94,93.33,89.29,91.8,93.57,28,3,25,2
+Channel-Weighted SPWVD (Frontal Dominant),Weighted KNN,84.48,84.24,9.8,80.0,89.29,84.21,92.74,24,3,25,6
+Channel-Weighted SPWVD (Frontal Dominant),Ensemble Bagged Tree,86.21,86.81,14.82,93.33,78.57,87.5,92.14,28,6,22,2
+Channel-Weighted SPWVD (Frontal Dominant),Neural Network Classifier,89.66,89.9,11.79,93.33,85.71,90.32,94.88,28,4,24,2

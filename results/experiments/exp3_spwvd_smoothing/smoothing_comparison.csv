@@ -1,0 +1,9 @@
+smoothing_variant,description,classifier,accuracy,sensitivity,specificity,f1_score,roc_auc,tp,fp,tn,fn,runtime_sec
+VarA_High_Suppression,Kaiser lag beta=7.0 (stronger cross-term suppression),Linear SVM,93.1,100.0,85.71,93.75,94.4,30,4,24,0,45.35
+VarA_High_Suppression,Kaiser lag beta=7.0 (stronger cross-term suppression),Medium Gaussian SVM,89.66,90.0,89.29,90.0,93.21,27,3,25,3,47.01
+VarA_High_Suppression,Kaiser lag beta=7.0 (stronger cross-term suppression),Weighted KNN,87.93,90.0,85.71,88.52,92.98,27,4,24,3,47.07
+VarA_High_Suppression,Kaiser lag beta=7.0 (stronger cross-term suppression),Neural Network Classifier,91.38,93.33,89.29,91.8,93.81,28,3,25,2,48.11
+VarB_Compact_Transient,"Hamming Lg=15, Kaiser Lh=127 beta=3.5 (compact transient)",Linear SVM,82.76,86.67,78.57,83.87,90.71,26,6,22,4,28.86
+VarB_Compact_Transient,"Hamming Lg=15, Kaiser Lh=127 beta=3.5 (compact transient)",Medium Gaussian SVM,91.38,93.33,89.29,91.8,93.57,28,3,25,2,30.35
+VarB_Compact_Transient,"Hamming Lg=15, Kaiser Lh=127 beta=3.5 (compact transient)",Weighted KNN,89.66,90.0,89.29,90.0,93.81,27,3,25,3,30.41
+VarB_Compact_Transient,"Hamming Lg=15, Kaiser Lh=127 beta=3.5 (compact transient)",Neural Network Classifier,91.38,93.33,89.29,91.8,92.98,28,3,25,2,31.47

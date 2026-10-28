@@ -1,0 +1,35 @@
+# Dataset (explicitly excluded)
+nm000114_v1.0.0/
+nm000114_v1.0.0
+*.zip
+*.tar.gz
+*.edf
+
+# Python virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# OS artifacts
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

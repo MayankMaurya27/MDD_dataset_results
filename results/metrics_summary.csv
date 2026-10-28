@@ -1,0 +1,25 @@
+condition,experiment,feature_extractor,classifier,num_participants,num_segments,part_acc_mean,part_acc_std,part_acc_pooled,part_balanced_acc,part_precision,part_sensitivity,part_specificity,part_f1,part_roc_auc,seg_acc_pooled,seg_f1_pooled,tp,fp,tn,fn
+eyesClosed,ResNet-18 Classifiers,ResNet-18,Linear SVM,58,870,89.9,8.34,89.66,89.52,87.5,93.33,85.71,90.32,95.36,80.34,80.94,28,4,24,2
+eyesClosed,ResNet-18 Classifiers,ResNet-18,Quadratic SVM,58,870,88.24,10.79,87.93,87.74,84.85,93.33,82.14,88.89,90.95,79.77,81.78,28,5,23,2
+eyesClosed,ResNet-18 Classifiers,ResNet-18,Cubic SVM,58,870,89.9,11.19,89.66,89.52,87.5,93.33,85.71,90.32,92.74,77.7,81.2,28,4,24,2
+eyesClosed,ResNet-18 Classifiers,ResNet-18,Fine Gaussian SVM,58,870,49.71,9.52,50.0,48.69,50.98,86.67,10.71,64.2,42.74,55.17,69.77,26,25,3,4
+eyesClosed,ResNet-18 Classifiers,ResNet-18,Medium Gaussian SVM,58,870,89.9,11.19,89.66,89.64,90.0,90.0,89.29,90.0,93.57,81.72,82.81,27,3,25,3
+eyesClosed,ResNet-18 Classifiers,ResNet-18,Weighted KNN,58,870,86.57,10.11,86.21,86.19,86.67,86.67,85.71,86.67,92.14,78.16,78.36,26,4,24,4
+eyesClosed,ResNet-18 Classifiers,ResNet-18,Ensemble Bagged Tree,58,870,86.81,14.06,86.21,85.95,82.35,93.33,78.57,87.5,91.43,78.97,80.17,28,6,22,2
+eyesClosed,ResNet-18 Classifiers,ResNet-18,Neural Network Classifier,58,870,89.9,11.19,89.66,89.64,90.0,90.0,89.29,90.0,94.4,81.84,82.44,27,3,25,3
+eyesClosed,CNN Architecture Comparison,RESNET18,Weighted KNN,58,870,86.57,10.11,86.21,86.19,86.67,86.67,85.71,86.67,92.14,,,26,4,24,4
+eyesClosed,CNN Architecture Comparison,RESNET50,Weighted KNN,58,870,84.81,11.19,84.48,84.17,80.0,93.33,75.0,86.15,90.48,,,28,7,21,2
+eyesClosed,CNN Architecture Comparison,ALEXNET,Weighted KNN,58,870,81.81,15.34,81.03,80.83,78.79,86.67,75.0,82.54,89.29,,,26,7,21,4
+eyesClosed,CNN Architecture Comparison,VGG16,Weighted KNN,58,870,78.9,11.0,79.31,79.64,87.5,70.0,89.29,77.78,90.71,,,21,3,25,9
+eyesOpen,ResNet-18 Classifiers,ResNet-18,Linear SVM,61,930,88.14,11.98,88.52,88.42,87.88,90.62,86.21,89.23,95.69,80.65,81.09,29,4,25,3
+eyesOpen,ResNet-18 Classifiers,ResNet-18,Quadratic SVM,61,930,88.14,11.98,88.52,88.42,87.88,90.62,86.21,89.23,95.26,80.75,82.84,29,4,25,3
+eyesOpen,ResNet-18 Classifiers,ResNet-18,Cubic SVM,61,930,88.14,14.11,88.52,88.42,87.88,90.62,86.21,89.23,92.56,81.51,83.96,29,4,25,3
+eyesOpen,ResNet-18 Classifiers,ResNet-18,Fine Gaussian SVM,61,930,51.86,10.64,52.46,50.16,52.54,96.88,3.45,68.13,44.07,54.84,69.57,31,28,1,1
+eyesOpen,ResNet-18 Classifiers,ResNet-18,Medium Gaussian SVM,61,930,91.48,12.49,91.8,91.86,93.55,90.62,93.1,92.06,93.32,84.19,85.55,29,2,27,3
+eyesOpen,ResNet-18 Classifiers,ResNet-18,Weighted KNN,61,930,88.14,11.98,88.52,88.42,87.88,90.62,86.21,89.23,94.61,81.94,82.96,29,4,25,3
+eyesOpen,ResNet-18 Classifiers,ResNet-18,Ensemble Bagged Tree,61,930,86.48,13.59,86.89,86.69,85.29,90.62,82.76,87.88,93.43,83.01,84.29,29,5,24,3
+eyesOpen,ResNet-18 Classifiers,ResNet-18,Neural Network Classifier,61,930,91.48,12.49,91.8,91.86,93.55,90.62,93.1,92.06,96.01,85.27,85.68,29,2,27,3
+eyesOpen,CNN Architecture Comparison,RESNET18,Weighted KNN,61,930,88.14,11.98,88.52,88.42,87.88,90.62,86.21,89.23,94.61,,,29,4,25,3
+eyesOpen,CNN Architecture Comparison,RESNET50,Weighted KNN,61,930,89.81,12.35,90.16,90.3,93.33,87.5,93.1,90.32,94.07,,,28,2,27,4
+eyesOpen,CNN Architecture Comparison,ALEXNET,Weighted KNN,61,930,85.14,15.3,85.25,84.64,79.49,96.88,72.41,87.32,96.88,,,31,8,21,1
+eyesOpen,CNN Architecture Comparison,VGG16,Weighted KNN,61,930,83.71,12.43,83.61,83.08,78.95,93.75,72.41,85.71,92.67,,,30,8,21,2

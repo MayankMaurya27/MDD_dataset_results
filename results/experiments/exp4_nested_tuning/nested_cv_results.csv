@@ -1,0 +1,5 @@
+classifier,validation_scheme,accuracy,fold_mean_acc,fold_std_acc,sensitivity,specificity,precision,f1_score,roc_auc,tp,fp,tn,fn
+Linear SVM,"Nested Group CV (Inner 5-Fold, Outer 10-Fold)",91.38,91.57,11.94,93.33,89.29,90.32,91.8,94.76,28,3,25,2
+Medium Gaussian SVM,"Nested Group CV (Inner 5-Fold, Outer 10-Fold)",87.93,88.24,13.83,90.0,85.71,87.1,88.52,93.57,27,4,24,3
+Weighted KNN,"Nested Group CV (Inner 5-Fold, Outer 10-Fold)",82.76,82.9,11.24,83.33,82.14,83.33,83.33,91.55,25,5,23,5
+Neural Network Classifier,"Nested Group CV (Inner 5-Fold, Outer 10-Fold)",89.66,89.9,11.79,90.0,89.29,90.0,90.0,94.52,27,3,25,3

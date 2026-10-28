@@ -1,0 +1,65 @@
+participant_id,group_label,numeric_label,fold,group,num_recordings
+sub-HS23,HC,0,0,Healthy Control,3
+sub-HS30,HC,0,0,Healthy Control,3
+sub-HS7,HC,0,0,Healthy Control,3
+sub-MDDS1,MDD,1,0,Major Depressive Disorder,3
+sub-MDDS16,MDD,1,0,Major Depressive Disorder,2
+sub-MDDS19,MDD,1,0,Major Depressive Disorder,3
+sub-MDDS30,MDD,1,0,Major Depressive Disorder,3
+sub-HS17,HC,0,1,Healthy Control,3
+sub-HS18,HC,0,1,Healthy Control,2
+sub-HS25,HC,0,1,Healthy Control,2
+sub-MDDS14,MDD,1,1,Major Depressive Disorder,3
+sub-MDDS20,MDD,1,1,Major Depressive Disorder,3
+sub-MDDS24,MDD,1,1,Major Depressive Disorder,3
+sub-MDDS29,MDD,1,1,Major Depressive Disorder,3
+sub-HS20,HC,0,2,Healthy Control,2
+sub-HS4,HC,0,2,Healthy Control,3
+sub-HS8,HC,0,2,Healthy Control,3
+sub-MDDS18,MDD,1,2,Major Depressive Disorder,3
+sub-MDDS32,MDD,1,2,Major Depressive Disorder,3
+sub-MDDS4,MDD,1,2,Major Depressive Disorder,2
+sub-MDDS8,MDD,1,2,Major Depressive Disorder,1
+sub-HS1,HC,0,3,Healthy Control,3
+sub-HS13,HC,0,3,Healthy Control,3
+sub-HS24,HC,0,3,Healthy Control,3
+sub-MDDS10,MDD,1,3,Major Depressive Disorder,3
+sub-MDDS21,MDD,1,3,Major Depressive Disorder,3
+sub-MDDS31,MDD,1,3,Major Depressive Disorder,3
+sub-MDDS33,MDD,1,3,Major Depressive Disorder,3
+sub-HS14,HC,0,4,Healthy Control,3
+sub-HS2,HC,0,4,Healthy Control,3
+sub-HS21,HC,0,4,Healthy Control,2
+sub-MDDS12,MDD,1,4,Major Depressive Disorder,2
+sub-MDDS25,MDD,1,4,Major Depressive Disorder,3
+sub-MDDS28,MDD,1,4,Major Depressive Disorder,3
+sub-HS10,HC,0,5,Healthy Control,3
+sub-HS11,HC,0,5,Healthy Control,3
+sub-HS3,HC,0,5,Healthy Control,3
+sub-MDDS15,MDD,1,5,Major Depressive Disorder,3
+sub-MDDS17,MDD,1,5,Major Depressive Disorder,3
+sub-MDDS9,MDD,1,5,Major Depressive Disorder,2
+sub-HS12,HC,0,6,Healthy Control,2
+sub-HS29,HC,0,6,Healthy Control,3
+sub-HS5,HC,0,6,Healthy Control,3
+sub-MDDS11,MDD,1,6,Major Depressive Disorder,3
+sub-MDDS13,MDD,1,6,Major Depressive Disorder,3
+sub-MDDS27,MDD,1,6,Major Depressive Disorder,3
+sub-HS26,HC,0,7,Healthy Control,3
+sub-HS6,HC,0,7,Healthy Control,3
+sub-HS9,HC,0,7,Healthy Control,3
+sub-MDDS2,MDD,1,7,Major Depressive Disorder,3
+sub-MDDS26,MDD,1,7,Major Depressive Disorder,3
+sub-MDDS3,MDD,1,7,Major Depressive Disorder,3
+sub-HS16,HC,0,8,Healthy Control,3
+sub-HS19,HC,0,8,Healthy Control,3
+sub-HS28,HC,0,8,Healthy Control,3
+sub-MDDS5,MDD,1,8,Major Depressive Disorder,3
+sub-MDDS6,MDD,1,8,Major Depressive Disorder,3
+sub-MDDS7,MDD,1,8,Major Depressive Disorder,2
+sub-HS15,HC,0,9,Healthy Control,4
+sub-HS22,HC,0,9,Healthy Control,3
+sub-HS27,HC,0,9,Healthy Control,3
+sub-MDDS22,MDD,1,9,Major Depressive Disorder,3
+sub-MDDS23,MDD,1,9,Major Depressive Disorder,3
+sub-MDDS34,MDD,1,9,Major Depressive Disorder,3

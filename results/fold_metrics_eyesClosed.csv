@@ -1,0 +1,81 @@
+condition,classifier,feature_extractor,fold,part_accuracy,part_bal_acc,part_precision,part_sensitivity,part_specificity,part_f1,part_roc_auc,seg_accuracy,seg_f1
+eyesClosed,Linear SVM,ResNet-18,0,83.33,83.33,100.0,66.67,100.0,80.0,100.0,82.22,78.95
+eyesClosed,Linear SVM,ResNet-18,1,83.33,75.0,80.0,100.0,50.0,88.89,87.5,76.67,83.72
+eyesClosed,Linear SVM,ResNet-18,2,100.0,100.0,100.0,100.0,100.0,100.0,100.0,84.0,79.31
+eyesClosed,Linear SVM,ResNet-18,3,85.71,83.33,80.0,100.0,66.67,88.89,100.0,80.0,84.44
+eyesClosed,Linear SVM,ResNet-18,4,100.0,100.0,100.0,100.0,100.0,100.0,100.0,82.67,77.97
+eyesClosed,Linear SVM,ResNet-18,5,83.33,83.33,75.0,100.0,66.67,85.71,100.0,71.11,72.92
+eyesClosed,Linear SVM,ResNet-18,6,80.0,83.33,100.0,66.67,100.0,80.0,100.0,76.0,77.5
+eyesClosed,Linear SVM,ResNet-18,7,100.0,100.0,100.0,100.0,100.0,100.0,100.0,86.67,85.71
+eyesClosed,Linear SVM,ResNet-18,8,83.33,83.33,75.0,100.0,66.67,85.71,88.89,77.78,78.72
+eyesClosed,Linear SVM,ResNet-18,9,100.0,100.0,100.0,100.0,100.0,100.0,100.0,86.67,86.05
+eyesClosed,Quadratic SVM,ResNet-18,0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,86.67,86.05
+eyesClosed,Quadratic SVM,ResNet-18,1,83.33,75.0,80.0,100.0,50.0,88.89,87.5,74.44,81.89
+eyesClosed,Quadratic SVM,ResNet-18,2,100.0,100.0,100.0,100.0,100.0,100.0,100.0,84.0,80.65
+eyesClosed,Quadratic SVM,ResNet-18,3,85.71,83.33,80.0,100.0,66.67,88.89,100.0,77.14,83.1
+eyesClosed,Quadratic SVM,ResNet-18,4,100.0,100.0,100.0,100.0,100.0,100.0,100.0,85.33,83.58
+eyesClosed,Quadratic SVM,ResNet-18,5,100.0,100.0,100.0,100.0,100.0,100.0,100.0,78.89,81.19
+eyesClosed,Quadratic SVM,ResNet-18,6,80.0,83.33,100.0,66.67,100.0,80.0,100.0,77.33,79.52
+eyesClosed,Quadratic SVM,ResNet-18,7,83.33,83.33,75.0,100.0,66.67,85.71,100.0,86.67,88.0
+eyesClosed,Quadratic SVM,ResNet-18,8,66.67,66.67,66.67,66.67,66.67,66.67,77.78,70.0,72.16
+eyesClosed,Quadratic SVM,ResNet-18,9,83.33,83.33,75.0,100.0,66.67,85.71,88.89,78.89,81.19
+eyesClosed,Cubic SVM,ResNet-18,0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,86.67,87.76
+eyesClosed,Cubic SVM,ResNet-18,1,83.33,75.0,80.0,100.0,50.0,88.89,87.5,71.11,82.19
+eyesClosed,Cubic SVM,ResNet-18,2,100.0,100.0,100.0,100.0,100.0,100.0,100.0,81.33,79.41
+eyesClosed,Cubic SVM,ResNet-18,3,85.71,83.33,80.0,100.0,66.67,88.89,100.0,73.33,81.08
+eyesClosed,Cubic SVM,ResNet-18,4,100.0,100.0,100.0,100.0,100.0,100.0,100.0,77.33,74.63
+eyesClosed,Cubic SVM,ResNet-18,5,100.0,100.0,100.0,100.0,100.0,100.0,100.0,62.22,72.13
+eyesClosed,Cubic SVM,ResNet-18,6,80.0,83.33,100.0,66.67,100.0,80.0,100.0,80.0,81.93
+eyesClosed,Cubic SVM,ResNet-18,7,100.0,100.0,100.0,100.0,100.0,100.0,100.0,83.33,84.85
+eyesClosed,Cubic SVM,ResNet-18,8,66.67,66.67,66.67,66.67,66.67,66.67,77.78,76.67,78.79
+eyesClosed,Cubic SVM,ResNet-18,9,83.33,83.33,75.0,100.0,66.67,85.71,100.0,86.67,88.24
+eyesClosed,Fine Gaussian SVM,ResNet-18,0,50.0,50.0,0.0,0.0,100.0,0.0,66.67,66.67,75.0
+eyesClosed,Fine Gaussian SVM,ResNet-18,1,66.67,50.0,66.67,100.0,0.0,80.0,50.0,66.67,80.0
+eyesClosed,Fine Gaussian SVM,ResNet-18,2,40.0,50.0,40.0,100.0,0.0,57.14,50.0,40.0,57.14
+eyesClosed,Fine Gaussian SVM,ResNet-18,3,57.14,50.0,57.14,100.0,0.0,72.73,62.5,57.14,72.73
+eyesClosed,Fine Gaussian SVM,ResNet-18,4,40.0,50.0,40.0,100.0,0.0,57.14,50.0,40.0,57.14
+eyesClosed,Fine Gaussian SVM,ResNet-18,5,50.0,50.0,50.0,100.0,0.0,66.67,50.0,50.0,66.67
+eyesClosed,Fine Gaussian SVM,ResNet-18,6,60.0,50.0,60.0,100.0,0.0,75.0,50.0,60.0,75.0
+eyesClosed,Fine Gaussian SVM,ResNet-18,7,50.0,50.0,50.0,100.0,0.0,66.67,50.0,50.0,66.67
+eyesClosed,Fine Gaussian SVM,ResNet-18,8,50.0,50.0,50.0,100.0,0.0,66.67,50.0,50.0,66.67
+eyesClosed,Fine Gaussian SVM,ResNet-18,9,33.33,33.33,40.0,66.67,0.0,50.0,22.22,66.67,75.0
+eyesClosed,Medium Gaussian SVM,ResNet-18,0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,90.0,89.41
+eyesClosed,Medium Gaussian SVM,ResNet-18,1,83.33,75.0,80.0,100.0,50.0,88.89,87.5,73.33,82.09
+eyesClosed,Medium Gaussian SVM,ResNet-18,2,100.0,100.0,100.0,100.0,100.0,100.0,100.0,84.0,79.31
+eyesClosed,Medium Gaussian SVM,ResNet-18,3,85.71,83.33,80.0,100.0,66.67,88.89,100.0,76.19,82.52
+eyesClosed,Medium Gaussian SVM,ResNet-18,4,100.0,100.0,100.0,100.0,100.0,100.0,100.0,89.33,86.21
+eyesClosed,Medium Gaussian SVM,ResNet-18,5,83.33,83.33,100.0,66.67,100.0,80.0,88.89,72.22,74.23
+eyesClosed,Medium Gaussian SVM,ResNet-18,6,80.0,83.33,100.0,66.67,100.0,80.0,100.0,82.67,83.12
+eyesClosed,Medium Gaussian SVM,ResNet-18,7,100.0,100.0,100.0,100.0,100.0,100.0,100.0,93.33,93.33
+eyesClosed,Medium Gaussian SVM,ResNet-18,8,66.67,66.67,66.67,66.67,66.67,66.67,77.78,68.89,68.89
+eyesClosed,Medium Gaussian SVM,ResNet-18,9,100.0,100.0,100.0,100.0,100.0,100.0,100.0,90.0,90.32
+eyesClosed,Weighted KNN,ResNet-18,0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,82.22,79.49
+eyesClosed,Weighted KNN,ResNet-18,1,83.33,75.0,80.0,100.0,50.0,88.89,87.5,74.44,82.17
+eyesClosed,Weighted KNN,ResNet-18,2,100.0,100.0,100.0,100.0,100.0,100.0,100.0,82.67,76.36
+eyesClosed,Weighted KNN,ResNet-18,3,85.71,83.33,80.0,100.0,66.67,88.89,100.0,82.86,86.57
+eyesClosed,Weighted KNN,ResNet-18,4,100.0,100.0,100.0,100.0,100.0,100.0,100.0,85.33,77.55
+eyesClosed,Weighted KNN,ResNet-18,5,83.33,83.33,100.0,66.67,100.0,80.0,88.89,66.67,65.91
+eyesClosed,Weighted KNN,ResNet-18,6,80.0,83.33,100.0,66.67,100.0,80.0,100.0,80.0,80.0
+eyesClosed,Weighted KNN,ResNet-18,7,83.33,83.33,100.0,66.67,100.0,80.0,100.0,80.0,79.07
+eyesClosed,Weighted KNN,ResNet-18,8,66.67,66.67,66.67,66.67,66.67,66.67,77.78,67.78,68.13
+eyesClosed,Weighted KNN,ResNet-18,9,83.33,83.33,75.0,100.0,66.67,85.71,100.0,81.11,81.72
+eyesClosed,Ensemble Bagged Tree,ResNet-18,0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,92.22,91.95
+eyesClosed,Ensemble Bagged Tree,ResNet-18,1,66.67,50.0,66.67,100.0,0.0,80.0,87.5,68.89,79.41
+eyesClosed,Ensemble Bagged Tree,ResNet-18,2,100.0,100.0,100.0,100.0,100.0,100.0,100.0,85.33,80.7
+eyesClosed,Ensemble Bagged Tree,ResNet-18,3,71.43,66.67,66.67,100.0,33.33,80.0,100.0,72.38,80.0
+eyesClosed,Ensemble Bagged Tree,ResNet-18,4,100.0,100.0,100.0,100.0,100.0,100.0,100.0,82.67,76.36
+eyesClosed,Ensemble Bagged Tree,ResNet-18,5,100.0,100.0,100.0,100.0,100.0,100.0,100.0,74.44,75.79
+eyesClosed,Ensemble Bagged Tree,ResNet-18,6,80.0,83.33,100.0,66.67,100.0,80.0,100.0,81.33,82.05
+eyesClosed,Ensemble Bagged Tree,ResNet-18,7,100.0,100.0,100.0,100.0,100.0,100.0,100.0,83.33,83.15
+eyesClosed,Ensemble Bagged Tree,ResNet-18,8,66.67,66.67,66.67,66.67,66.67,66.67,77.78,63.33,61.18
+eyesClosed,Ensemble Bagged Tree,ResNet-18,9,83.33,83.33,75.0,100.0,66.67,85.71,100.0,88.89,89.58
+eyesClosed,Neural Network Classifier,ResNet-18,0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,86.67,85.0
+eyesClosed,Neural Network Classifier,ResNet-18,1,83.33,75.0,80.0,100.0,50.0,88.89,87.5,75.56,83.08
+eyesClosed,Neural Network Classifier,ResNet-18,2,100.0,100.0,100.0,100.0,100.0,100.0,100.0,82.67,76.36
+eyesClosed,Neural Network Classifier,ResNet-18,3,85.71,83.33,80.0,100.0,66.67,88.89,100.0,79.05,84.51
+eyesClosed,Neural Network Classifier,ResNet-18,4,100.0,100.0,100.0,100.0,100.0,100.0,100.0,88.0,83.64
+eyesClosed,Neural Network Classifier,ResNet-18,5,83.33,83.33,100.0,66.67,100.0,80.0,88.89,73.33,73.91
+eyesClosed,Neural Network Classifier,ResNet-18,6,80.0,83.33,100.0,66.67,100.0,80.0,100.0,82.67,83.12
+eyesClosed,Neural Network Classifier,ResNet-18,7,100.0,100.0,100.0,100.0,100.0,100.0,100.0,92.22,92.13
+eyesClosed,Neural Network Classifier,ResNet-18,8,66.67,66.67,66.67,66.67,66.67,66.67,88.89,71.11,71.11
+eyesClosed,Neural Network Classifier,ResNet-18,9,100.0,100.0,100.0,100.0,100.0,100.0,100.0,88.89,88.89

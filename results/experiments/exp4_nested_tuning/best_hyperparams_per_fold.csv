@@ -1,0 +1,41 @@
+classifier,outer_fold,selected_param,inner_cv_mean_acc
+Linear SVM,0,{'C': 0.01},88.18
+Linear SVM,1,{'C': 0.01},90.36
+Linear SVM,2,{'C': 0.01},88.36
+Linear SVM,3,{'C': 0.1},94.18
+Linear SVM,4,{'C': 0.1},88.91
+Linear SVM,5,{'C': 0.01},88.36
+Linear SVM,6,{'C': 0.01},88.36
+Linear SVM,7,{'C': 0.1},88.18
+Linear SVM,8,{'C': 0.01},92.18
+Linear SVM,9,{'C': 0.1},86.55
+Medium Gaussian SVM,0,"{'C': 1.0, 'gamma': 'scale'}",90.18
+Medium Gaussian SVM,1,"{'C': 1.0, 'gamma': 'scale'}",88.55
+Medium Gaussian SVM,2,"{'C': 1.0, 'gamma': 'scale'}",88.36
+Medium Gaussian SVM,3,"{'C': 1.0, 'gamma': 'scale'}",92.18
+Medium Gaussian SVM,4,"{'C': 1.0, 'gamma': 0.001}",88.73
+Medium Gaussian SVM,5,"{'C': 10.0, 'gamma': 'scale'}",90.18
+Medium Gaussian SVM,6,"{'C': 1.0, 'gamma': 'scale'}",90.36
+Medium Gaussian SVM,7,"{'C': 1.0, 'gamma': 'scale'}",88.18
+Medium Gaussian SVM,8,"{'C': 1.0, 'gamma': 0.001}",90.36
+Medium Gaussian SVM,9,"{'C': 1.0, 'gamma': 0.001}",88.36
+Weighted KNN,0,{'n_neighbors': 5},82.55
+Weighted KNN,1,{'n_neighbors': 5},84.91
+Weighted KNN,2,{'n_neighbors': 7},84.55
+Weighted KNN,3,{'n_neighbors': 7},84.36
+Weighted KNN,4,{'n_neighbors': 3},82.91
+Weighted KNN,5,{'n_neighbors': 15},88.36
+Weighted KNN,6,{'n_neighbors': 3},83.09
+Weighted KNN,7,{'n_neighbors': 15},82.36
+Weighted KNN,8,{'n_neighbors': 10},84.73
+Weighted KNN,9,{'n_neighbors': 7},84.73
+Neural Network Classifier,0,"{'alpha': 0.0001, 'hidden_layer_sizes': (100,)}",90.18
+Neural Network Classifier,1,"{'alpha': 0.0001, 'hidden_layer_sizes': (64,)}",90.36
+Neural Network Classifier,2,"{'alpha': 0.0001, 'hidden_layer_sizes': (100,)}",88.36
+Neural Network Classifier,3,"{'alpha': 0.0001, 'hidden_layer_sizes': (64,)}",94.0
+Neural Network Classifier,4,"{'alpha': 0.0001, 'hidden_layer_sizes': (100,)}",88.73
+Neural Network Classifier,5,"{'alpha': 0.0001, 'hidden_layer_sizes': (100,)}",90.18
+Neural Network Classifier,6,"{'alpha': 0.0001, 'hidden_layer_sizes': (100,)}",88.36
+Neural Network Classifier,7,"{'alpha': 0.0001, 'hidden_layer_sizes': (100,)}",84.18
+Neural Network Classifier,8,"{'alpha': 0.0001, 'hidden_layer_sizes': (100,)}",92.18
+Neural Network Classifier,9,"{'alpha': 0.0001, 'hidden_layer_sizes': (100,)}",88.36

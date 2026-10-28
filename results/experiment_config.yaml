@@ -1,0 +1,79 @@
+experiment_metadata:
+  study_title: "Automated Detection of Major Depressive Disorder Using SPWVD-Based EEG Time-Frequency Images and Deep Learning Features"
+  date: "2026-10-28"
+  author: "Antigravity Research Auditor"
+  dataset: "nemar-nm000114_v1.0.0 (Mumtaz et al., Figshare/HUSM)"
+  random_seed: 42
+
+dataset_parameters:
+  num_participants: 64
+  healthy_controls: 30
+  mdd_patients: 34
+  primary_task: "eyesClosed" # Standard resting-state protocol
+  all_tasks: ["eyesClosed", "eyesOpen", "P300"]
+  channels:
+    count: 19
+    montage: "International 10-20 system"
+    names: ['Fp1', 'F3', 'C3', 'P3', 'O1', 'F7', 'T3', 'T5', 'Fz', 'Fp2', 'F4', 'C4', 'P4', 'O2', 'F8', 'T4', 'T6', 'Cz', 'Pz']
+  sampling_rate_hz: 256.0
+  bandpass_filter:
+    l_freq: 0.5
+    h_freq: 45.0
+
+segmentation_parameters:
+  window_sec: 2.0
+  window_samples: 512
+  overlap: 0.0
+  segments_per_recording: 15
+
+spwvd_parameters:
+  nfft: 256
+  frequency_smoothing:
+    type: "kaiser"
+    length: 255
+    beta: 5.0
+  time_smoothing:
+    type: "hamming"
+    length: 31
+  image_target_size: [224, 224]
+  normalization: "imagenet"
+
+cnn_architectures:
+  primary: "resnet18"
+  comparators: ["resnet50", "alexnet", "vgg16"]
+  weights_provenance: "PyTorch Torchvision ImageNet-1k"
+  mode: "frozen_feature_extractor"
+
+classifiers:
+  - name: "Linear SVM"
+    estimator: "sklearn.svm.SVC"
+    params: {kernel: "linear", probability: true}
+  - name: "Quadratic SVM"
+    estimator: "sklearn.svm.SVC"
+    params: {kernel: "poly", degree: 2, probability: true}
+  - name: "Cubic SVM"
+    estimator: "sklearn.svm.SVC"
+    params: {kernel: "poly", degree: 3, probability: true}
+  - name: "Fine Gaussian SVM"
+    estimator: "sklearn.svm.SVC"
+    params: {kernel: "rbf", gamma: 0.5, probability: true}
+  - name: "Medium Gaussian SVM"
+    estimator: "sklearn.svm.SVC"
+    params: {kernel: "rbf", gamma: "scale", probability: true}
+  - name: "Weighted KNN"
+    estimator: "sklearn.neighbors.KNeighborsClassifier"
+    params: {n_neighbors: 10, weights: "distance"}
+  - name: "Ensemble Bagged Tree"
+    estimator: "sklearn.ensemble.RandomForestClassifier"
+    params: {n_estimators: 100, max_features: null}
+  - name: "Neural Network Classifier"
+    estimator: "sklearn.neural_network.MLPClassifier"
+    params: {hidden_layer_sizes: [100], max_iter: 500}
+
+validation_protocol:
+  scheme: "Stratified Group 10-Fold Cross-Validation"
+  group_by: "participant_id"
+  num_folds: 10
+  leakage_prevention: "Strict train-test isolation for preprocessing, scaling, and classification"
+  evaluation_unit: "participant_level (primary) with segment_level (secondary)"
+  aggregation_function: "mean_predicted_probability"

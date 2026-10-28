@@ -1,0 +1,2 @@
+Smoke test passed successfully in 1.46s.
+Output shapes: features=(20, 512), test_metrics={'accuracy': 70.0, 'balanced_accuracy': 70.0, 'precision': 75.0, 'sensitivity': 60.0, 'specificity': np.float64(80.0), 'f1_score': 66.67, 'roc_auc': 64.0, 'tp': 3, 'fp': 1, 'tn': 4, 'fn': 2}
