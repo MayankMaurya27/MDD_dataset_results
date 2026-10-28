@@ -48,15 +48,15 @@ def create_revised_manuscript():
         "machine-learning framework combining Smoothed Pseudo Wigner-Ville Distribution (SPWVD) time-frequency spectral representations, pretrained "
         "deep convolutional neural network (CNN) feature extraction, and classical classifiers. We evaluate the public 64-participant dataset from "
         "Hospital Universiti Sains Malaysia (30 healthy controls and 34 MDD patients) across both resting-state conditions under strict Stratified Group "
-        "10-Fold Cross-Validation, ensuring zero participant contamination between training and test sets. "
+        "10-Fold Cross-Validation, ensuring participant-independent fold isolation between training and test sets. "
         "In the primary eyes-closed resting cohort (N = 58 participants: 28 controls, 30 MDD), ResNet-18 features paired with Linear SVM achieved 89.66% "
-        "participant-level diagnostic accuracy (mean fold accuracy 89.90 ± 8.34%), 93.33% sensitivity, 85.71% specificity, 90.32% F1-score, and 95.36% ROC-AUC. "
+        "participant-level diagnostic accuracy (mean fold accuracy 89.90 ± 8.34% with ddof=0, ±8.79% with ddof=1), 93.33% sensitivity, 85.71% specificity, 90.32% F1-score, and 95.36% ROC-AUC. "
         "Medium Gaussian SVM and Neural Network (Multi-Layer Perceptron) classifiers similarly achieved 89.66% accuracy (90.00% sensitivity, 89.29% specificity). "
         "In the eyes-open resting cohort (N = 61 participants: 29 controls, 32 MDD), Medium Gaussian SVM and Neural Network achieved 91.80% participant accuracy "
-        "(mean fold accuracy 91.48 ± 12.49%), 90.62% sensitivity, 93.10% specificity, 92.06% F1-score, and 93.32%–96.01% ROC-AUC. "
+        "(mean fold accuracy 91.48 ± 12.49% with ddof=0, ±13.16% with ddof=1), 90.62% sensitivity, 93.10% specificity, 92.06% F1-score, and ROC-AUC of 93.32% (Medium Gaussian SVM) and 96.01% (Neural Network); Linear SVM attained 88.52% accuracy and 95.69% ROC-AUC. "
         "At the individual 2-second segment level, accuracy ranged from 78% to 85%, demonstrating that participant-level probability aggregation across epochs "
-        "critically suppresses transient artifact noise and elevates clinical diagnostic reliability. "
-        "These verified empirical results establish a dependable, leakage-free benchmark for automated depression detection."
+        "effectively reduces the influence of transient segment-level artifacts. "
+        "These empirical results establish a reproducible participant-independent baseline for automated depression detection on this clinical cohort."
     )
     p_abs = doc.add_paragraph(abstract_text)
     p_abs.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
@@ -113,13 +113,13 @@ def create_revised_manuscript():
     doc.add_paragraph(intro_p4)
     
     intro_p5 = (
-        "In this study, we present a rigorous, reproducible, and leakage-safe investigation into the automated detection of MDD using Smoothed Pseudo Wigner-Ville Distribution (SPWVD) "
+        "In this study, we present a reproducible, participant-independent investigation into the automated detection of MDD using Smoothed Pseudo Wigner-Ville Distribution (SPWVD) "
         "time-frequency representations and pretrained CNN feature extraction. The key contributions of this work are threefold: "
-        "(1) We establish a strict Stratified Group 10-Fold Cross-Validation protocol that rigorously quarantines all recordings, segments, and representations of each participant to a single fold, "
-        "ensuring zero inter-subject data contamination; "
+        "(1) We establish a strict Stratified Group 10-Fold Cross-Validation protocol that quarantines all recordings, segments, and representations of each participant to a single fold, "
+        "enforcing participant-independent evaluation; "
         "(2) We perform an empirical evaluation of four benchmark pretrained CNN backbones (ResNet-18, ResNet-50, AlexNet, VGG-16) paired with eight classical machine learning estimators; "
         "and (3) We evaluate both individual segment-level discriminability and participant-level probability aggregation across both Eyes-Closed (N=58) and Eyes-Open (N=61) recording conditions, "
-        "providing a scientifically grounded and reproducible benchmark."
+        "providing a reproducible participant-independent benchmark."
     )
     doc.add_paragraph(intro_p5)
     
@@ -280,38 +280,46 @@ def create_revised_manuscript():
     t2_r = t2_p.add_run("Table 2. Empirical Performance of Classifiers with ResNet-18 Deep Features Under Stratified Group 10-Fold CV")
     t2_r.bold = True
     
-    table2 = doc.add_table(rows=9, cols=9)
+    table2 = doc.add_table(rows=9, cols=11)
     table2.alignment = WD_TABLE_ALIGNMENT.CENTER
-    headers2 = ["Classifier", "EC Acc. (%)", "EC Fold Mean ± Std (%)", "EC Sens/Spec (%)", "EC F1 (%)", "EO Acc. (%)", "EO Fold Mean ± Std (%)", "EO Sens/Spec (%)", "EO F1 (%)"]
+    headers2 = ["Classifier", "EC Acc (%)", "EC Mean ± SD (%)", "EC Sens/Spec (%)", "EC F1 (%)", "EC AUC (%)", "EO Acc (%)", "EO Mean ± SD (%)", "EO Sens/Spec (%)", "EO F1 (%)", "EO AUC (%)"]
     for c_idx, h in enumerate(headers2):
         cell = table2.cell(0, c_idx)
         cell.text = h
         cell.paragraphs[0].runs[0].bold = True
         
     t2_data = [
-        ["Linear SVM", "89.66", "89.90 ± 8.34", "93.3 / 85.7", "90.32", "88.52", "88.14 ± 11.98", "90.6 / 86.2", "89.23"],
-        ["Medium Gaussian SVM", "89.66", "89.90 ± 11.19", "90.0 / 89.3", "90.00", "91.80", "91.48 ± 12.49", "90.6 / 93.1", "92.06"],
-        ["Neural Network (MLP)", "89.66", "89.90 ± 11.19", "90.0 / 89.3", "90.00", "91.80", "91.48 ± 12.49", "90.6 / 93.1", "92.06"],
-        ["Cubic SVM", "89.66", "89.90 ± 11.19", "93.3 / 85.7", "90.32", "88.52", "88.14 ± 14.11", "90.6 / 86.2", "89.23"],
-        ["Quadratic SVM", "87.93", "88.24 ± 10.79", "93.3 / 82.1", "88.89", "88.52", "88.14 ± 11.98", "90.6 / 86.2", "89.23"],
-        ["Weighted KNN", "86.21", "86.57 ± 10.11", "86.7 / 85.7", "86.67", "88.52", "88.14 ± 11.98", "90.6 / 86.2", "89.23"],
-        ["Ensemble Bagged Tree", "86.21", "86.81 ± 14.06", "93.3 / 78.6", "87.50", "86.89", "86.48 ± 13.59", "90.6 / 82.8", "87.88"],
-        ["Fine Gaussian SVM", "50.00", "49.71 ± 9.52", "86.7 / 10.7", "64.20", "52.46", "51.86 ± 10.64", "96.9 / 3.5", "68.13"]
+        ["Linear SVM", "89.66", "89.90 ± 8.34", "93.3 / 85.7", "90.32", "95.36", "88.52", "88.14 ± 11.98", "90.6 / 86.2", "89.23", "95.69"],
+        ["Medium Gaussian SVM", "89.66", "89.90 ± 11.19", "90.0 / 89.3", "90.00", "93.57", "91.80", "91.48 ± 12.49", "90.6 / 93.1", "92.06", "93.32"],
+        ["Neural Network (MLP)", "89.66", "89.90 ± 11.19", "90.0 / 89.3", "90.00", "94.40", "91.80", "91.48 ± 12.49", "90.6 / 93.1", "92.06", "96.01"],
+        ["Cubic SVM", "89.66", "89.90 ± 11.19", "93.3 / 85.7", "90.32", "92.74", "88.52", "88.14 ± 14.11", "90.6 / 86.2", "89.23", "92.56"],
+        ["Quadratic SVM", "87.93", "88.24 ± 10.79", "93.3 / 82.1", "88.89", "90.95", "88.52", "88.14 ± 11.98", "90.6 / 86.2", "89.23", "95.26"],
+        ["Weighted KNN", "86.21", "86.57 ± 10.11", "86.7 / 85.7", "86.67", "92.14", "88.52", "88.14 ± 11.98", "90.6 / 86.2", "89.23", "94.61"],
+        ["Ensemble Bagged Tree", "86.21", "86.81 ± 14.06", "93.3 / 78.6", "87.50", "91.43", "86.89", "86.48 ± 13.59", "90.6 / 82.8", "87.88", "93.43"],
+        ["Fine Gaussian SVM", "50.00", "49.71 ± 9.52", "86.7 / 10.7", "64.20", "42.74", "52.46", "51.86 ± 10.64", "96.9 / 3.5", "68.13", "44.07"]
     ]
     for r_idx, row in enumerate(t2_data):
         for c_idx, val in enumerate(row):
             table2.cell(r_idx + 1, c_idx).text = val
             
+    t2_note = doc.add_paragraph()
+    t2_note_run = t2_note.add_run(
+        "* Note: Metrics evaluated at the participant level under Stratified Group 10-Fold CV. "
+        "Fold Mean ± SD indicates cross-validation fold accuracy using population standard deviation (ddof=0; sample standard deviation ddof=1 is ±8.79% for EC Linear SVM, ±11.79% for EC Medium Gaussian SVM, ±12.63% for EO Linear SVM, and ±13.16% for EO Medium Gaussian SVM). "
+        "ROC-AUC is calculated from pooled out-of-fold participant-level prediction probabilities."
+    )
+    t2_note_run.font.size = Pt(8.5)
+    t2_note_run.font.italic = True
     doc.add_paragraph() # spacer
     
     # 3.3 Methodological Improvement Experiments and Ablation Studies
     doc.add_heading("3.3 Methodological Improvement Experiments and Ablation Studies", level=2)
     res_imprv = (
-        "Following establishment of the verified baseline, four targeted, hypothesis-driven methodological experiments were conducted to evaluate prospective pipeline enhancements under identical group-isolated folds:\n\n"
-        "1. Epoch Probability Aggregation Strategies: We evaluated Arithmetic Mean, Median, 10% Trimmed Mean, and Majority Voting. For Linear SVM on Eyes-Closed, Median probability aggregation improved participant-level accuracy to 91.38% (sensitivity 96.67%, 29/30 MDD identified) by dampening transient segment artifacts. For Neural Network, 10% Trimmed Mean produced the highest overall discriminability (ROC-AUC 96.34%). However, for distance-based estimators (Weighted KNN), Median aggregation reduced accuracy (82.76%), demonstrating that simple Arithmetic Mean provides the most stable universal baseline.\n\n"
-        "2. Spatial Montage Weighting: Rather than uniform 19-channel averaging, a pre-specified neurobiological montage placed higher weight on frontal/central leads (Fp1, Fp2, F3, F4, Fz, Cz, C3, C4; weight 2.0) and attenuated occipital visual leads (O1, O2; weight 0.5). This spatial weighting increased Medium Gaussian SVM accuracy from 89.66% to 91.38% (+1.72%) and sensitivity to 93.33%, confirming that focusing on frontal depression biomarkers enhances non-linear boundary separation.\n\n"
-        "3. SPWVD Smoothing Variations: Testing an enhanced frequency smoothing window (Kaiser lag beta = 7.0, L = 255) eliminated false negatives entirely for Linear SVM, achieving 100.00% sensitivity (30/30 MDD detected) and 93.10% participant accuracy. Conversely, a compact transient window (L = 127, beta = 3.5) allowed excessive Wigner oscillatory cross-terms, degrading Linear SVM accuracy to 82.76% (-6.90%).\n\n"
-        "4. Training-Only Group-Aware Nested Hyperparameter Tuning: Using an inner 5-fold Stratified Group CV on training folds, regularized Linear SVM parameters (C in [0.01, 0.1]) were autonomously selected over the arbitrary C = 1.0 default. When evaluated on held-out outer test folds, this nested model achieved 91.38% accuracy (93.33% sensitivity, 89.29% specificity, 91.80% F1-score), verifying that stronger regularization in 512-D transfer learning space enhances out-of-sample generalizability."
+        "Following establishment of the verified baseline, four targeted methodological experiments were conducted to evaluate prospective pipeline enhancements under identical group-isolated folds:\n\n"
+        "1. Exploratory Epoch Probability Aggregation: We evaluated Arithmetic Mean, Median, 10% Trimmed Mean, and Majority Voting on outer-fold predictions. For Linear SVM on Eyes-Closed, Median aggregation yielded 91.38% participant-level accuracy (sensitivity 96.67%, 29/30 MDD identified) by dampening isolated segment mispredictions. However, for distance-based estimators (Weighted KNN), Median aggregation reduced accuracy to 82.76%, indicating that Arithmetic Mean provides the most stable universal default.\n\n"
+        "2. Exploratory Spatial Montage Weighting: Rather than uniform 19-channel averaging, a pre-specified montage placed higher weight on anterior leads (Fp1, Fp2, F3, F4, Fz, Cz, C3, C4; weight 2.0) and attenuated occipital leads (O1, O2; weight 0.5). This weighting increased Medium Gaussian SVM accuracy from 89.66% to 91.38% (+1.72%) and sensitivity to 93.33%, suggesting that prioritizing frontal channels provides supportive diagnostic signal consistent with frontal alterations reported in depression literature, though this remains an exploratory finding on this single cohort.\n\n"
+        "3. Exploratory SPWVD Smoothing Variations: Testing an alternative frequency smoothing window (Kaiser lag beta = 7.0, L = 255) eliminated false negatives for Linear SVM, achieving 100.00% sensitivity (30/30 MDD detected) and 93.10% participant accuracy on outer folds. Conversely, a compact transient window (L = 127, beta = 3.5) degraded Linear SVM accuracy to 82.76% (-6.90%), demonstrating that cross-term suppression parameters substantially influence linear separability.\n\n"
+        "4. Confirmatory Nested Group-Aware Hyperparameter Tuning: To evaluate model tuning without outer-test selection bias, an inner 5-fold Stratified Group CV was conducted strictly on training folds for hyperparameter selection (C in [0.01, 0.1, 1.0, 10.0]). Outer folds were reserved exclusively for final evaluation. The inner CV selected stronger regularization (C in [0.01, 0.1]), achieving 91.38% outer-test accuracy (93.33% sensitivity, 89.29% specificity, 91.80% F1-score, 94.76% ROC-AUC). While the choice of C was selected solely on inner training folds, broader comparisons between the nested tuning paradigm and alternative architectural modifications remained exploratory across the cohort."
     )
     doc.add_paragraph(res_imprv)
     
@@ -320,11 +328,11 @@ def create_revised_manuscript():
     disc_p1 = (
         "Automated EEG-based psychiatric screening has long been impeded by a lack of methodological reproducibility and widespread data contamination. "
         "In earlier literature and preliminary draft versions of this work, classification accuracies approaching or exceeding 99% were frequently claimed. "
-        "Our rigorous audit and experimental re-evaluation reveal that such extreme metrics almost invariably arise from random epoch-level cross-validation, where correlated EEG windows "
+        "Our audit and experimental re-evaluation reveal that such extreme metrics almost invariably arise from random epoch-level cross-validation, where correlated EEG windows "
         "from the same individual are simultaneously present in both training and test sets. By implementing strict participant-independent Stratified Group 10-Fold Cross-Validation, "
-        "we demonstrate that the true, uninflated diagnostic accuracy of SPWVD-based deep transfer learning features on this 64-subject clinical cohort is approximately 89.7% for eyes-closed "
-        "and 91.8% for eyes-open resting states (with ROC-AUC values of 93.32% to 96.01%). "
-        "This level of performance is realistic, robust, and highly competitive with valid neuroimaging benchmarks."
+        "we demonstrate that the participant-independent diagnostic accuracy of SPWVD-based deep transfer learning features on this 64-subject clinical cohort is approximately 89.66% for eyes-closed "
+        "and 91.80% for eyes-open resting states (with ROC-AUC values of 93.32% to 96.01% for the top estimators). "
+        "This level of performance provides a realistic, reproducible baseline for automated depression detection on this dataset."
     )
     doc.add_paragraph(disc_p1)
     
@@ -351,21 +359,22 @@ def create_revised_manuscript():
     doc.add_heading("4.2 Study Limitations", level=2)
     disc_lim = (
         "Several limitations must be acknowledged:\n"
-        "1. Cohort Size: Although 64 participants represents a substantial clinical cohort for EEG research, multi-center cohorts comprising hundreds of subjects across diverse demographic and clinical populations are required for external validation.\n"
-        "2. Diagnostic Specificity: The dataset evaluated binary discrimination between MDD patients and healthy controls. In clinical practice, distinguishing MDD from other affective disorders (e.g., bipolar depression, generalized anxiety disorder) is essential.\n"
-        "3. Interpretability: Pretrained CNN feature extractors operate as high-dimensional nonlinear mappings. While SPWVD provides clear physical time-frequency energy distributions, integrating post-hoc explainability methods (e.g., Grad-CAM, SHAP) will be important to provide clinicians with transparent neurophysiological rationales."
+        "1. Single-Center Setting and Cohort Size: The recordings originate from a single acquisition center (HUSM) comprising 64 participants. Multi-center cohorts across diverse demographic, cultural, and pharmacological profiles are required to establish external clinical generalizability.\n"
+        "2. Diagnostic Specificity: The dataset is restricted to binary discrimination between unipolar MDD patients and healthy controls. In clinical practice, differentiating MDD from other psychiatric conditions with overlapping neurophysiology (e.g., bipolar depression, anxiety disorders) is essential.\n"
+        "3. Status of Methodological Enhancements: While spatial montage weighting and Kaiser window smoothing yielded empirical performance gains, these adjustments were evaluated directly on this cohort. Confirmatory testing on independent datasets is necessary before asserting general superiority.\n"
+        "4. Interpretability: Pretrained CNN feature extractors operate as high-dimensional nonlinear mappings. While SPWVD provides clear physical time-frequency energy distributions, integrating formal explainability methods (e.g., Grad-CAM, SHAP) will be important to provide clinicians with transparent neurophysiological rationales."
     )
     doc.add_paragraph(disc_lim)
     
     # 5. Conclusion
     doc.add_heading("5. Conclusion", level=1)
     concl_text = (
-        "In this study, we presented a reproducible, leakage-free investigation of automated Major Depressive Disorder detection using Smoothed Pseudo Wigner-Ville Distribution (SPWVD) "
+        "In this study, we presented a reproducible, participant-independent investigation of automated Major Depressive Disorder detection using Smoothed Pseudo Wigner-Ville Distribution (SPWVD) "
         "time-frequency spectral images and deep transfer learning features. By enforcing strict Stratified Group 10-Fold Cross-Validation across 64 clinical participants (30 healthy controls, 34 MDD patients), "
-        "we resolved historical data leakage and clarified dataset metadata discrepancies. Pretrained ResNet-18 features demonstrated superior representation capacity compared to ResNet-50, AlexNet, and VGG-16. "
+        "we implemented participant-independent evaluation and resolved dataset metadata discrepancies. Pretrained ResNet-18 features achieved higher classification accuracy under the tested configurations compared to ResNet-50, AlexNet, and VGG-16. "
         "Coupled with Linear SVM, Medium Gaussian SVM, or Multi-Layer Perceptron classifiers, the framework achieved 89.66% participant-level diagnostic accuracy (95.36% ROC-AUC) on eyes-closed resting state "
-        "and 91.80% accuracy (93.32%–96.01% ROC-AUC) on eyes-open resting state. "
-        "These results establish a dependable, scientifically verified benchmark for automated psychiatric neuroimaging."
+        "and 91.80% accuracy (ROC-AUC of 93.32% for Medium Gaussian SVM and 96.01% for Neural Network; 95.69% for Linear SVM) on eyes-open resting state. "
+        "These results provide an empirical participant-independent baseline for SPWVD and transfer learning on this clinical cohort, demonstrating the necessity of group-isolated evaluation."
     )
     doc.add_paragraph(concl_text)
     

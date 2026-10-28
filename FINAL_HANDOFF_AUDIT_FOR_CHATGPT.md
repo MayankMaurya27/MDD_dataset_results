@@ -133,7 +133,7 @@ Authoritative metadata parsed from `nm000114_v1.0.0/participants.tsv` and all in
 | :--- | :---: | :---: | :---: | :---: | :---: | :--- | :--- |
 | **Eyes-Closed (EC)** | 58 | 58 | 28 | 30 | 870 | `sub-HS12`, `sub-HS18`, `sub-MDDS4`, `sub-MDDS8`, `sub-MDDS12`, `sub-MDDS16` (6 subjects) | Exactly 1 recording per participant; 15 segments/rec. |
 | **Eyes-Open (EO)** | 62 | 61 | 29 | 32 | 930 | `sub-HS25`, `sub-MDDS7`, `sub-MDDS8` (3 subjects) | `sub-HS15` has 2 runs (`run-1`, `run-2`), generating 30 segments; all other 60 subjects have 15 segments. |
-| **Auditory P300** | 61 | 61 | 29 | 32 | — | `sub-HS20`, `sub-HS21`, `sub-MDDS9` (3 subjects) | Task-based oddball; excluded from resting-state baseline. |
+| **Auditory P300** | 61 | 61 | 28 | 33 | — | `sub-HS20`, `sub-HS21`, `sub-MDDS9` (3 subjects) | Task-based oddball; excluded from resting-state baseline. |
 
 ### 3.4 Resolution of the 34 vs. 64 Contradiction
 - In `nm000114_v1.0.0/README.md`, text states: *"The dataset includes 34 participants (19 healthy controls and 15 MDD patients)..."*
@@ -500,3 +500,4 @@ If the user or reviewers require additional confirmatory evidence before publica
 
 ### I. Completion Status
 **Verdict**: **CAN BE FINALIZED WITH EXPLICITLY DOCUMENTED LIMITATIONS**. The underlying evidence, methodology, and experimental results are mathematically sound and complete. No additional laboratory experiments are required to publish, provided the citation fixes and exploratory designations documented in this audit are implemented.
+
