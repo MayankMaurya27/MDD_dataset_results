@@ -3,18 +3,19 @@
 
 **Workspace:** `/Users/mayankmaurya/Desktop/experiment`  
 **Date:** November 2026  
-**Audited Baseline Commit:** `baeb462`  
-**Phase 1B.6 Deliverable Set:**
+**Audited Baseline Commit:** `c831f80` (with Phase 1B.7 consistency updates)  
+**Phase 1B.6/1B.7 Deliverable Set:**
 1. `reports/reviewer_revision_phase1b/PHASE1B6_PROTOCOL_CORRECTIONS.md`
 2. `reports/reviewer_revision_phase1b/PHASE1B6_NESTED_CV_SEARCH_SPACE.md`
 3. `reports/reviewer_revision_phase1b/PHASE1B6_ARTIFACT_VALIDATION_PROTOCOL.md`
 4. `reports/reviewer_revision_phase1b/PHASE1B6_FINAL_EXECUTION_CHECKLIST.md`
+5. `reports/reviewer_revision_phase1b/PHASE1B7_FINAL_CONSISTENCY_VERIFICATION.md`
 
 ---
 
 ## 1. Experimental Architecture Overview (Phase 1C)
 
-Phase 1C comprises six coordinated, self-validating modules designed to resolve all 15 reviewer requirements without compromise:
+Phase 1C comprises six coordinated, self-validating modules designed to resolve all 14 original reviewer requirements (tracked across 15 internal engineering tasks) without compromise:
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
@@ -23,8 +24,8 @@ Phase 1C comprises six coordinated, self-validating modules designed to resolve 
 │ Module M1         │ Artifact Diagnostics & Multi-Condition Cleaning   │
 │                   │ (Conditions A, B, C; Dual-Sided Validation)        │
 ├───────────────────┼────────────────────────────────────────────────────┤
-│ Module M2         │ 32-Model Factorial Sweep                           │
-│                   │ (4 Reps × 2 Backbones × 4 Classifiers)             │
+│ Module M2         │ 35-Pipeline Factorial Sweep                        │
+│                   │ (30 TFR+CNN + 5 Welch PSD Direct Feature Models)   │
 ├───────────────────┼────────────────────────────────────────────────────┤
 │ Module M3         │ Unbiased Double-Loop Nested CV Pipeline            │
 │                   │ (Outer 10-Fold × Inner 5-Fold Stratified Group)    │
@@ -55,14 +56,17 @@ Before execution is initiated, every prerequisite item must be audited and verif
 
 ### 2.2 Dataset & Cohort Alignment
 - [x] **181 Raw EDF Files Present:** All 181 continuous EEG recordings verified intact in `data/edf/`.
-- [x] **Participant Group Separation:** Exactly 58 participants in Eyes Closed cohort (30 MDD, 28 HCs) and 61 participants in Eyes Open cohort (31 MDD, 30 HCs).
+- [x] **Participant Group Separation:** Exactly 58 participants in Eyes Closed cohort (30 MDD, 28 HCs; 870 segments) and 61 participants in Eyes Open cohort (32 MDD, 29 HCs; 930 segments).
+- [x] **Duplicate Recording Quarantined:** Participant `sub-HS15` has 2 EO recordings (30 segments), all strictly quarantined in Fold 9 with zero cross-fold leakage.
 - [x] **Group Stratification Invariant:** Participant identity $p_i$ is enforced as the strict grouping variable across all cross-validation folds (`StratifiedGroupKFold`).
 
 ### 2.3 Methodological Protocols Frozen
+- [x] **Epoch Protocol Verified:** Exactly 2.0-second epochs (512 samples at 256 Hz), 15 segments selected per recording with deterministic spacing (`step = len(segs) // 15`), preserving exact sample coordinates.
 - [x] **Artifact Pipeline Frozen:** Condition A (historical baseline), Condition B (per-recording FastICA, max 2 components rejected), Condition C (sensitivity check with nearest clean epoch replacement).
 - [x] **Ocular Proxy Clarified:** $F_{p1}$ and $F_{p2}$ explicitly designated as EEG-derived ocular reference proxies, not dedicated EOG sensors.
 - [x] **Dual-Sided Validation Operationalized:** Frontal PTP reduction ($\ge 35\%$) and posterior alpha retention ($\ge 85\%$) mathematically defined.
-- [x] **Nested CV Search Space Frozen:** 4 representations (SPWVD, STFT, CWT, Welch) $\times$ 2 backbones (ResNet-18, ResNet-50) $\times$ 5 classifiers (Linear SVM, RBF SVM, MLP, LogReg, RF) specified in `PHASE1B6_NESTED_CV_SEARCH_SPACE.md`.
+- [x] **Nested CV Search Space Frozen:** 35 valid pipelines (30 2D TFR + CNN backbones, 5 1D Welch PSD direct feature models; no invalid combinations like Welch PSD $\to$ ResNet).
+- [x] **Probability Calibration Specified:** Leakage-free participant-grouped Platt scaling for SVMs; zero test exposure.
 - [x] **Fine Gaussian SVM Degeneracy Resolved:** Mathematical cause identified (fixed $\gamma=10.0$ in 512-D space yielded Gram matrix $\mathbf{K} \approx \mathbf{I}$); dynamic gamma grids implemented.
 - [x] **Repeated CV Aggregation Rule Frozen:** Metric distributions computed strictly across $N=10$ complete cohort repeats, prohibiting invalid pooling of 100 fold scores.
 - [x] **Fine-Tuning Safeguards Operationalized:** Inner validation split isolated within outer training participants for early stopping and checkpoint selection; outer test participants never exposed.
@@ -81,7 +85,7 @@ Every module produces unambiguous, verifiable output artifacts:
 | Module | Script to Execute | Output Directory / Files | Reviewer Requirements Addressed |
 | :--- | :--- | :--- | :--- |
 | **M1** | `src/run_phase1c_m1_artifacts.py` | `results/reviewer_revision_phase1c/m1_artifacts/`<br>• `artifact_metrics_summary.csv`<br>• `ica_rejection_ledger.csv`<br>• `alpha_retention_validation.csv` | **Point 1, Point 7, Point 10** (Ocular artifacts, ICA, validation) |
-| **M2** | `src/run_phase1c_m2_matrix.py` | `results/reviewer_revision_phase1c/m2_matrix/`<br>• `factorial_32model_matrix_ec.csv`<br>• `factorial_32model_matrix_eo.csv`<br>• `backbone_resnet18_vs_resnet50.csv` | **Point 2, Point 5, Point 8** (STFT/CWT/Welch comparison, ResNet-50) |
+| **M2** | `src/run_phase1c_m2_matrix.py` | `results/reviewer_revision_phase1c/m2_matrix/`<br>• `factorial_35pipeline_matrix_ec.csv`<br>• `factorial_35pipeline_matrix_eo.csv`<br>• `backbone_resnet18_vs_resnet50.csv`<br>• `welch_direct_feature_baselines.csv` | **Reviewer Point 6, Point 11** (STFT/CWT/Welch comparison, ResNet-50 vs ResNet-18) |
 | **M3** | `src/run_phase1c_m3_nested_cv.py` | `results/reviewer_revision_phase1c/m3_nested_cv/`<br>• `nested_cv_participant_predictions.csv`<br>• `nested_cv_selected_models.csv`<br>• `nested_cv_unbiased_metrics.json` | **Point 3, Point 5, Point 8** (Complete-pipeline nested CV, leakage prevention) |
 | **M4** | `src/run_phase1c_m4_repeated_cv.py` | `results/reviewer_revision_phase1c/m4_repeated_cv/`<br>• `repeated_cv_repeat_distributions.csv`<br>• `repeated_cv_stability_metrics.json` | **Point 4** (Repeated group CV, stability) |
 | **M5** | `src/run_phase1c_m5_finetuning.py` | `results/reviewer_revision_phase1c/m5_finetuning/`<br>• `finetuning_training_logs.csv`<br>• `frozen_vs_finetuned_comparison.csv`<br>• `provenance_ledger.json` | **Point 5, Point 14** (Fine-tuning safeguards, reproducibility) |
@@ -115,3 +119,4 @@ Pursuant to the strict non-destructive rules of Phase 1B.6, **execution is curre
 The pipeline is awaiting explicit user authorization to proceed with the execution of **Phase 1C (Modules M1–M6)**.
 
 *End of Final Execution Checklist.*
+

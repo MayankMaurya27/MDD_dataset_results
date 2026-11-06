@@ -3,24 +3,24 @@
 
 **Workspace:** `/Users/mayankmaurya/Desktop/experiment`  
 **Date:** November 2026  
-**Audited Baseline Commit:** `baeb462` (`docs(revision): complete Phase 1B.5 scientific audit and Phase 1C readiness gate`)  
+**Audited Baseline Commit:** `c831f80` (`docs(revision): complete Phase 1B.6 protocol corrections and execution checklist`)  
 **Status:** Protocol Frozen — Awaiting Phase 1C Execution Authorization  
 
 ---
 
 ## 1. Executive Summary and Scope
 
-Following the Phase 1B.5 scientific audit, this protocol-correction document formalizes all essential procedural, mathematical, and statistical safeguards required before launching the Phase 1C experimental campaign (Modules M1–M6).
+Following the Phase 1B.5 scientific audit and Phase 1B.7 consistency review, this protocol-correction document formalizes all essential procedural, mathematical, and statistical safeguards required before launching the Phase 1C experimental campaign (Modules M1–M6).
 
 The purpose of Phase 1B.6 is strictly non-destructive:
 1. **No experimental code is executed in this phase.**
 2. **No historical results or out-of-fold prediction files (`results/out_of_fold_predictions_*.csv`) are modified or overwritten.**
 3. **The master manuscript (`manuscript/Jha_MDD_Revised_Final.docx`) remains completely locked.**
-4. **All methodological ambiguities identified across the 15 reviewer requirements are formally resolved and frozen.**
+4. **All methodological ambiguities identified across the 14 original reviewer requirements (mapped to 15 internal tracking tasks) are formally resolved and frozen.**
 
 This document details five vital protocol corrections:
-- **Correction 1:** Rigorous framing and validation of the artifact-controlled experiment (Conditions A, B, and C).
-- **Correction 2:** Complete-pipeline nested cross-validation architecture and separation of exploratory sweeps from unbiased generalization estimates.
+- **Correction 1:** Rigorous framing and validation of the artifact-controlled experiment (Conditions A, B, and C), with biophysical clarification on ICA degrees of freedom vs neural sources.
+- **Correction 2:** Complete-pipeline nested cross-validation architecture, probability calibration, and separation of exploratory sweeps from unbiased generalization estimates.
 - **Correction 3:** Correct statistical aggregation for repeated group cross-validation (repeat-level pooling vs. fold-level independence).
 - **Correction 4:** Leakage-free fine-tuning safeguards, inner validation partitioning, and provenance tracking.
 - **Correction 5:** Repository commit ledger reconciliation and documentation synchronization.
@@ -29,15 +29,15 @@ This document details five vital protocol corrections:
 
 ## 2. Protocol Correction 1: Artifact-Controlled Experiment Refinement
 
-Reviewer critiques regarding ocular contamination and artifact mitigation (Point 1, Point 7, and Point 10) require an unassailable experimental design that avoids both under-cleaning (leaving blink artifacts to drive spurious classification) and over-cleaning (destroying genuine neural dynamics).
+Reviewer critiques regarding ocular contamination and artifact mitigation (Point 3, Point 7, and Point 10) require an unassailable experimental design that avoids both under-cleaning (leaving blink artifacts to drive spurious classification) and over-cleaning (destroying genuine neural dynamics).
 
 ### 2.1 The Three Experimental Conditions Defined
 The Phase 1C experimental pipeline shall evaluate exactly three pre-specified conditions:
 
 | Condition | Role | Definition & Pipeline |
 | :--- | :--- | :--- |
-| **Condition A** | **Historical Baseline (Uncorrected)** | Continuous 19-channel EEG bandpass filtered at $0.5 - 45.0\text{ Hz}$ (zero-phase 4th-order Butterworth). Non-notch filtered. Segmented into 5.0 s non-overlapping epochs. No independent component removal. Identical to original Jha et al. pipeline. |
-| **Condition B** | **Primary Artifact-Corrected Pipeline** | Continuous 19-channel EEG bandpass filtered at $0.5 - 45.0\text{ Hz}$. Independent Component Analysis (Extended Infomax / FastICA) fitted per continuous 181 recording. Ocular artifact components identified and zeroed using frozen algorithmic criteria. Cleaned signals reconstructed via inverse mixing matrix $\mathbf{S}_{\text{clean}} = \mathbf{A} \mathbf{W}_{\text{clean}} \mathbf{X}$. Segmented into 5.0 s non-overlapping epochs. |
+| **Condition A** | **Historical Baseline (Uncorrected)** | Continuous 19-channel EEG bandpass filtered at $0.5 - 45.0\text{ Hz}$ (zero-phase 4th-order Butterworth). Non-notch filtered. Segmented into **2.0 s non-overlapping epochs** (512 samples at 256 Hz). Exactly **15 segments per recording** selected via deterministic spacing (`step = len(segs) // 15`). No independent component removal. Identical to original Jha et al. pipeline. |
+| **Condition B** | **Primary Artifact-Corrected Pipeline** | Continuous 19-channel EEG bandpass filtered at $0.5 - 45.0\text{ Hz}$. Independent Component Analysis (Extended Infomax / FastICA) fitted per continuous 181 recording. Ocular artifact components identified and zeroed using frozen algorithmic criteria (max 2 components). Cleaned signals reconstructed via inverse mixing matrix $\mathbf{S}_{\text{clean}} = \mathbf{A} \mathbf{W}_{\text{clean}} \mathbf{X}$. Segmented into identical **2.0 s non-overlapping epochs** with identical 15-segment spacing. |
 | **Condition C** | **Sensitivity Analysis (Epoch Replacement)** | **Explicitly designated as a sensitivity check, NOT an alternative primary preprocessing condition.** Segments in Condition A exhibiting extreme high-voltage contamination ($>150\,\mu\text{V}$ peak-to-peak amplitude across $>3$ channels) are replaced with the nearest temporally adjacent clean segment from the same participant and condition. Evaluates whether extreme transient excursions alter participant-level majority posteriors. |
 
 ### 2.2 Clarification of Frontal Electrodes as Ocular Proxies
@@ -55,7 +55,9 @@ To prevent observer bias, ICA component identification is completely automated a
    - Absolute Pearson correlation $|\rho(\mathbf{s}_k, \mathbf{y}_{\text{blink}})| \ge 0.40$.
    - Frontal spatial projection ratio $\frac{\mathbf{A}_{F_{p1}, k}^2 + \mathbf{A}_{F_{p2}, k}^2}{\sum_{i=1}^{19} \mathbf{A}_{i, k}^2} \ge 0.50$.
    - Component sample kurtosis $\kappa(\mathbf{s}_k) \ge 4.5$.
-3. **Component Rejection Cap:** At most **two (2) components** out of 19 may be rejected per recording. If $>2$ components meet criteria, only the 2 with the highest frontal spatial power are removed, guaranteeing that $\ge 17$ spatial degrees of freedom are preserved for neural electrodynamics.
+3. **Component Rejection Cap and Biophysical Clarification:** At most **two (2) components** out of 19 may be rejected per recording. If $>2$ components meet criteria, only the 2 with the highest frontal spatial power are removed, guaranteeing that $\ge 17$ spatial degrees of freedom are preserved for neural electrodynamics.
+   > [!IMPORTANT]
+   > **Biophysical Reality:** Retaining 17 independent components in a 19-channel decomposition guarantees preserving 17 linear degrees of freedom in the sensor space, but does **not** guarantee 17 pure, uncorrupted neural sources. Due to scalp volume conduction, hundreds of cortical dipolar generators linearly superimpose across the 19 scalp sensors. The cap is a safety measure to prevent over-cleaning, not a claim of complete neural source separation.
 4. **Zero-Component Rule:** If no component meets the joint threshold, exactly 0 components are rejected; the recording is logged as artifact-quiescent, and the raw continuous signal is retained.
 5. **Convergence Failure Fallback:** If FastICA fails to converge within 500 iterations, the algorithm automatically falls back to Picard / Infomax. If convergence still fails, the recording automatically defaults to Condition A (uncorrected) with an explicit warning entry in the audit ledger (`reports/reviewer_revision_phase1c/M1_artifact_audit.log`).
 
@@ -73,50 +75,29 @@ Reviewer Point 3, Point 5, and Point 8 demand an unbiased performance estimate f
 
 ### 3.1 Distinction: Exploratory Matrix vs. Nested-CV Unbiased Estimate
 Phase 1C explicitly decouples two distinct analytical outputs to avoid confounding:
-1. **Module M2 (Empirical 32-Model Matrix Sweep):**
-   - Evaluates a factorial grid of 4 representations (SPWVD, STFT, CWT, Welch) $\times$ 2 backbones (ResNet-18, ResNet-50) $\times$ 4 fixed downstream classifiers (Linear SVM, RBF SVM, MLP, Random Forest) using identical, frozen 10-fold Stratified Group CV splits.
+1. **Module M2 (Empirical 35-Pipeline Factorial Sweep):**
+   - Evaluates a factorial grid of valid combinations:
+     - 2D Time-Frequency: 3 representations (SPWVD, STFT, CWT) $\times$ 2 backbones (ResNet-18, ResNet-50) $\times$ 5 downstream classifiers (Linear SVM, RBF SVM, MLP, LogReg, RF) = 30 pipelines.
+     - 1D Spectral: 1 representation (Welch PSD) $\times$ direct spectral features (NO CNN backbone) $\times$ 5 downstream classifiers = 5 pipelines.
+     - Total: 35 strictly valid pipelines (rejecting invalid combinations such as Welch PSD passed into ResNet).
+   - Evaluated across identical, frozen 10-fold Stratified Group CV splits.
    - Purpose: Direct side-by-side empirical comparison across representations and backbones under standardized conditions.
 2. **Module M3 (Unbiased Autonomous Nested Cross-Validation):**
    - Implements a true double-loop nested CV: Outer 10-Fold Stratified Group CV $\times$ Inner 5-Fold Stratified Group CV.
    - Purpose: To report a single, completely unbiased generalization metric (Accuracy, AUC, F1) for the autonomous algorithm without any researcher-degree-of-freedom in selecting the best model.
 
-```
-Outer Loop (k = 1 ... 10 Stratified Group Folds):
-│
-├── Training Participants (90%) ──────────────────────────────────────────┐
-│   │                                                                     │
-│   └── Inner Loop (j = 1 ... 5 Stratified Group Folds):                  │
-│       │                                                                 │
-│       ├── Inner Train (80% of Outer Train):                             │
-│       │   - Fit StandardScaler on Inner Train segments only            │
-│       │   - Train candidate model M_(r, b, c, θ)                        │
-│       │                                                                 │
-│       └── Inner Validation (20% of Outer Train):                        │
-│           - Transform with Inner Train scaler                           │
-│           - Predict segment probabilities p_(i, s)                      │
-│           - Pool posteriors: P_i = (1/S_i) Σ p_(i, s)                   │
-│           - Evaluate participant-level balanced accuracy & AUC          │
-│                                                                         │
-│   └── Select Winner M* = argmax(Mean Inner Participant Metric)          │
-│       - Fit StandardScaler on full Outer Training Set (100% of Outer)   │
-│       - Fit Winner M* on full Outer Training Set                        │
-│                                                                         │
-└── Outer Test Participants (10%, UNSEEN, TESTED ONCE):                   │
-    - Transform with Outer Train scaler                                   │
-    - Predict segment probabilities p_(test, s)                           │
-    - Pool posteriors: P_test = (1/S_test) Σ p_(test, s)                  │
-    - Record unbiased out-of-fold generalization metric                   │
-```
-
-### 3.2 Participant-Level Posterior Model Selection
+### 3.2 Participant-Level Posterior Model Selection & Probability Calibration
 Model selection in the inner loop must optimize the actual clinical deployment metric:
-- In each inner fold $j$, segment posterior probabilities $p_{i, s}$ are pooled per participant:
+- **Leakage-Free Probability Calibration:** For margin classifiers (Linear SVM, RBF SVM) producing uncalibrated decision values $f(\mathbf{x}) = \mathbf{w}^T \mathbf{x} + b$, continuous posteriors are obtained via Platt scaling:
+  $$p(y = 1 \mid \mathbf{x}) = \frac{1}{1 + \exp(A \cdot f(\mathbf{x}) + B)}$$
+  Calibration parameters $(A, B)$ must be fitted on an inner **participant-grouped calibration split** (or via nested group CV within the training folds). Under no circumstances are outer validation or test participants used for calibration.
+- In each inner fold $j$, calibrated segment posterior probabilities $p_{i, s}$ are pooled per participant:
   $$P_i = \frac{1}{S_i} \sum_{s=1}^{S_i} p_{i, s}$$
 - Selection criterion is the mean **Participant-Level Area Under the ROC Curve (AUC)** across the 5 inner validation folds.
 - **Deterministic Tie-Breaking:** If two candidate pipelines achieve identical inner participant AUC (within $10^{-5}$):
   1. Higher inner Participant Balanced Accuracy.
   2. Higher inner Participant Sensitivity.
-  3. Lower parametric complexity (Linear SVM > RBF SVM > MLP).
+  3. Lower parametric complexity (Linear SVM > Logistic Regression > RBF SVM > MLP > Random Forest).
   4. Lower alphanumeric model index.
 
 ---
@@ -166,13 +147,15 @@ Every fine-tuning and backbone evaluation run must log the exact hardware and so
 ## 6. Protocol Correction 5: Repository & Report Consistency Audit
 
 ### 6.1 Git Commit Reconciliation
-A minor discrepancy between commit references in earlier logs is hereby clarified and reconciled:
-- **Commit `d5dac42`:** Committed the Phase 1B implementation scripts (`src/artifact_diagnostic_audit.py`, `src/run_classical_baselines.py`) and generated baseline results.
-- **Commit `baeb462`:** Committed the Phase 1B.5 read-only scientific audit reports (`PHASE1B_CROSSWALK_CORRECTION.md`, `PHASE1B_ARTIFACT_HANDLING_DECISION.md`, `PHASE1B_BASELINE_COMPARABILITY_AUDIT.md`, `PHASE1C_FINAL_EXECUTION_PLAN.md`, etc.).
-- **Authoritative Working HEAD:** The active git HEAD is `baeb462`, which linearly incorporates `d5dac42` and `00a08df`. All future Phase 1C commits branch directly from this verified baseline.
+The lineage of commits leading to Phase 1C execution is formally documented:
+- **Commit `00a08df`:** Completed Phase 0 audit and Phase 1A OOF verification.
+- **Commit `d5dac42`:** Committed Phase 1B implementation scripts (`src/artifact_diagnostic_audit.py`, `src/run_classical_baselines.py`) and generated baseline results.
+- **Commit `baeb462`:** Committed Phase 1B.5 read-only scientific audit reports (`PHASE1B_CROSSWALK_CORRECTION.md`, `PHASE1B_ARTIFACT_HANDLING_DECISION.md`, etc.).
+- **Commit `c831f80`:** Committed initial Phase 1B.6 protocol correction documents.
+- **Authoritative Working Baseline:** The active git HEAD is verified with zero uncommitted changes. All future Phase 1C commits branch directly from this verified baseline.
 
 ### 6.2 Authoritative Source of Truth
-The definitive reference for all manuscript revisions is the set of **15 uncompromised reviewer requirements** detailed in `reports/reviewer_revision_phase1b/PHASE1B_CROSSWALK_CORRECTION.md`. No earlier summary, preliminary audit, or historical draft supersedes this crosswalk.
+The definitive reference for reviewer critiques is the set of **14 original reviewer comments** detailed in `reports/reviewer_revision_phase0/PHASE0_REVIEWER_14_POINT_MATRIX.md`. The 15 items tracked in Phase 1B.5/1B.6 represent an **internal engineering tracking breakdown** (specifically dividing Reviewer Point 9 into Fine Gaussian degeneracy and tied-accuracy posterior convergence). Internal tracking numbers must never be misrepresented as additional original reviewer comments.
 
 ---
 
@@ -181,3 +164,4 @@ The definitive reference for all manuscript revisions is the set of **15 uncompr
 All five protocol corrections detailed above are mathematically formalized and locked into the repository. The experimental execution plan for Phase 1C is completely specified.
 
 *End of Protocol Corrections Document.*
+

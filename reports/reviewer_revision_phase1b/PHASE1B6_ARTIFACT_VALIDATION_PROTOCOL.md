@@ -3,7 +3,7 @@
 
 **Workspace:** `/Users/mayankmaurya/Desktop/experiment`  
 **Date:** November 2026  
-**Audited Baseline Commit:** `baeb462`  
+**Audited Baseline Commit:** `c831f80`  
 **Status:** Protocol Frozen — Awaiting Phase 1C Execution Authorization  
 
 ---
@@ -11,7 +11,7 @@
 ## 1. Rationale and Reviewer Mandate
 
 Reviewers raised substantive critiques regarding the handling of physiological artifacts in the Russian MDD EEG dataset:
-1. **Ocular Contamination (Point 1, Point 7, Point 10):** Uncleaned blink excursions can inject massive, non-neural low-frequency power into frontal electrodes ($F_{p1}, F_{p2}$). If blinks are unevenly distributed between MDD patients and healthy controls (due to psychomotor retardation, blunted affect, or anxiety), classifiers may learn to detect blink frequency rather than neurophysiological signatures of depression.
+1. **Ocular Contamination (Reviewer Point 3, Point 7, Point 10):** Uncleaned blink excursions can inject massive, non-neural low-frequency power into frontal electrodes ($F_{p1}, F_{p2}$). If blinks are unevenly distributed between MDD patients and healthy controls (due to psychomotor retardation, blunted affect, or anxiety), classifiers may learn to detect blink frequency rather than neurophysiological signatures of depression.
 2. **The Over-Cleaning Fallback Trap:** Blindly applying aggressive thresholding or subtracting excessive components can decimate frontal theta ($4 - 8\text{ Hz}$) and anterior alpha rhythms, distorting the very biomarkers under investigation.
 3. **The Unwarranted EOG Claim:** Prior draft revisions colloquially referred to $F_{p1}$ and $F_{p2}$ as "EOG channels." Methodologically, these are standard scalp electrodes; electro-oculogram signals derived from them are synthetic bipolar proxies.
 
@@ -55,18 +55,19 @@ The Phase 1C experimental pipeline executes three controlled preprocessing condi
 ### Condition A: Historical Baseline (Uncorrected)
 - **Bandpass Filtering:** Zero-phase 4th-order Butterworth bandpass filter between $0.5\text{ Hz}$ and $45.0\text{ Hz}$.
 - **Notch Filter:** No notch filter applied (mains noise at $50\text{ Hz}$ is outside the $45\text{ Hz}$ cutoff).
-- **Segmentation:** Continuous recording divided into $5.0\text{ s}$ non-overlapping epochs ($1,280$ samples at $256\text{ Hz}$).
+- **Segmentation:** Continuous recording divided into **$2.0\text{ s}$ non-overlapping epochs** ($512$ samples at $256\text{ Hz}$).
+- **Epoch Selection:** Exactly **15 segments** per recording file are selected using deterministic uniform spacing (`step = len(segs) // 15`, `selected_idx = [i * step for i in range(15)]`), preserving exact sample coordinates.
 - **Artifact Handling:** Zero component removal, zero epoch rejection. This preserves the historical baseline published in Jha et al. to allow exact apples-to-apples comparison.
 
 ### Condition B: Primary Artifact-Corrected Pipeline (Per-Recording ICA)
-- **Continuous Decomposition:** Independent Component Analysis (FastICA with $\tanh$ contrast function, max iterations = 500) is fitted on the continuous 19-channel recording ($T \approx 76,800$ samples across 5 minutes).
+- **Continuous Decomposition:** Independent Component Analysis (FastICA with $\tanh$ contrast function, max iterations = 500) is fitted on the continuous 19-channel recording ($T \approx 76,800$ samples across ~5 minutes).
 - **Component Decomposition:** Decomposes the observed scalp signals $\mathbf{X} \in \mathbb{R}^{19 \times T}$ into 19 independent time courses:
   $$\mathbf{S} = \mathbf{W} \mathbf{X}, \quad \mathbf{X} = \mathbf{A} \mathbf{S}$$
   where $\mathbf{W}$ is the unmixing matrix and $\mathbf{A} = \mathbf{W}^{-1}$ is the mixing (spatial topography) matrix.
 - **Automated Component Rejection:** Components matching the frozen multi-criteria decision rule (§4) are zeroed: $\mathbf{S}_{\text{cleaned}} = \mathbf{M} \mathbf{S}$, where $M_{kk} = 0$ for rejected components and $1$ otherwise.
 - **Signal Reconstruction:** Cleaned scalp signals are reconstructed via:
   $$\mathbf{X}_{\text{cleaned}} = \mathbf{A} \mathbf{S}_{\text{cleaned}} = \mathbf{A} \mathbf{M} \mathbf{W} \mathbf{X}$$
-- **Segmentation:** The cleaned continuous record is segmented into identical $5.0\text{ s}$ non-overlapping epochs.
+- **Segmentation:** The cleaned continuous record is segmented into identical **$2.0\text{ s}$ non-overlapping epochs** with identical 15-segment spacing and sample coordinates.
 
 ### Condition C: Sensitivity Analysis (Nearest-Clean-Epoch Replacement)
 - **Explicit Classification:** **Condition C is strictly designated as a secondary sensitivity analysis, NOT an alternative primary preprocessing pipeline.**
@@ -90,10 +91,11 @@ An independent component $\mathbf{s}_k = [s_k(1), \dots, s_k(T)]$ is marked for 
 3. **Temporal Kurtosis:** High kurtosis characteristic of intermittent, transient blink excursions:
    $$\kappa(\mathbf{s}_k) = \frac{\frac{1}{T} \sum_{t=1}^T (s_k(t) - \bar{s}_k)^4}{\left( \frac{1}{T} \sum_{t=1}^T (s_k(t) - \bar{s}_k)^2 \right)^2} \ge 4.5$$
 
-### 4.2 Degree-of-Freedom Preservation Cap
+### 4.2 Degree-of-Freedom Preservation Cap and Biophysical Clarification
 - **Strict Cap:** Under no circumstances shall more than **two (2) components** be rejected from any single 19-channel recording.
 - **Rank Ordering:** If 3 or more components meet the rejection criteria, they are ranked in descending order by their frontal correlation $|\rho(\mathbf{s}_k, \mathbf{y}_{\text{ocular}})|$, and **only the top 2 are zeroed**.
-- **Guarantee:** This guarantees that for every participant, at least 17 independent spatial degrees of freedom ($\ge 89.5\%$ of channel dimensionality) are preserved strictly for brain electrophysiology.
+- **Preservation of Dimensional Degrees of Freedom:** This guarantees that for every participant, at least 17 independent spatial degrees of freedom ($\ge 89.5\%$ of channel dimensionality) are preserved.
+- **Biophysical Reality vs. Source Separation:** Retaining 17 independent components in a 19-channel decomposition guarantees preserving 17 spatial linear dimensions of the sensor space, but does **not** guarantee 17 pure, uncorrupted neural sources. Due to scalp volume conduction, hundreds of cortical dipolar generators linearly superimpose across the 19 scalp sensors. The cap is a safety measure to prevent over-cleaning, not a claim of complete neural source separation.
 
 ### 4.3 Convergence Failures and Edge Cases
 1. **Zero-Component Case:** If no component in a recording meets the joint rejection criteria, the recording is classified as artifact-quiescent. Exactly 0 components are rejected, and the uncorrected signal is passed through.
@@ -155,3 +157,4 @@ All validation results produced by Module M1 will be automatically logged to:
 Every recording will have its rejected component count, identified component indices, ocular correlation scores, frontal PTP deltas, and posterior alpha retention ratios published in full.
 
 *End of Artifact Validation Protocol.*
+

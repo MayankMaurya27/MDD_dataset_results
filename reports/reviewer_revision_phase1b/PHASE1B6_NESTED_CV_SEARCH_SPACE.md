@@ -3,7 +3,7 @@
 
 **Workspace:** `/Users/mayankmaurya/Desktop/experiment`  
 **Date:** November 2026  
-**Audited Baseline Commit:** `baeb462`  
+**Audited Baseline Commit:** `c831f80`  
 **Status:** Protocol Frozen — Awaiting Phase 1C Execution Authorization  
 
 ---
@@ -18,9 +18,10 @@ To provide a mathematically unbiased estimate of generalization performance on u
 
 ```
 Data Hierarchy:
-Cohort: N Participants (EC: 58, EO: 61)
-  └─ Continuous EEG (19 channels, ~5 min)
-       └─ S_i Epochs per participant (5.0 s non-overlapping, ~59-65 epochs)
+Cohort: N Participants (EC: 58 [30 MDD, 28 HC]; EO: 61 [32 MDD, 29 HC])
+  └─ Continuous EEG (19 channels, ~5 min, 181 total recordings)
+       └─ S_i Epochs per participant: exactly 15 segments of 2.0 s (512 samples at 256 Hz)
+            (Note: sub-HS15 has 2 EO recordings = 30 segments; both quarantined in Fold 9)
             └─ Segment Features x_(i, s) in R^D
 ```
 
@@ -30,8 +31,11 @@ Cohort: N Participants (EC: 58, EO: 61)
 
 To satisfy the full breadth of reviewer requirements, Phase 1C maintains an explicit distinction between two experimental procedures:
 
-### 2.1 The Exploratory 32-Model Factorial Sweep (Module M2)
-- **Design:** Evaluates every combination of 4 representations $\times$ 2 deep backbones $\times$ 4 downstream classifiers across a fixed 10-fold Stratified Group partition.
+### 2.1 The Exploratory 35-Pipeline Factorial Sweep (Module M2)
+- **Design:** Evaluates every valid combination of:
+  - 3 2D representations (SPWVD, STFT, CWT) $\times$ 2 deep backbones (ResNet-18, ResNet-50) $\times$ 5 downstream classifiers = 30 pipelines.
+  - 1 1D classical representation (Welch PSD) $\times$ direct spectral features (NO CNN backbone) $\times$ 5 downstream classifiers = 5 pipelines.
+  - Total: 35 strictly valid candidate pipelines across a fixed 10-fold Stratified Group partition.
 - **Purpose:** Characterizes the empirical landscape, answering specific reviewer questions (e.g., "How does ResNet-50 compare to ResNet-18?", "Does STFT match SPWVD across identical classifiers?", "Why did Fine Gaussian SVM fail?").
 - **Reporting:** Reported as an empirical comparison matrix. It provides transparent comparative evidence but does not constitute the single reported primary pipeline metric.
 
@@ -66,14 +70,13 @@ where $\mathcal{T}$ is the time-frequency transformation, $\mathcal{B}$ is the d
    - Frequency resolution: $1.0\text{ Hz}$ bins across $0.5 - 45.0\text{ Hz}$ (45 spectral features per channel $\times$ 19 channels = 855 features).
 
 ### 3.2 Feature Extractors & Backbones ($\mathcal{B}$)
-1. **ResNet-18 (Torchvision `ResNet18_Weights.IMAGENET1K_V1`):**
-   - Global average pooling output dimension: $D = 512$.
-   - Pretrained frozen weights.
-2. **ResNet-50 (Torchvision `ResNet50_Weights.IMAGENET1K_V2`):**
-   - Global average pooling output dimension: $D = 2048$.
-   - Pretrained frozen weights.
-3. **Direct Feature Concatenation (for Welch PSD):**
-   - Dimension: $D = 855$.
+The candidate backbones are strictly matched to data dimensionality:
+1. **2D Time-Frequency Backbones (for SPWVD, STFT, CWT):**
+   - **ResNet-18 (Torchvision `ResNet18_Weights.IMAGENET1K_V1`):** Global average pooling output dimension $D = 512$.
+   - **ResNet-50 (Torchvision `ResNet50_Weights.IMAGENET1K_V2`):** Global average pooling output dimension $D = 2048$.
+2. **1D Classical Spectral Feature Extractor (for Welch PSD):**
+   - **Direct Feature Concatenation:** 5 canonical band powers (Delta 0.5–4 Hz, Theta 4–8 Hz, Alpha 8–12 Hz, Beta 13–30 Hz, Gamma 30–45 Hz) across 19 channels ($D = 95$) or full 1-Hz spectral densities across 19 channels ($D = 855$).
+   - **Prohibition Rule:** Welch PSD vectors are 1D spectral feature vectors and **must never be passed into 2D convolutional image backbones** (such as ResNet-18 or ResNet-50), which would be methodologically and physically invalid.
 
 ### 3.3 Normalization Transforms ($\mathcal{S}$)
 - **StandardScaler (Z-score):**
@@ -121,6 +124,18 @@ To guarantee 100% deterministic reproducibility across execution environments, t
    $$\text{Linear SVM} > \text{Logistic Regression} > \text{RBF SVM} > \text{MLP} > \text{Random Forest}$$
 5. **Alphabetical Tie-Break:** Stable sort based on configuration hash.
 
+### 4.3 Leakage-Free Probability Calibration Protocol
+Support Vector Machines (Linear SVM, RBF SVM) optimize margin separation and output uncalibrated signed distances $f(\mathbf{x}) \in (-\infty, +\infty)$. For participant posterior averaging $\hat{P}_i = \frac{1}{S_i} \sum p_{i,s}$, continuous, well-calibrated probabilities $p \in [0, 1]$ are required:
+
+1. **Platt Scaling Formulation:**
+   $$p(y = 1 \mid \mathbf{x}) = \frac{1}{1 + \exp(A \cdot f(\mathbf{x}) + B)}$$
+   where $A$ and $B$ are scalar sigmoid parameters estimated via maximum likelihood.
+2. **Strict Leakage-Free Inner Calibration Splits:**
+   - Under no circumstances shall calibration parameters $(A, B)$ be fitted on the same samples used to train the base hyperplane $(\mathbf{w}, b)$ (which yields overconfident, degenerate posteriors).
+   - Under no circumstances shall validation participants or outer test participants be used to fit $(A, B)$ (which causes cross-fold leakage).
+   - **Protocol:** Within the training participants of each fold, a participant-grouped calibration split (e.g., 3-fold inner participant CV or an 80/20 participant split) is used. The base model is fit on the training sub-split, decision values $f(\mathbf{x})$ are generated on the held-out calibration participants, and $(A, B)$ are fitted solely on these out-of-training decision values.
+   - For Tree ensembles and Neural Networks, probabilities are generated via native softmax / probability trees without post-hoc scaling.
+
 ---
 
 ## 5. Outer-Fold Generalization Evaluation (Single-Pass Protocol)
@@ -144,3 +159,4 @@ Prior to execution in Module M3, the pipeline asserts the following automated in
 - [x] Outer test fold data are loaded only after $h_k^*$ has completed fitting and parameter checkpointing.
 
 *End of Nested CV Search Space Specification.*
+
