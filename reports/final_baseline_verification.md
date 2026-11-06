@@ -17,7 +17,7 @@ Before conducting any exploratory or comparative algorithmic improvements, the b
 2. **Zero Discrepancies**: There are **zero numerical discrepancies** between the raw out-of-fold predictions, `metrics_summary.csv`, `fold_metrics.csv`, the confusion matrix images, and `manuscript/Jha_MDD_Revised.docx`.
 3. **Cohort Size Verification**:
    - **Eyes-Closed (EC)**: Exactly **58 unique participants** (28 Healthy Controls, 30 MDD Patients). Evaluated across 870 segments (15 segments/subject).
-   - **Eyes-Open (EO)**: Exactly **61 unique participants** (29 Healthy Controls, 32 MDD Patients). Evaluated across 930 segments (62 recordings; participant `sub-HS15` performed two runs, both quarantined to Fold 3).
+   - **Eyes-Open (EO)**: Exactly **61 unique participants** (29 Healthy Controls, 32 MDD Patients). Evaluated across 930 segments (62 recordings; participant `sub-HS15` performed two runs, both quarantined to Fold 9).
 4. **Variance Metric Standardization**: Both population standard deviation ($\text{ddof}=0$, used in initial automated summary exports) and sample standard deviation ($\text{ddof}=1$, conventional in clinical biostatistics) have been calculated and explicitly documented.
 
 ---

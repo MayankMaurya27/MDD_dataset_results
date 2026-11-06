@@ -71,7 +71,7 @@ To guarantee 100% mathematical and empirical consistency, all out-of-fold predic
 ### 2.2 Condition 2: Eyes-Open Resting State ($N=61$ Participants, 930 Segments)
 - **Cohort Composition**: 29 Healthy Controls (`sub-HS*`), 32 MDD Patients (`sub-MDDS*`).
 - **Missing Participants from 64-cohort**: 1 HC (`sub-HS25`), 2 MDD (`sub-MDDS7`, `sub-MDDS8`).
-- **Special Case**: `sub-HS15` contributed two runs (30 total segments), both isolated in Fold 3.
+- **Special Case**: `sub-HS15` contributed two runs (30 total segments), both isolated in Fold 9 (verified against `results/fold_assignments.csv` and `results/out_of_fold_predictions_eyesOpen.csv`).
 - **Feature Extractor**: Pretrained ResNet-18 (512 dimensions from `avgpool`).
 
 | Classifier | TN | FP | FN | TP | Total | Participant Acc. (Pooled) | Fold Mean ± Std Acc. (%) | Sensitivity (%) | Specificity (%) | Precision (%) | F1-Score (%) | ROC-AUC (%) | Segment Acc. |
@@ -93,7 +93,7 @@ A mathematical and algorithmic verification of `results/fold_assignments.csv` co
 1. **Single-Fold Guarantee**: Every participant $i \in \{1, \dots, 64\}$ is assigned to exactly **one** fold $k \in \{0, \dots, 9\}$.
 2. **Mutual Exclusivity**: In both `eyesClosed` ($N=58$) and `eyesOpen` ($N=61$), the intersection of training participants and testing participants in every fold is the empty set:
    $$\text{Participants}_{\text{train}}^{(f)} \cap \text{Participants}_{\text{test}}^{(f)} = \emptyset \quad \forall f \in \{0, \dots, 9\}$$
-3. **Multi-Run Quarantining**: `sub-HS15` (having two runs in `eyesOpen`, 30 segments total) was assigned exclusively to **Fold 3**. Zero segments of `sub-HS15` appeared in training sets when Fold 3 was evaluated.
+3. **Multi-Run Quarantining**: `sub-HS15` (having two runs in `eyesOpen`, 30 segments total) was assigned exclusively to **Fold 9**. Zero segments of `sub-HS15` appeared in training sets when Fold 9 was evaluated.
 4. **Participant-Level Aggregation Purity**: Aggregation of segment posterior probabilities was performed strictly using out-of-fold predictions. No training segments contributed to the test probabilities.
 
 ---

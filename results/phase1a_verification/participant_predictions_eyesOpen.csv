@@ -1,0 +1,489 @@
+participant_id,y_true,y_prob,fold,condition,feature_extractor,classifier,y_pred,correct
+sub-HS1,0,0.16887811203902967,3,eyesOpen,ResNet-18,Linear SVM,0,1
+sub-HS10,0,0.33339370589239004,5,eyesOpen,ResNet-18,Linear SVM,0,1
+sub-HS11,0,0.2567160168672516,5,eyesOpen,ResNet-18,Linear SVM,0,1
+sub-HS12,0,0.1195593069598878,6,eyesOpen,ResNet-18,Linear SVM,0,1
+sub-HS13,0,0.18414740953622563,3,eyesOpen,ResNet-18,Linear SVM,0,1
+sub-HS14,0,0.046163589045311454,4,eyesOpen,ResNet-18,Linear SVM,0,1
+sub-HS15,0,0.09251819025508241,9,eyesOpen,ResNet-18,Linear SVM,0,1
+sub-HS16,0,0.7152571567598168,8,eyesOpen,ResNet-18,Linear SVM,1,0
+sub-HS17,0,0.329502677672351,1,eyesOpen,ResNet-18,Linear SVM,0,1
+sub-HS18,0,0.6946366733595358,1,eyesOpen,ResNet-18,Linear SVM,1,0
+sub-HS19,0,0.10011387816650631,8,eyesOpen,ResNet-18,Linear SVM,0,1
+sub-HS2,0,0.3930660821970653,4,eyesOpen,ResNet-18,Linear SVM,0,1
+sub-HS20,0,0.3595034995742706,2,eyesOpen,ResNet-18,Linear SVM,0,1
+sub-HS21,0,0.11877981778901175,4,eyesOpen,ResNet-18,Linear SVM,0,1
+sub-HS22,0,0.5224393528732593,9,eyesOpen,ResNet-18,Linear SVM,1,0
+sub-HS23,0,0.008217618609950187,0,eyesOpen,ResNet-18,Linear SVM,0,1
+sub-HS24,0,0.7125864212177092,3,eyesOpen,ResNet-18,Linear SVM,1,0
+sub-HS26,0,0.18962298864469618,7,eyesOpen,ResNet-18,Linear SVM,0,1
+sub-HS27,0,0.2749779435865529,9,eyesOpen,ResNet-18,Linear SVM,0,1
+sub-HS28,0,0.027177328433817254,8,eyesOpen,ResNet-18,Linear SVM,0,1
+sub-HS29,0,0.2558453281381152,6,eyesOpen,ResNet-18,Linear SVM,0,1
+sub-HS3,0,0.4652453927786654,5,eyesOpen,ResNet-18,Linear SVM,0,1
+sub-HS30,0,0.2742176983243103,0,eyesOpen,ResNet-18,Linear SVM,0,1
+sub-HS4,0,0.04466804795943811,2,eyesOpen,ResNet-18,Linear SVM,0,1
+sub-HS5,0,0.33096740348942916,6,eyesOpen,ResNet-18,Linear SVM,0,1
+sub-HS6,0,0.35597793531939526,7,eyesOpen,ResNet-18,Linear SVM,0,1
+sub-HS7,0,0.26633465127212297,0,eyesOpen,ResNet-18,Linear SVM,0,1
+sub-HS8,0,0.14814440869151083,2,eyesOpen,ResNet-18,Linear SVM,0,1
+sub-HS9,0,0.12213304711182228,7,eyesOpen,ResNet-18,Linear SVM,0,1
+sub-MDDS1,1,0.9248138897591116,0,eyesOpen,ResNet-18,Linear SVM,1,1
+sub-MDDS10,1,0.8878444071387562,3,eyesOpen,ResNet-18,Linear SVM,1,1
+sub-MDDS11,1,0.7301294047529716,6,eyesOpen,ResNet-18,Linear SVM,1,1
+sub-MDDS12,1,0.7395163580762374,4,eyesOpen,ResNet-18,Linear SVM,1,1
+sub-MDDS13,1,0.8380309235521456,6,eyesOpen,ResNet-18,Linear SVM,1,1
+sub-MDDS14,1,0.9237812314921938,1,eyesOpen,ResNet-18,Linear SVM,1,1
+sub-MDDS15,1,0.6624626990709829,5,eyesOpen,ResNet-18,Linear SVM,1,1
+sub-MDDS16,1,0.6864565210853971,0,eyesOpen,ResNet-18,Linear SVM,1,1
+sub-MDDS17,1,0.7766352118504527,5,eyesOpen,ResNet-18,Linear SVM,1,1
+sub-MDDS18,1,0.8222264422725466,2,eyesOpen,ResNet-18,Linear SVM,1,1
+sub-MDDS19,1,0.2796207941128453,0,eyesOpen,ResNet-18,Linear SVM,0,0
+sub-MDDS2,1,0.7828043566044673,7,eyesOpen,ResNet-18,Linear SVM,1,1
+sub-MDDS20,1,0.6997714026876991,1,eyesOpen,ResNet-18,Linear SVM,1,1
+sub-MDDS21,1,0.8612049695802825,3,eyesOpen,ResNet-18,Linear SVM,1,1
+sub-MDDS22,1,0.6504668355543941,9,eyesOpen,ResNet-18,Linear SVM,1,1
+sub-MDDS23,1,0.6451681771519059,9,eyesOpen,ResNet-18,Linear SVM,1,1
+sub-MDDS24,1,0.7919007659323211,1,eyesOpen,ResNet-18,Linear SVM,1,1
+sub-MDDS25,1,0.668691181050557,4,eyesOpen,ResNet-18,Linear SVM,1,1
+sub-MDDS26,1,0.7964810197789226,7,eyesOpen,ResNet-18,Linear SVM,1,1
+sub-MDDS27,1,0.4668622836617841,6,eyesOpen,ResNet-18,Linear SVM,0,0
+sub-MDDS28,1,0.8044085477030724,4,eyesOpen,ResNet-18,Linear SVM,1,1
+sub-MDDS29,1,0.8036375135403062,1,eyesOpen,ResNet-18,Linear SVM,1,1
+sub-MDDS3,1,0.6270152807594349,7,eyesOpen,ResNet-18,Linear SVM,1,1
+sub-MDDS30,1,0.808331317713495,0,eyesOpen,ResNet-18,Linear SVM,1,1
+sub-MDDS31,1,0.8790562556833662,3,eyesOpen,ResNet-18,Linear SVM,1,1
+sub-MDDS32,1,0.8854483532164477,2,eyesOpen,ResNet-18,Linear SVM,1,1
+sub-MDDS33,1,0.9391190932419092,3,eyesOpen,ResNet-18,Linear SVM,1,1
+sub-MDDS34,1,0.922224025143361,9,eyesOpen,ResNet-18,Linear SVM,1,1
+sub-MDDS4,1,0.7997239712361142,2,eyesOpen,ResNet-18,Linear SVM,1,1
+sub-MDDS5,1,0.39598424991809483,8,eyesOpen,ResNet-18,Linear SVM,0,0
+sub-MDDS6,1,0.7691746946943699,8,eyesOpen,ResNet-18,Linear SVM,1,1
+sub-MDDS9,1,0.9450528251866364,5,eyesOpen,ResNet-18,Linear SVM,1,1
+sub-HS1,0,0.05738392762953423,3,eyesOpen,ResNet-18,Medium Gaussian SVM,0,1
+sub-HS10,0,0.16251742962623045,5,eyesOpen,ResNet-18,Medium Gaussian SVM,0,1
+sub-HS11,0,0.3002659723050776,5,eyesOpen,ResNet-18,Medium Gaussian SVM,0,1
+sub-HS12,0,0.1133816734822798,6,eyesOpen,ResNet-18,Medium Gaussian SVM,0,1
+sub-HS13,0,0.07228911170947949,3,eyesOpen,ResNet-18,Medium Gaussian SVM,0,1
+sub-HS14,0,0.07811600952733141,4,eyesOpen,ResNet-18,Medium Gaussian SVM,0,1
+sub-HS15,0,0.018577762234193107,9,eyesOpen,ResNet-18,Medium Gaussian SVM,0,1
+sub-HS16,0,0.8425520914951904,8,eyesOpen,ResNet-18,Medium Gaussian SVM,1,0
+sub-HS17,0,0.2785575888148869,1,eyesOpen,ResNet-18,Medium Gaussian SVM,0,1
+sub-HS18,0,0.11262718331804811,1,eyesOpen,ResNet-18,Medium Gaussian SVM,0,1
+sub-HS19,0,0.06791753813987066,8,eyesOpen,ResNet-18,Medium Gaussian SVM,0,1
+sub-HS2,0,0.48857893514755907,4,eyesOpen,ResNet-18,Medium Gaussian SVM,0,1
+sub-HS20,0,0.28871453794688645,2,eyesOpen,ResNet-18,Medium Gaussian SVM,0,1
+sub-HS21,0,0.02816341962602127,4,eyesOpen,ResNet-18,Medium Gaussian SVM,0,1
+sub-HS22,0,0.34581629439208367,9,eyesOpen,ResNet-18,Medium Gaussian SVM,0,1
+sub-HS23,0,0.02162215018882764,0,eyesOpen,ResNet-18,Medium Gaussian SVM,0,1
+sub-HS24,0,0.8639005190094633,3,eyesOpen,ResNet-18,Medium Gaussian SVM,1,0
+sub-HS26,0,0.10469720549471705,7,eyesOpen,ResNet-18,Medium Gaussian SVM,0,1
+sub-HS27,0,0.4571599829826717,9,eyesOpen,ResNet-18,Medium Gaussian SVM,0,1
+sub-HS28,0,0.011183409601503293,8,eyesOpen,ResNet-18,Medium Gaussian SVM,0,1
+sub-HS29,0,0.28902502276742664,6,eyesOpen,ResNet-18,Medium Gaussian SVM,0,1
+sub-HS3,0,0.34040324579286085,5,eyesOpen,ResNet-18,Medium Gaussian SVM,0,1
+sub-HS30,0,0.4468957053977068,0,eyesOpen,ResNet-18,Medium Gaussian SVM,0,1
+sub-HS4,0,0.018438158918191293,2,eyesOpen,ResNet-18,Medium Gaussian SVM,0,1
+sub-HS5,0,0.1946345169562759,6,eyesOpen,ResNet-18,Medium Gaussian SVM,0,1
+sub-HS6,0,0.3630263926906886,7,eyesOpen,ResNet-18,Medium Gaussian SVM,0,1
+sub-HS7,0,0.2841544603406427,0,eyesOpen,ResNet-18,Medium Gaussian SVM,0,1
+sub-HS8,0,0.02818941964002504,2,eyesOpen,ResNet-18,Medium Gaussian SVM,0,1
+sub-HS9,0,0.08310531565996263,7,eyesOpen,ResNet-18,Medium Gaussian SVM,0,1
+sub-MDDS1,1,0.9115723016271335,0,eyesOpen,ResNet-18,Medium Gaussian SVM,1,1
+sub-MDDS10,1,0.9149460699406116,3,eyesOpen,ResNet-18,Medium Gaussian SVM,1,1
+sub-MDDS11,1,0.8567438806927163,6,eyesOpen,ResNet-18,Medium Gaussian SVM,1,1
+sub-MDDS12,1,0.8878177616270869,4,eyesOpen,ResNet-18,Medium Gaussian SVM,1,1
+sub-MDDS13,1,0.8520963560977362,6,eyesOpen,ResNet-18,Medium Gaussian SVM,1,1
+sub-MDDS14,1,0.8542872749335645,1,eyesOpen,ResNet-18,Medium Gaussian SVM,1,1
+sub-MDDS15,1,0.6016502100483113,5,eyesOpen,ResNet-18,Medium Gaussian SVM,1,1
+sub-MDDS16,1,0.8367374354667092,0,eyesOpen,ResNet-18,Medium Gaussian SVM,1,1
+sub-MDDS17,1,0.7614498210062289,5,eyesOpen,ResNet-18,Medium Gaussian SVM,1,1
+sub-MDDS18,1,0.8580407969971836,2,eyesOpen,ResNet-18,Medium Gaussian SVM,1,1
+sub-MDDS19,1,0.26500868206006023,0,eyesOpen,ResNet-18,Medium Gaussian SVM,0,0
+sub-MDDS2,1,0.7215254202901547,7,eyesOpen,ResNet-18,Medium Gaussian SVM,1,1
+sub-MDDS20,1,0.7813352721961964,1,eyesOpen,ResNet-18,Medium Gaussian SVM,1,1
+sub-MDDS21,1,0.9291488291033049,3,eyesOpen,ResNet-18,Medium Gaussian SVM,1,1
+sub-MDDS22,1,0.8459883762989533,9,eyesOpen,ResNet-18,Medium Gaussian SVM,1,1
+sub-MDDS23,1,0.7287474329415241,9,eyesOpen,ResNet-18,Medium Gaussian SVM,1,1
+sub-MDDS24,1,0.8464696007891583,1,eyesOpen,ResNet-18,Medium Gaussian SVM,1,1
+sub-MDDS25,1,0.7762486206508964,4,eyesOpen,ResNet-18,Medium Gaussian SVM,1,1
+sub-MDDS26,1,0.9006510920976645,7,eyesOpen,ResNet-18,Medium Gaussian SVM,1,1
+sub-MDDS27,1,0.3467336220507724,6,eyesOpen,ResNet-18,Medium Gaussian SVM,0,0
+sub-MDDS28,1,0.8999566309148856,4,eyesOpen,ResNet-18,Medium Gaussian SVM,1,1
+sub-MDDS29,1,0.8323646944070892,1,eyesOpen,ResNet-18,Medium Gaussian SVM,1,1
+sub-MDDS3,1,0.8095113125642127,7,eyesOpen,ResNet-18,Medium Gaussian SVM,1,1
+sub-MDDS30,1,0.8343251082319052,0,eyesOpen,ResNet-18,Medium Gaussian SVM,1,1
+sub-MDDS31,1,0.9063417808225863,3,eyesOpen,ResNet-18,Medium Gaussian SVM,1,1
+sub-MDDS32,1,0.8932380013635111,2,eyesOpen,ResNet-18,Medium Gaussian SVM,1,1
+sub-MDDS33,1,0.9613893819542247,3,eyesOpen,ResNet-18,Medium Gaussian SVM,1,1
+sub-MDDS34,1,0.9456195228787928,9,eyesOpen,ResNet-18,Medium Gaussian SVM,1,1
+sub-MDDS4,1,0.7573994013447759,2,eyesOpen,ResNet-18,Medium Gaussian SVM,1,1
+sub-MDDS5,1,0.1967378440903385,8,eyesOpen,ResNet-18,Medium Gaussian SVM,0,0
+sub-MDDS6,1,0.8260969416817342,8,eyesOpen,ResNet-18,Medium Gaussian SVM,1,1
+sub-MDDS9,1,0.94870048287022,5,eyesOpen,ResNet-18,Medium Gaussian SVM,1,1
+sub-HS1,0,0.02454970732308603,3,eyesOpen,ResNet-18,Neural Network Classifier,0,1
+sub-HS10,0,0.17543359413136458,5,eyesOpen,ResNet-18,Neural Network Classifier,0,1
+sub-HS11,0,0.19614563192493123,5,eyesOpen,ResNet-18,Neural Network Classifier,0,1
+sub-HS12,0,0.06229982423794048,6,eyesOpen,ResNet-18,Neural Network Classifier,0,1
+sub-HS13,0,0.05452121997990813,3,eyesOpen,ResNet-18,Neural Network Classifier,0,1
+sub-HS14,0,0.0001883692676568035,4,eyesOpen,ResNet-18,Neural Network Classifier,0,1
+sub-HS15,0,0.00037821387711907563,9,eyesOpen,ResNet-18,Neural Network Classifier,0,1
+sub-HS16,0,0.7763334201027949,8,eyesOpen,ResNet-18,Neural Network Classifier,1,0
+sub-HS17,0,0.2636593635863998,1,eyesOpen,ResNet-18,Neural Network Classifier,0,1
+sub-HS18,0,0.1539782146561871,1,eyesOpen,ResNet-18,Neural Network Classifier,0,1
+sub-HS19,0,0.02973400441412067,8,eyesOpen,ResNet-18,Neural Network Classifier,0,1
+sub-HS2,0,0.3067287362521625,4,eyesOpen,ResNet-18,Neural Network Classifier,0,1
+sub-HS20,0,0.3027958453487451,2,eyesOpen,ResNet-18,Neural Network Classifier,0,1
+sub-HS21,0,0.00013044576777473748,4,eyesOpen,ResNet-18,Neural Network Classifier,0,1
+sub-HS22,0,0.4865400287555531,9,eyesOpen,ResNet-18,Neural Network Classifier,0,1
+sub-HS23,0,3.489803405908448e-06,0,eyesOpen,ResNet-18,Neural Network Classifier,0,1
+sub-HS24,0,0.8890536109606425,3,eyesOpen,ResNet-18,Neural Network Classifier,1,0
+sub-HS26,0,0.059854134171879125,7,eyesOpen,ResNet-18,Neural Network Classifier,0,1
+sub-HS27,0,0.009121284564025646,9,eyesOpen,ResNet-18,Neural Network Classifier,0,1
+sub-HS28,0,2.635649477256647e-05,8,eyesOpen,ResNet-18,Neural Network Classifier,0,1
+sub-HS29,0,0.12051682549057048,6,eyesOpen,ResNet-18,Neural Network Classifier,0,1
+sub-HS3,0,0.3035280471657946,5,eyesOpen,ResNet-18,Neural Network Classifier,0,1
+sub-HS30,0,0.00902431781093276,0,eyesOpen,ResNet-18,Neural Network Classifier,0,1
+sub-HS4,0,6.106719782894961e-05,2,eyesOpen,ResNet-18,Neural Network Classifier,0,1
+sub-HS5,0,0.06792064213926703,6,eyesOpen,ResNet-18,Neural Network Classifier,0,1
+sub-HS6,0,0.25050075323476145,7,eyesOpen,ResNet-18,Neural Network Classifier,0,1
+sub-HS7,0,0.18333197517572533,0,eyesOpen,ResNet-18,Neural Network Classifier,0,1
+sub-HS8,0,0.006619365234580179,2,eyesOpen,ResNet-18,Neural Network Classifier,0,1
+sub-HS9,0,0.07045120311174007,7,eyesOpen,ResNet-18,Neural Network Classifier,0,1
+sub-MDDS1,1,0.9882953047752381,0,eyesOpen,ResNet-18,Neural Network Classifier,1,1
+sub-MDDS10,1,0.8979508916536967,3,eyesOpen,ResNet-18,Neural Network Classifier,1,1
+sub-MDDS11,1,0.919985959927241,6,eyesOpen,ResNet-18,Neural Network Classifier,1,1
+sub-MDDS12,1,0.853669156630834,4,eyesOpen,ResNet-18,Neural Network Classifier,1,1
+sub-MDDS13,1,0.9883719166119893,6,eyesOpen,ResNet-18,Neural Network Classifier,1,1
+sub-MDDS14,1,0.9819013754526774,1,eyesOpen,ResNet-18,Neural Network Classifier,1,1
+sub-MDDS15,1,0.660255245367686,5,eyesOpen,ResNet-18,Neural Network Classifier,1,1
+sub-MDDS16,1,0.8031219154596329,0,eyesOpen,ResNet-18,Neural Network Classifier,1,1
+sub-MDDS17,1,0.8953068971633911,5,eyesOpen,ResNet-18,Neural Network Classifier,1,1
+sub-MDDS18,1,0.9296760976314544,2,eyesOpen,ResNet-18,Neural Network Classifier,1,1
+sub-MDDS19,1,0.26056781274067664,0,eyesOpen,ResNet-18,Neural Network Classifier,0,0
+sub-MDDS2,1,0.8369240760803223,7,eyesOpen,ResNet-18,Neural Network Classifier,1,1
+sub-MDDS20,1,0.8871263980865478,1,eyesOpen,ResNet-18,Neural Network Classifier,1,1
+sub-MDDS21,1,0.9768260836601257,3,eyesOpen,ResNet-18,Neural Network Classifier,1,1
+sub-MDDS22,1,0.8445649720728398,9,eyesOpen,ResNet-18,Neural Network Classifier,1,1
+sub-MDDS23,1,0.7899239088098208,9,eyesOpen,ResNet-18,Neural Network Classifier,1,1
+sub-MDDS24,1,0.9535645564397176,1,eyesOpen,ResNet-18,Neural Network Classifier,1,1
+sub-MDDS25,1,0.8393475187631945,4,eyesOpen,ResNet-18,Neural Network Classifier,1,1
+sub-MDDS26,1,0.985318680604299,7,eyesOpen,ResNet-18,Neural Network Classifier,1,1
+sub-MDDS27,1,0.2951239219245811,6,eyesOpen,ResNet-18,Neural Network Classifier,0,0
+sub-MDDS28,1,0.8955762585004171,4,eyesOpen,ResNet-18,Neural Network Classifier,1,1
+sub-MDDS29,1,0.888688721259435,1,eyesOpen,ResNet-18,Neural Network Classifier,1,1
+sub-MDDS3,1,0.8415491009751955,7,eyesOpen,ResNet-18,Neural Network Classifier,1,1
+sub-MDDS30,1,0.8995820124944051,0,eyesOpen,ResNet-18,Neural Network Classifier,1,1
+sub-MDDS31,1,0.9656286915143331,3,eyesOpen,ResNet-18,Neural Network Classifier,1,1
+sub-MDDS32,1,0.9587817112604777,2,eyesOpen,ResNet-18,Neural Network Classifier,1,1
+sub-MDDS33,1,0.999728508790334,3,eyesOpen,ResNet-18,Neural Network Classifier,1,1
+sub-MDDS34,1,0.9998812874158224,9,eyesOpen,ResNet-18,Neural Network Classifier,1,1
+sub-MDDS4,1,0.8583559979995091,2,eyesOpen,ResNet-18,Neural Network Classifier,1,1
+sub-MDDS5,1,0.17011393964686095,8,eyesOpen,ResNet-18,Neural Network Classifier,0,0
+sub-MDDS6,1,0.8242053866386414,8,eyesOpen,ResNet-18,Neural Network Classifier,1,1
+sub-MDDS9,1,0.9890408714612325,5,eyesOpen,ResNet-18,Neural Network Classifier,1,1
+sub-HS1,0,0.139297375076504,3,eyesOpen,ResNet-18,Cubic SVM,0,1
+sub-HS10,0,0.3023709529920024,5,eyesOpen,ResNet-18,Cubic SVM,0,1
+sub-HS11,0,0.48465579275958237,5,eyesOpen,ResNet-18,Cubic SVM,0,1
+sub-HS12,0,0.23803481954815922,6,eyesOpen,ResNet-18,Cubic SVM,0,1
+sub-HS13,0,0.04725905967299832,3,eyesOpen,ResNet-18,Cubic SVM,0,1
+sub-HS14,0,0.011135457303406844,4,eyesOpen,ResNet-18,Cubic SVM,0,1
+sub-HS15,0,0.038730624403808846,9,eyesOpen,ResNet-18,Cubic SVM,0,1
+sub-HS16,0,0.8754648363452532,8,eyesOpen,ResNet-18,Cubic SVM,1,0
+sub-HS17,0,0.26099851085906245,1,eyesOpen,ResNet-18,Cubic SVM,0,1
+sub-HS18,0,0.0671678290424807,1,eyesOpen,ResNet-18,Cubic SVM,0,1
+sub-HS19,0,0.0709556437796741,8,eyesOpen,ResNet-18,Cubic SVM,0,1
+sub-HS2,0,0.5041982200947623,4,eyesOpen,ResNet-18,Cubic SVM,1,0
+sub-HS20,0,0.3101960430655481,2,eyesOpen,ResNet-18,Cubic SVM,0,1
+sub-HS21,0,0.01266994774184,4,eyesOpen,ResNet-18,Cubic SVM,0,1
+sub-HS22,0,0.4516896772490358,9,eyesOpen,ResNet-18,Cubic SVM,0,1
+sub-HS23,0,0.023179552099389385,0,eyesOpen,ResNet-18,Cubic SVM,0,1
+sub-HS24,0,0.8437965702149831,3,eyesOpen,ResNet-18,Cubic SVM,1,0
+sub-HS26,0,0.12717848690639216,7,eyesOpen,ResNet-18,Cubic SVM,0,1
+sub-HS27,0,0.33451475895510074,9,eyesOpen,ResNet-18,Cubic SVM,0,1
+sub-HS28,0,0.005918562491120059,8,eyesOpen,ResNet-18,Cubic SVM,0,1
+sub-HS29,0,0.5015738240947196,6,eyesOpen,ResNet-18,Cubic SVM,1,0
+sub-HS3,0,0.46477805523311727,5,eyesOpen,ResNet-18,Cubic SVM,0,1
+sub-HS30,0,0.28492126938225143,0,eyesOpen,ResNet-18,Cubic SVM,0,1
+sub-HS4,0,0.012187056948672703,2,eyesOpen,ResNet-18,Cubic SVM,0,1
+sub-HS5,0,0.12535627524599882,6,eyesOpen,ResNet-18,Cubic SVM,0,1
+sub-HS6,0,0.3929695766972224,7,eyesOpen,ResNet-18,Cubic SVM,0,1
+sub-HS7,0,0.4193721920419977,0,eyesOpen,ResNet-18,Cubic SVM,0,1
+sub-HS8,0,0.023002850117749784,2,eyesOpen,ResNet-18,Cubic SVM,0,1
+sub-HS9,0,0.0810837068816176,7,eyesOpen,ResNet-18,Cubic SVM,0,1
+sub-MDDS1,1,0.8094899893398116,0,eyesOpen,ResNet-18,Cubic SVM,1,1
+sub-MDDS10,1,0.9115397974861867,3,eyesOpen,ResNet-18,Cubic SVM,1,1
+sub-MDDS11,1,0.8653994471214196,6,eyesOpen,ResNet-18,Cubic SVM,1,1
+sub-MDDS12,1,0.8523842598159858,4,eyesOpen,ResNet-18,Cubic SVM,1,1
+sub-MDDS13,1,0.7700226856612884,6,eyesOpen,ResNet-18,Cubic SVM,1,1
+sub-MDDS14,1,0.836774223695425,1,eyesOpen,ResNet-18,Cubic SVM,1,1
+sub-MDDS15,1,0.6457529744668032,5,eyesOpen,ResNet-18,Cubic SVM,1,1
+sub-MDDS16,1,0.7566503709239487,0,eyesOpen,ResNet-18,Cubic SVM,1,1
+sub-MDDS17,1,0.6882460077694925,5,eyesOpen,ResNet-18,Cubic SVM,1,1
+sub-MDDS18,1,0.7877593573237391,2,eyesOpen,ResNet-18,Cubic SVM,1,1
+sub-MDDS19,1,0.39189599173805983,0,eyesOpen,ResNet-18,Cubic SVM,0,0
+sub-MDDS2,1,0.6121898544892702,7,eyesOpen,ResNet-18,Cubic SVM,1,1
+sub-MDDS20,1,0.7674540549650521,1,eyesOpen,ResNet-18,Cubic SVM,1,1
+sub-MDDS21,1,0.9537158445141601,3,eyesOpen,ResNet-18,Cubic SVM,1,1
+sub-MDDS22,1,0.8341010226387512,9,eyesOpen,ResNet-18,Cubic SVM,1,1
+sub-MDDS23,1,0.7209277397111903,9,eyesOpen,ResNet-18,Cubic SVM,1,1
+sub-MDDS24,1,0.8186240460570015,1,eyesOpen,ResNet-18,Cubic SVM,1,1
+sub-MDDS25,1,0.7333796486681124,4,eyesOpen,ResNet-18,Cubic SVM,1,1
+sub-MDDS26,1,0.8547743003910953,7,eyesOpen,ResNet-18,Cubic SVM,1,1
+sub-MDDS27,1,0.4348616356871518,6,eyesOpen,ResNet-18,Cubic SVM,0,0
+sub-MDDS28,1,0.7987307802613709,4,eyesOpen,ResNet-18,Cubic SVM,1,1
+sub-MDDS29,1,0.8023236647843673,1,eyesOpen,ResNet-18,Cubic SVM,1,1
+sub-MDDS3,1,0.7339987746534822,7,eyesOpen,ResNet-18,Cubic SVM,1,1
+sub-MDDS30,1,0.6820748923599156,0,eyesOpen,ResNet-18,Cubic SVM,1,1
+sub-MDDS31,1,0.8363197153880724,3,eyesOpen,ResNet-18,Cubic SVM,1,1
+sub-MDDS32,1,0.8851991942945607,2,eyesOpen,ResNet-18,Cubic SVM,1,1
+sub-MDDS33,1,0.9893171839951218,3,eyesOpen,ResNet-18,Cubic SVM,1,1
+sub-MDDS34,1,0.9784749487620593,9,eyesOpen,ResNet-18,Cubic SVM,1,1
+sub-MDDS4,1,0.6762487055744538,2,eyesOpen,ResNet-18,Cubic SVM,1,1
+sub-MDDS5,1,0.32501586350206096,8,eyesOpen,ResNet-18,Cubic SVM,0,0
+sub-MDDS6,1,0.7531745105180935,8,eyesOpen,ResNet-18,Cubic SVM,1,1
+sub-MDDS9,1,0.9194071422221654,5,eyesOpen,ResNet-18,Cubic SVM,1,1
+sub-HS1,0,0.07412315154072144,3,eyesOpen,ResNet-18,Quadratic SVM,0,1
+sub-HS10,0,0.3210600529732719,5,eyesOpen,ResNet-18,Quadratic SVM,0,1
+sub-HS11,0,0.42092763077522954,5,eyesOpen,ResNet-18,Quadratic SVM,0,1
+sub-HS12,0,0.2565068719263522,6,eyesOpen,ResNet-18,Quadratic SVM,0,1
+sub-HS13,0,0.08682865452913092,3,eyesOpen,ResNet-18,Quadratic SVM,0,1
+sub-HS14,0,0.12210232181993085,4,eyesOpen,ResNet-18,Quadratic SVM,0,1
+sub-HS15,0,0.07319773035897932,9,eyesOpen,ResNet-18,Quadratic SVM,0,1
+sub-HS16,0,0.7864961806394818,8,eyesOpen,ResNet-18,Quadratic SVM,1,0
+sub-HS17,0,0.24939279565876943,1,eyesOpen,ResNet-18,Quadratic SVM,0,1
+sub-HS18,0,0.020324868653637376,1,eyesOpen,ResNet-18,Quadratic SVM,0,1
+sub-HS19,0,0.21015761306406036,8,eyesOpen,ResNet-18,Quadratic SVM,0,1
+sub-HS2,0,0.5054646041783093,4,eyesOpen,ResNet-18,Quadratic SVM,1,0
+sub-HS20,0,0.3567420227218188,2,eyesOpen,ResNet-18,Quadratic SVM,0,1
+sub-HS21,0,0.044825486996054244,4,eyesOpen,ResNet-18,Quadratic SVM,0,1
+sub-HS22,0,0.4534050502110487,9,eyesOpen,ResNet-18,Quadratic SVM,0,1
+sub-HS23,0,0.043315285561960556,0,eyesOpen,ResNet-18,Quadratic SVM,0,1
+sub-HS24,0,0.7344066231597375,3,eyesOpen,ResNet-18,Quadratic SVM,1,0
+sub-HS26,0,0.2287724727084071,7,eyesOpen,ResNet-18,Quadratic SVM,0,1
+sub-HS27,0,0.3218645149546681,9,eyesOpen,ResNet-18,Quadratic SVM,0,1
+sub-HS28,0,0.07221270069290764,8,eyesOpen,ResNet-18,Quadratic SVM,0,1
+sub-HS29,0,0.43923033836192144,6,eyesOpen,ResNet-18,Quadratic SVM,0,1
+sub-HS3,0,0.397602449574576,5,eyesOpen,ResNet-18,Quadratic SVM,0,1
+sub-HS30,0,0.28435841536173945,0,eyesOpen,ResNet-18,Quadratic SVM,0,1
+sub-HS4,0,0.013944475932645639,2,eyesOpen,ResNet-18,Quadratic SVM,0,1
+sub-HS5,0,0.2908193371785571,6,eyesOpen,ResNet-18,Quadratic SVM,0,1
+sub-HS6,0,0.5674251782079683,7,eyesOpen,ResNet-18,Quadratic SVM,1,0
+sub-HS7,0,0.35175765123766695,0,eyesOpen,ResNet-18,Quadratic SVM,0,1
+sub-HS8,0,0.04118828020542006,2,eyesOpen,ResNet-18,Quadratic SVM,0,1
+sub-HS9,0,0.14617217854318384,7,eyesOpen,ResNet-18,Quadratic SVM,0,1
+sub-MDDS1,1,0.8355806644322228,0,eyesOpen,ResNet-18,Quadratic SVM,1,1
+sub-MDDS10,1,0.8758401212518651,3,eyesOpen,ResNet-18,Quadratic SVM,1,1
+sub-MDDS11,1,0.8638506483028116,6,eyesOpen,ResNet-18,Quadratic SVM,1,1
+sub-MDDS12,1,0.8590227184918077,4,eyesOpen,ResNet-18,Quadratic SVM,1,1
+sub-MDDS13,1,0.8700115039077,6,eyesOpen,ResNet-18,Quadratic SVM,1,1
+sub-MDDS14,1,0.7308799727151594,1,eyesOpen,ResNet-18,Quadratic SVM,1,1
+sub-MDDS15,1,0.5398487411657847,5,eyesOpen,ResNet-18,Quadratic SVM,1,1
+sub-MDDS16,1,0.8247553791841458,0,eyesOpen,ResNet-18,Quadratic SVM,1,1
+sub-MDDS17,1,0.6358700984347183,5,eyesOpen,ResNet-18,Quadratic SVM,1,1
+sub-MDDS18,1,0.8491721030541516,2,eyesOpen,ResNet-18,Quadratic SVM,1,1
+sub-MDDS19,1,0.3130289823758558,0,eyesOpen,ResNet-18,Quadratic SVM,0,0
+sub-MDDS2,1,0.6789872781574868,7,eyesOpen,ResNet-18,Quadratic SVM,1,1
+sub-MDDS20,1,0.8066993828466233,1,eyesOpen,ResNet-18,Quadratic SVM,1,1
+sub-MDDS21,1,0.9261172217353392,3,eyesOpen,ResNet-18,Quadratic SVM,1,1
+sub-MDDS22,1,0.8169397065412451,9,eyesOpen,ResNet-18,Quadratic SVM,1,1
+sub-MDDS23,1,0.7235661298147726,9,eyesOpen,ResNet-18,Quadratic SVM,1,1
+sub-MDDS24,1,0.8793625812367198,1,eyesOpen,ResNet-18,Quadratic SVM,1,1
+sub-MDDS25,1,0.7146823502234998,4,eyesOpen,ResNet-18,Quadratic SVM,1,1
+sub-MDDS26,1,0.9099336782669164,7,eyesOpen,ResNet-18,Quadratic SVM,1,1
+sub-MDDS27,1,0.48271532447282683,6,eyesOpen,ResNet-18,Quadratic SVM,0,0
+sub-MDDS28,1,0.7815186298838903,4,eyesOpen,ResNet-18,Quadratic SVM,1,1
+sub-MDDS29,1,0.8555902044858795,1,eyesOpen,ResNet-18,Quadratic SVM,1,1
+sub-MDDS3,1,0.7766907642612983,7,eyesOpen,ResNet-18,Quadratic SVM,1,1
+sub-MDDS30,1,0.7222200029675895,0,eyesOpen,ResNet-18,Quadratic SVM,1,1
+sub-MDDS31,1,0.8105857855333976,3,eyesOpen,ResNet-18,Quadratic SVM,1,1
+sub-MDDS32,1,0.8141313834935778,2,eyesOpen,ResNet-18,Quadratic SVM,1,1
+sub-MDDS33,1,0.9647296145411354,3,eyesOpen,ResNet-18,Quadratic SVM,1,1
+sub-MDDS34,1,0.9592094083390831,9,eyesOpen,ResNet-18,Quadratic SVM,1,1
+sub-MDDS4,1,0.6587827668482689,2,eyesOpen,ResNet-18,Quadratic SVM,1,1
+sub-MDDS5,1,0.3959294146783597,8,eyesOpen,ResNet-18,Quadratic SVM,0,0
+sub-MDDS6,1,0.7702446286689831,8,eyesOpen,ResNet-18,Quadratic SVM,1,1
+sub-MDDS9,1,0.9005757208668238,5,eyesOpen,ResNet-18,Quadratic SVM,1,1
+sub-HS1,0,0.29078346131310734,3,eyesOpen,ResNet-18,Weighted KNN,0,1
+sub-HS10,0,0.32770097213598365,5,eyesOpen,ResNet-18,Weighted KNN,0,1
+sub-HS11,0,0.44894083008241153,5,eyesOpen,ResNet-18,Weighted KNN,0,1
+sub-HS12,0,0.38302468586406674,6,eyesOpen,ResNet-18,Weighted KNN,0,1
+sub-HS13,0,0.0655875607695917,3,eyesOpen,ResNet-18,Weighted KNN,0,1
+sub-HS14,0,0.038959059942291464,4,eyesOpen,ResNet-18,Weighted KNN,0,1
+sub-HS15,0,0.04008872155122463,9,eyesOpen,ResNet-18,Weighted KNN,0,1
+sub-HS16,0,0.7817650529597635,8,eyesOpen,ResNet-18,Weighted KNN,1,0
+sub-HS17,0,0.2993155502386907,1,eyesOpen,ResNet-18,Weighted KNN,0,1
+sub-HS18,0,0.0,1,eyesOpen,ResNet-18,Weighted KNN,0,1
+sub-HS19,0,0.17702951554944382,8,eyesOpen,ResNet-18,Weighted KNN,0,1
+sub-HS2,0,0.5496396354723403,4,eyesOpen,ResNet-18,Weighted KNN,1,0
+sub-HS20,0,0.3110062362201519,2,eyesOpen,ResNet-18,Weighted KNN,0,1
+sub-HS21,0,0.0,4,eyesOpen,ResNet-18,Weighted KNN,0,1
+sub-HS22,0,0.5322060017924336,9,eyesOpen,ResNet-18,Weighted KNN,1,0
+sub-HS23,0,0.0724349338239026,0,eyesOpen,ResNet-18,Weighted KNN,0,1
+sub-HS24,0,0.7310536722180039,3,eyesOpen,ResNet-18,Weighted KNN,1,0
+sub-HS26,0,0.11937821547596666,7,eyesOpen,ResNet-18,Weighted KNN,0,1
+sub-HS27,0,2.1571568605988152e-07,9,eyesOpen,ResNet-18,Weighted KNN,0,1
+sub-HS28,0,0.01982558051906112,8,eyesOpen,ResNet-18,Weighted KNN,0,1
+sub-HS29,0,0.4858300197688194,6,eyesOpen,ResNet-18,Weighted KNN,0,1
+sub-HS3,0,0.41023259723898947,5,eyesOpen,ResNet-18,Weighted KNN,0,1
+sub-HS30,0,1.6481697283574948e-07,0,eyesOpen,ResNet-18,Weighted KNN,0,1
+sub-HS4,0,0.019035844475594425,2,eyesOpen,ResNet-18,Weighted KNN,0,1
+sub-HS5,0,0.1402851607140902,6,eyesOpen,ResNet-18,Weighted KNN,0,1
+sub-HS6,0,0.4669030418579252,7,eyesOpen,ResNet-18,Weighted KNN,0,1
+sub-HS7,0,0.4854318860474276,0,eyesOpen,ResNet-18,Weighted KNN,0,1
+sub-HS8,0,0.006369422158313487,2,eyesOpen,ResNet-18,Weighted KNN,0,1
+sub-HS9,0,0.1707959163623146,7,eyesOpen,ResNet-18,Weighted KNN,0,1
+sub-MDDS1,1,0.7874621626474467,0,eyesOpen,ResNet-18,Weighted KNN,1,1
+sub-MDDS10,1,0.7983457917697367,3,eyesOpen,ResNet-18,Weighted KNN,1,1
+sub-MDDS11,1,0.7963105902928279,6,eyesOpen,ResNet-18,Weighted KNN,1,1
+sub-MDDS12,1,0.7632400976786026,4,eyesOpen,ResNet-18,Weighted KNN,1,1
+sub-MDDS13,1,0.7397797167902999,6,eyesOpen,ResNet-18,Weighted KNN,1,1
+sub-MDDS14,1,0.7208493564937639,1,eyesOpen,ResNet-18,Weighted KNN,1,1
+sub-MDDS15,1,0.6266603521465263,5,eyesOpen,ResNet-18,Weighted KNN,1,1
+sub-MDDS16,1,0.7685232740503973,0,eyesOpen,ResNet-18,Weighted KNN,1,1
+sub-MDDS17,1,0.6599376450589819,5,eyesOpen,ResNet-18,Weighted KNN,1,1
+sub-MDDS18,1,0.7855349787999965,2,eyesOpen,ResNet-18,Weighted KNN,1,1
+sub-MDDS19,1,0.4847462591014132,0,eyesOpen,ResNet-18,Weighted KNN,0,0
+sub-MDDS2,1,0.5977679417157351,7,eyesOpen,ResNet-18,Weighted KNN,1,1
+sub-MDDS20,1,0.6429818972799727,1,eyesOpen,ResNet-18,Weighted KNN,1,1
+sub-MDDS21,1,0.8730599230593812,3,eyesOpen,ResNet-18,Weighted KNN,1,1
+sub-MDDS22,1,0.7801986012989238,9,eyesOpen,ResNet-18,Weighted KNN,1,1
+sub-MDDS23,1,0.6684317944538143,9,eyesOpen,ResNet-18,Weighted KNN,1,1
+sub-MDDS24,1,0.8026661009609,1,eyesOpen,ResNet-18,Weighted KNN,1,1
+sub-MDDS25,1,0.6786897722732305,4,eyesOpen,ResNet-18,Weighted KNN,1,1
+sub-MDDS26,1,0.881922662083548,7,eyesOpen,ResNet-18,Weighted KNN,1,1
+sub-MDDS27,1,0.4680395857211456,6,eyesOpen,ResNet-18,Weighted KNN,0,0
+sub-MDDS28,1,0.7603691543593906,4,eyesOpen,ResNet-18,Weighted KNN,1,1
+sub-MDDS29,1,0.6940298442363286,1,eyesOpen,ResNet-18,Weighted KNN,1,1
+sub-MDDS3,1,0.6904225413794715,7,eyesOpen,ResNet-18,Weighted KNN,1,1
+sub-MDDS30,1,0.727603304356497,0,eyesOpen,ResNet-18,Weighted KNN,1,1
+sub-MDDS31,1,0.7479535398074686,3,eyesOpen,ResNet-18,Weighted KNN,1,1
+sub-MDDS32,1,0.7993286350110209,2,eyesOpen,ResNet-18,Weighted KNN,1,1
+sub-MDDS33,1,0.9999999880700589,3,eyesOpen,ResNet-18,Weighted KNN,1,1
+sub-MDDS34,1,0.9999999791305522,9,eyesOpen,ResNet-18,Weighted KNN,1,1
+sub-MDDS4,1,0.6013812169177715,2,eyesOpen,ResNet-18,Weighted KNN,1,1
+sub-MDDS5,1,0.4476283372928228,8,eyesOpen,ResNet-18,Weighted KNN,0,0
+sub-MDDS6,1,0.728355710112033,8,eyesOpen,ResNet-18,Weighted KNN,1,1
+sub-MDDS9,1,0.8946078512633767,5,eyesOpen,ResNet-18,Weighted KNN,1,1
+sub-HS1,0,0.2866666666666667,3,eyesOpen,ResNet-18,Ensemble Bagged Tree,0,1
+sub-HS10,0,0.358,5,eyesOpen,ResNet-18,Ensemble Bagged Tree,0,1
+sub-HS11,0,0.508,5,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,0
+sub-HS12,0,0.3786666666666667,6,eyesOpen,ResNet-18,Ensemble Bagged Tree,0,1
+sub-HS13,0,0.08,3,eyesOpen,ResNet-18,Ensemble Bagged Tree,0,1
+sub-HS14,0,0.08866666666666667,4,eyesOpen,ResNet-18,Ensemble Bagged Tree,0,1
+sub-HS15,0,0.06266666666666666,9,eyesOpen,ResNet-18,Ensemble Bagged Tree,0,1
+sub-HS16,0,0.7293333333333333,8,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,0
+sub-HS17,0,0.376,1,eyesOpen,ResNet-18,Ensemble Bagged Tree,0,1
+sub-HS18,0,0.11733333333333333,1,eyesOpen,ResNet-18,Ensemble Bagged Tree,0,1
+sub-HS19,0,0.16933333333333334,8,eyesOpen,ResNet-18,Ensemble Bagged Tree,0,1
+sub-HS2,0,0.5233333333333333,4,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,0
+sub-HS20,0,0.34600000000000003,2,eyesOpen,ResNet-18,Ensemble Bagged Tree,0,1
+sub-HS21,0,0.043333333333333335,4,eyesOpen,ResNet-18,Ensemble Bagged Tree,0,1
+sub-HS22,0,0.48533333333333334,9,eyesOpen,ResNet-18,Ensemble Bagged Tree,0,1
+sub-HS23,0,0.09466666666666666,0,eyesOpen,ResNet-18,Ensemble Bagged Tree,0,1
+sub-HS24,0,0.7806666666666667,3,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,0
+sub-HS26,0,0.24866666666666667,7,eyesOpen,ResNet-18,Ensemble Bagged Tree,0,1
+sub-HS27,0,0.25866666666666666,9,eyesOpen,ResNet-18,Ensemble Bagged Tree,0,1
+sub-HS28,0,0.046000000000000006,8,eyesOpen,ResNet-18,Ensemble Bagged Tree,0,1
+sub-HS29,0,0.47200000000000003,6,eyesOpen,ResNet-18,Ensemble Bagged Tree,0,1
+sub-HS3,0,0.5473333333333333,5,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,0
+sub-HS30,0,0.2546666666666667,0,eyesOpen,ResNet-18,Ensemble Bagged Tree,0,1
+sub-HS4,0,0.03933333333333333,2,eyesOpen,ResNet-18,Ensemble Bagged Tree,0,1
+sub-HS5,0,0.20400000000000001,6,eyesOpen,ResNet-18,Ensemble Bagged Tree,0,1
+sub-HS6,0,0.4673333333333333,7,eyesOpen,ResNet-18,Ensemble Bagged Tree,0,1
+sub-HS7,0,0.46199999999999997,0,eyesOpen,ResNet-18,Ensemble Bagged Tree,0,1
+sub-HS8,0,0.03866666666666667,2,eyesOpen,ResNet-18,Ensemble Bagged Tree,0,1
+sub-HS9,0,0.10666666666666667,7,eyesOpen,ResNet-18,Ensemble Bagged Tree,0,1
+sub-MDDS1,1,0.8166666666666667,0,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,1
+sub-MDDS10,1,0.7946666666666666,3,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,1
+sub-MDDS11,1,0.6793333333333333,6,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,1
+sub-MDDS12,1,0.7420000000000001,4,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,1
+sub-MDDS13,1,0.6846666666666666,6,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,1
+sub-MDDS14,1,0.7420000000000001,1,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,1
+sub-MDDS15,1,0.612,5,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,1
+sub-MDDS16,1,0.7333333333333333,0,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,1
+sub-MDDS17,1,0.7113333333333334,5,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,1
+sub-MDDS18,1,0.7373333333333334,2,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,1
+sub-MDDS19,1,0.4766666666666666,0,eyesOpen,ResNet-18,Ensemble Bagged Tree,0,0
+sub-MDDS2,1,0.6566666666666666,7,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,1
+sub-MDDS20,1,0.6466666666666666,1,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,1
+sub-MDDS21,1,0.7226666666666667,3,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,1
+sub-MDDS22,1,0.7326666666666667,9,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,1
+sub-MDDS23,1,0.644,9,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,1
+sub-MDDS24,1,0.7086666666666667,1,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,1
+sub-MDDS25,1,0.6933333333333334,4,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,1
+sub-MDDS26,1,0.7886666666666666,7,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,1
+sub-MDDS27,1,0.41000000000000003,6,eyesOpen,ResNet-18,Ensemble Bagged Tree,0,0
+sub-MDDS28,1,0.7273333333333334,4,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,1
+sub-MDDS29,1,0.7166666666666667,1,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,1
+sub-MDDS3,1,0.7553333333333333,7,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,1
+sub-MDDS30,1,0.7366666666666667,0,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,1
+sub-MDDS31,1,0.7766666666666667,3,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,1
+sub-MDDS32,1,0.772,2,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,1
+sub-MDDS33,1,0.942,3,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,1
+sub-MDDS34,1,0.9306666666666666,9,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,1
+sub-MDDS4,1,0.6873333333333334,2,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,1
+sub-MDDS5,1,0.41000000000000003,8,eyesOpen,ResNet-18,Ensemble Bagged Tree,0,0
+sub-MDDS6,1,0.7233333333333333,8,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,1
+sub-MDDS9,1,0.8493333333333334,5,eyesOpen,ResNet-18,Ensemble Bagged Tree,1,1
+sub-HS1,0,0.5605265586244897,3,eyesOpen,ResNet-18,Fine Gaussian SVM,1,0
+sub-HS10,0,0.5407436785293372,5,eyesOpen,ResNet-18,Fine Gaussian SVM,1,0
+sub-HS11,0,0.5407436785293372,5,eyesOpen,ResNet-18,Fine Gaussian SVM,1,0
+sub-HS12,0,0.5314065049143517,6,eyesOpen,ResNet-18,Fine Gaussian SVM,1,0
+sub-HS13,0,0.5605265586244897,3,eyesOpen,ResNet-18,Fine Gaussian SVM,1,0
+sub-HS14,0,0.5353372746820134,4,eyesOpen,ResNet-18,Fine Gaussian SVM,1,0
+sub-HS15,0,0.5267057130003095,9,eyesOpen,ResNet-18,Fine Gaussian SVM,1,0
+sub-HS16,0,0.5464604986181452,8,eyesOpen,ResNet-18,Fine Gaussian SVM,1,0
+sub-HS17,0,0.524064096742627,1,eyesOpen,ResNet-18,Fine Gaussian SVM,1,0
+sub-HS18,0,0.524064096742627,1,eyesOpen,ResNet-18,Fine Gaussian SVM,1,0
+sub-HS19,0,0.5464604986181454,8,eyesOpen,ResNet-18,Fine Gaussian SVM,1,0
+sub-HS2,0,0.5353372746820132,4,eyesOpen,ResNet-18,Fine Gaussian SVM,1,0
+sub-HS20,0,0.5408562232170521,2,eyesOpen,ResNet-18,Fine Gaussian SVM,1,0
+sub-HS21,0,0.5353372746820134,4,eyesOpen,ResNet-18,Fine Gaussian SVM,1,0
+sub-HS22,0,0.5267057130003095,9,eyesOpen,ResNet-18,Fine Gaussian SVM,1,0
+sub-HS23,0,0.5116246117062516,0,eyesOpen,ResNet-18,Fine Gaussian SVM,1,0
+sub-HS24,0,0.5605265586244897,3,eyesOpen,ResNet-18,Fine Gaussian SVM,1,0
+sub-HS26,0,0.5392796051698419,7,eyesOpen,ResNet-18,Fine Gaussian SVM,1,0
+sub-HS27,0,0.989311317152407,9,eyesOpen,ResNet-18,Fine Gaussian SVM,1,0
+sub-HS28,0,0.5464604986181454,8,eyesOpen,ResNet-18,Fine Gaussian SVM,1,0
+sub-HS29,0,0.5314065049143517,6,eyesOpen,ResNet-18,Fine Gaussian SVM,1,0
+sub-HS3,0,0.5407436785293372,5,eyesOpen,ResNet-18,Fine Gaussian SVM,1,0
+sub-HS30,0,0.0298139057662628,0,eyesOpen,ResNet-18,Fine Gaussian SVM,0,1
+sub-HS4,0,0.5408562232170521,2,eyesOpen,ResNet-18,Fine Gaussian SVM,1,0
+sub-HS5,0,0.5314065049143517,6,eyesOpen,ResNet-18,Fine Gaussian SVM,1,0
+sub-HS6,0,0.5392796051698419,7,eyesOpen,ResNet-18,Fine Gaussian SVM,1,0
+sub-HS7,0,0.5116246117062516,0,eyesOpen,ResNet-18,Fine Gaussian SVM,1,0
+sub-HS8,0,0.5408562232170521,2,eyesOpen,ResNet-18,Fine Gaussian SVM,1,0
+sub-HS9,0,0.5392796051698419,7,eyesOpen,ResNet-18,Fine Gaussian SVM,1,0
+sub-MDDS1,1,0.5116246117062516,0,eyesOpen,ResNet-18,Fine Gaussian SVM,1,1
+sub-MDDS10,1,0.5605265586244897,3,eyesOpen,ResNet-18,Fine Gaussian SVM,1,1
+sub-MDDS11,1,0.5314065049143517,6,eyesOpen,ResNet-18,Fine Gaussian SVM,1,1
+sub-MDDS12,1,0.5353372746820134,4,eyesOpen,ResNet-18,Fine Gaussian SVM,1,1
+sub-MDDS13,1,0.5314065049143517,6,eyesOpen,ResNet-18,Fine Gaussian SVM,1,1
+sub-MDDS14,1,0.524064096742627,1,eyesOpen,ResNet-18,Fine Gaussian SVM,1,1
+sub-MDDS15,1,0.5407436785293372,5,eyesOpen,ResNet-18,Fine Gaussian SVM,1,1
+sub-MDDS16,1,0.5116246117064216,0,eyesOpen,ResNet-18,Fine Gaussian SVM,1,1
+sub-MDDS17,1,0.5407436785293372,5,eyesOpen,ResNet-18,Fine Gaussian SVM,1,1
+sub-MDDS18,1,0.5408562232170521,2,eyesOpen,ResNet-18,Fine Gaussian SVM,1,1
+sub-MDDS19,1,0.5116246117062516,0,eyesOpen,ResNet-18,Fine Gaussian SVM,1,1
+sub-MDDS2,1,0.5392796051698419,7,eyesOpen,ResNet-18,Fine Gaussian SVM,1,1
+sub-MDDS20,1,0.524064096742627,1,eyesOpen,ResNet-18,Fine Gaussian SVM,1,1
+sub-MDDS21,1,0.5605265586244897,3,eyesOpen,ResNet-18,Fine Gaussian SVM,1,1
+sub-MDDS22,1,0.5267057130001018,9,eyesOpen,ResNet-18,Fine Gaussian SVM,1,1
+sub-MDDS23,1,0.5267057130003095,9,eyesOpen,ResNet-18,Fine Gaussian SVM,1,1
+sub-MDDS24,1,0.524064096742627,1,eyesOpen,ResNet-18,Fine Gaussian SVM,1,1
+sub-MDDS25,1,0.5353372746820134,4,eyesOpen,ResNet-18,Fine Gaussian SVM,1,1
+sub-MDDS26,1,0.5392796051698419,7,eyesOpen,ResNet-18,Fine Gaussian SVM,1,1
+sub-MDDS27,1,0.5314065049143517,6,eyesOpen,ResNet-18,Fine Gaussian SVM,1,1
+sub-MDDS28,1,0.5353372746820134,4,eyesOpen,ResNet-18,Fine Gaussian SVM,1,1
+sub-MDDS29,1,0.524064096742627,1,eyesOpen,ResNet-18,Fine Gaussian SVM,1,1
+sub-MDDS3,1,0.5392796051698417,7,eyesOpen,ResNet-18,Fine Gaussian SVM,1,1
+sub-MDDS30,1,0.5116246117062516,0,eyesOpen,ResNet-18,Fine Gaussian SVM,1,1
+sub-MDDS31,1,0.5605265586244897,3,eyesOpen,ResNet-18,Fine Gaussian SVM,1,1
+sub-MDDS32,1,0.5408562232170521,2,eyesOpen,ResNet-18,Fine Gaussian SVM,1,1
+sub-MDDS33,1,0.9765037980603707,3,eyesOpen,ResNet-18,Fine Gaussian SVM,1,1
+sub-MDDS34,1,0.0211013443075394,9,eyesOpen,ResNet-18,Fine Gaussian SVM,0,0
+sub-MDDS4,1,0.5408562232170521,2,eyesOpen,ResNet-18,Fine Gaussian SVM,1,1
+sub-MDDS5,1,0.5464604986181454,8,eyesOpen,ResNet-18,Fine Gaussian SVM,1,1
+sub-MDDS6,1,0.5464604986181454,8,eyesOpen,ResNet-18,Fine Gaussian SVM,1,1
+sub-MDDS9,1,0.5407436785293372,5,eyesOpen,ResNet-18,Fine Gaussian SVM,1,1

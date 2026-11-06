@@ -1,0 +1,182 @@
+participant_id,group,group_label,numeric_label,task,run,filename,file_size_bytes,duration_seconds,duration_minutes,sampling_rate_hz,total_channels,standard_1020_channels,aux_channels,has_annotations,is_corrupt,notes
+sub-HS1,Healthy Control,HC,0,P300,1,sub-HS1/eeg/sub-HS1_task-P300_eeg.edf,7130624,605.0,10.08,256.0,23,19,3,True,False,OK
+sub-HS1,Healthy Control,HC,0,eyesClosed,1,sub-HS1/eeg/sub-HS1_task-eyesClosed_eeg.edf,3538944,300.0,5.0,256.0,23,19,3,True,False,OK
+sub-HS1,Healthy Control,HC,0,eyesOpen,1,sub-HS1/eeg/sub-HS1_task-eyesOpen_eeg.edf,4139520,351.0,5.85,256.0,23,19,3,True,False,OK
+sub-HS10,Healthy Control,HC,0,P300,1,sub-HS10/eeg/sub-HS10_task-P300_eeg.edf,7130624,605.0,10.08,256.0,23,19,3,True,False,OK
+sub-HS10,Healthy Control,HC,0,eyesClosed,1,sub-HS10/eeg/sub-HS10_task-eyesClosed_eeg.edf,4433920,376.0,6.27,256.0,23,19,3,True,False,OK
+sub-HS10,Healthy Control,HC,0,eyesOpen,1,sub-HS10/eeg/sub-HS10_task-eyesOpen_eeg.edf,3538944,300.0,5.0,256.0,23,19,3,True,False,OK
+sub-HS11,Healthy Control,HC,0,P300,1,sub-HS11/eeg/sub-HS11_task-P300_eeg.edf,7130624,605.0,10.08,256.0,23,19,3,True,False,OK
+sub-HS11,Healthy Control,HC,0,eyesClosed,1,sub-HS11/eeg/sub-HS11_task-eyesClosed_eeg.edf,3538944,300.0,5.0,256.0,23,19,3,True,False,OK
+sub-HS11,Healthy Control,HC,0,eyesOpen,1,sub-HS11/eeg/sub-HS11_task-eyesOpen_eeg.edf,3562496,302.0,5.03,256.0,23,19,3,True,False,OK
+sub-HS12,Healthy Control,HC,0,P300,1,sub-HS12/eeg/sub-HS12_task-P300_eeg.edf,7130624,605.0,10.08,256.0,23,19,3,True,False,OK
+sub-HS12,Healthy Control,HC,0,eyesOpen,1,sub-HS12/eeg/sub-HS12_task-eyesOpen_eeg.edf,3538944,300.0,5.0,256.0,23,19,3,True,False,OK
+sub-HS13,Healthy Control,HC,0,P300,1,sub-HS13/eeg/sub-HS13_task-P300_eeg.edf,7189504,610.0,10.17,256.0,23,19,3,True,False,OK
+sub-HS13,Healthy Control,HC,0,eyesClosed,1,sub-HS13/eeg/sub-HS13_task-eyesClosed_eeg.edf,3538944,300.0,5.0,256.0,23,19,3,True,False,OK
+sub-HS13,Healthy Control,HC,0,eyesOpen,1,sub-HS13/eeg/sub-HS13_task-eyesOpen_eeg.edf,3574272,303.0,5.05,256.0,23,19,3,True,False,OK
+sub-HS14,Healthy Control,HC,0,P300,1,sub-HS14/eeg/sub-HS14_task-P300_eeg.edf,7154176,607.0,10.12,256.0,23,19,3,True,False,OK
+sub-HS14,Healthy Control,HC,0,eyesClosed,1,sub-HS14/eeg/sub-HS14_task-eyesClosed_eeg.edf,3562496,302.0,5.03,256.0,23,19,3,True,False,OK
+sub-HS14,Healthy Control,HC,0,eyesOpen,1,sub-HS14/eeg/sub-HS14_task-eyesOpen_eeg.edf,2290688,194.0,3.23,256.0,23,19,3,True,False,OK
+sub-HS15,Healthy Control,HC,0,P300,1,sub-HS15/eeg/sub-HS15_task-P300_eeg.edf,7189504,610.0,10.17,256.0,23,19,3,True,False,OK
+sub-HS15,Healthy Control,HC,0,eyesClosed,1,sub-HS15/eeg/sub-HS15_task-eyesClosed_eeg.edf,3538944,300.0,5.0,256.0,23,19,3,True,False,OK
+sub-HS15,Healthy Control,HC,0,eyesOpen,1,sub-HS15/eeg/sub-HS15_task-eyesOpen_run-1_eeg.edf,3562496,302.0,5.03,256.0,23,19,3,True,False,OK
+sub-HS15,Healthy Control,HC,0,eyesOpen,2,sub-HS15/eeg/sub-HS15_task-eyesOpen_run-2_eeg.edf,3562496,302.0,5.03,256.0,23,19,3,True,False,Repeated eyesOpen run (run-2)
+sub-HS16,Healthy Control,HC,0,P300,1,sub-HS16/eeg/sub-HS16_task-P300_eeg.edf,7472128,634.0,10.57,256.0,23,19,3,True,False,OK
+sub-HS16,Healthy Control,HC,0,eyesClosed,1,sub-HS16/eeg/sub-HS16_task-eyesClosed_eeg.edf,3145216,292.0,4.87,256.0,21,19,1,True,False,OK
+sub-HS16,Healthy Control,HC,0,eyesOpen,1,sub-HS16/eeg/sub-HS16_task-eyesOpen_eeg.edf,3220480,299.0,4.98,256.0,21,19,1,True,False,OK
+sub-HS17,Healthy Control,HC,0,P300,1,sub-HS17/eeg/sub-HS17_task-P300_eeg.edf,7130624,605.0,10.08,256.0,23,19,3,True,False,OK
+sub-HS17,Healthy Control,HC,0,eyesClosed,1,sub-HS17/eeg/sub-HS17_task-eyesClosed_eeg.edf,3644928,309.0,5.15,256.0,23,19,3,True,False,OK
+sub-HS17,Healthy Control,HC,0,eyesOpen,1,sub-HS17/eeg/sub-HS17_task-eyesOpen_eeg.edf,3550720,301.0,5.02,256.0,23,19,3,True,False,OK
+sub-HS18,Healthy Control,HC,0,P300,1,sub-HS18/eeg/sub-HS18_task-P300_eeg.edf,7165952,608.0,10.13,256.0,23,19,3,True,False,OK
+sub-HS18,Healthy Control,HC,0,eyesOpen,1,sub-HS18/eeg/sub-HS18_task-eyesOpen_eeg.edf,3550720,301.0,5.02,256.0,23,19,3,True,False,OK
+sub-HS19,Healthy Control,HC,0,P300,1,sub-HS19/eeg/sub-HS19_task-P300_eeg.edf,7165952,608.0,10.13,256.0,23,19,3,True,False,OK
+sub-HS19,Healthy Control,HC,0,eyesClosed,1,sub-HS19/eeg/sub-HS19_task-eyesClosed_eeg.edf,3538944,300.0,5.0,256.0,23,19,3,True,False,OK
+sub-HS19,Healthy Control,HC,0,eyesOpen,1,sub-HS19/eeg/sub-HS19_task-eyesOpen_eeg.edf,3550720,301.0,5.02,256.0,23,19,3,True,False,OK
+sub-HS2,Healthy Control,HC,0,P300,1,sub-HS2/eeg/sub-HS2_task-P300_eeg.edf,7130624,605.0,10.08,256.0,23,19,3,True,False,OK
+sub-HS2,Healthy Control,HC,0,eyesClosed,1,sub-HS2/eeg/sub-HS2_task-eyesClosed_eeg.edf,3252736,302.0,5.03,256.0,21,19,1,True,False,OK
+sub-HS2,Healthy Control,HC,0,eyesOpen,1,sub-HS2/eeg/sub-HS2_task-eyesOpen_eeg.edf,3252736,302.0,5.03,256.0,21,19,1,True,False,OK
+sub-HS20,Healthy Control,HC,0,eyesClosed,1,sub-HS20/eeg/sub-HS20_task-eyesClosed_eeg.edf,3621376,307.0,5.12,256.0,23,19,3,True,False,OK
+sub-HS20,Healthy Control,HC,0,eyesOpen,1,sub-HS20/eeg/sub-HS20_task-eyesOpen_eeg.edf,3774464,320.0,5.33,256.0,23,19,3,True,False,OK
+sub-HS21,Healthy Control,HC,0,eyesClosed,1,sub-HS21/eeg/sub-HS21_task-eyesClosed_eeg.edf,3550720,301.0,5.02,256.0,23,19,3,True,False,OK
+sub-HS21,Healthy Control,HC,0,eyesOpen,1,sub-HS21/eeg/sub-HS21_task-eyesOpen_eeg.edf,3597824,305.0,5.08,256.0,23,19,3,True,False,OK
+sub-HS22,Healthy Control,HC,0,P300,1,sub-HS22/eeg/sub-HS22_task-P300_eeg.edf,7118848,604.0,10.07,256.0,23,19,3,True,False,OK
+sub-HS22,Healthy Control,HC,0,eyesClosed,1,sub-HS22/eeg/sub-HS22_task-eyesClosed_eeg.edf,3550720,301.0,5.02,256.0,23,19,3,True,False,OK
+sub-HS22,Healthy Control,HC,0,eyesOpen,1,sub-HS22/eeg/sub-HS22_task-eyesOpen_eeg.edf,3527168,299.0,4.98,256.0,23,19,3,True,False,OK
+sub-HS23,Healthy Control,HC,0,P300,1,sub-HS23/eeg/sub-HS23_task-P300_eeg.edf,7307264,620.0,10.33,256.0,23,19,3,True,False,OK
+sub-HS23,Healthy Control,HC,0,eyesClosed,1,sub-HS23/eeg/sub-HS23_task-eyesClosed_eeg.edf,3562496,302.0,5.03,256.0,23,19,3,True,False,OK
+sub-HS23,Healthy Control,HC,0,eyesOpen,1,sub-HS23/eeg/sub-HS23_task-eyesOpen_eeg.edf,3562496,302.0,5.03,256.0,23,19,3,True,False,OK
+sub-HS24,Healthy Control,HC,0,P300,1,sub-HS24/eeg/sub-HS24_task-P300_eeg.edf,7589888,644.0,10.73,256.0,23,19,3,True,False,OK
+sub-HS24,Healthy Control,HC,0,eyesClosed,1,sub-HS24/eeg/sub-HS24_task-eyesClosed_eeg.edf,3220480,299.0,4.98,256.0,21,19,1,True,False,OK
+sub-HS24,Healthy Control,HC,0,eyesOpen,1,sub-HS24/eeg/sub-HS24_task-eyesOpen_eeg.edf,3198976,297.0,4.95,256.0,21,19,1,True,False,OK
+sub-HS25,Healthy Control,HC,0,P300,1,sub-HS25/eeg/sub-HS25_task-P300_eeg.edf,7578112,643.0,10.72,256.0,23,19,3,True,False,OK
+sub-HS25,Healthy Control,HC,0,eyesClosed,1,sub-HS25/eeg/sub-HS25_task-eyesClosed_eeg.edf,3241984,301.0,5.02,256.0,21,19,1,True,False,OK
+sub-HS26,Healthy Control,HC,0,P300,1,sub-HS26/eeg/sub-HS26_task-P300_eeg.edf,7201280,611.0,10.18,256.0,23,19,3,True,False,OK
+sub-HS26,Healthy Control,HC,0,eyesClosed,1,sub-HS26/eeg/sub-HS26_task-eyesClosed_eeg.edf,3562496,302.0,5.03,256.0,23,19,3,True,False,OK
+sub-HS26,Healthy Control,HC,0,eyesOpen,1,sub-HS26/eeg/sub-HS26_task-eyesOpen_eeg.edf,3597824,305.0,5.08,256.0,23,19,3,True,False,OK
+sub-HS27,Healthy Control,HC,0,P300,1,sub-HS27/eeg/sub-HS27_task-P300_eeg.edf,7460352,633.0,10.55,256.0,23,19,3,True,False,OK
+sub-HS27,Healthy Control,HC,0,eyesClosed,1,sub-HS27/eeg/sub-HS27_task-eyesClosed_eeg.edf,3231232,300.0,5.0,256.0,21,19,1,True,False,OK
+sub-HS27,Healthy Control,HC,0,eyesOpen,1,sub-HS27/eeg/sub-HS27_task-eyesOpen_eeg.edf,3231232,300.0,5.0,256.0,21,19,1,True,False,OK
+sub-HS28,Healthy Control,HC,0,P300,1,sub-HS28/eeg/sub-HS28_task-P300_eeg.edf,7154176,607.0,10.12,256.0,23,19,3,True,False,OK
+sub-HS28,Healthy Control,HC,0,eyesClosed,1,sub-HS28/eeg/sub-HS28_task-eyesClosed_eeg.edf,3550720,301.0,5.02,256.0,23,19,3,True,False,OK
+sub-HS28,Healthy Control,HC,0,eyesOpen,1,sub-HS28/eeg/sub-HS28_task-eyesOpen_eeg.edf,3527168,299.0,4.98,256.0,23,19,3,True,False,OK
+sub-HS29,Healthy Control,HC,0,P300,1,sub-HS29/eeg/sub-HS29_task-P300_eeg.edf,7130624,605.0,10.08,256.0,23,19,3,True,False,OK
+sub-HS29,Healthy Control,HC,0,eyesClosed,1,sub-HS29/eeg/sub-HS29_task-eyesClosed_eeg.edf,3574272,303.0,5.05,256.0,23,19,3,True,False,OK
+sub-HS29,Healthy Control,HC,0,eyesOpen,1,sub-HS29/eeg/sub-HS29_task-eyesOpen_eeg.edf,3550720,301.0,5.02,256.0,23,19,3,True,False,OK
+sub-HS3,Healthy Control,HC,0,P300,1,sub-HS3/eeg/sub-HS3_task-P300_eeg.edf,7130624,605.0,10.08,256.0,23,19,3,True,False,OK
+sub-HS3,Healthy Control,HC,0,eyesClosed,1,sub-HS3/eeg/sub-HS3_task-eyesClosed_eeg.edf,3550720,301.0,5.02,256.0,23,19,3,True,False,OK
+sub-HS3,Healthy Control,HC,0,eyesOpen,1,sub-HS3/eeg/sub-HS3_task-eyesOpen_eeg.edf,3597824,305.0,5.08,256.0,23,19,3,True,False,OK
+sub-HS30,Healthy Control,HC,0,P300,1,sub-HS30/eeg/sub-HS30_task-P300_eeg.edf,7460352,633.0,10.55,256.0,23,19,3,True,False,OK
+sub-HS30,Healthy Control,HC,0,eyesClosed,1,sub-HS30/eeg/sub-HS30_task-eyesClosed_eeg.edf,3231232,300.0,5.0,256.0,21,19,1,True,False,OK
+sub-HS30,Healthy Control,HC,0,eyesOpen,1,sub-HS30/eeg/sub-HS30_task-eyesOpen_eeg.edf,3231232,300.0,5.0,256.0,21,19,1,True,False,OK
+sub-HS4,Healthy Control,HC,0,P300,1,sub-HS4/eeg/sub-HS4_task-P300_eeg.edf,7130624,605.0,10.08,256.0,23,19,3,True,False,OK
+sub-HS4,Healthy Control,HC,0,eyesClosed,1,sub-HS4/eeg/sub-HS4_task-eyesClosed_eeg.edf,3550720,301.0,5.02,256.0,23,19,3,True,False,OK
+sub-HS4,Healthy Control,HC,0,eyesOpen,1,sub-HS4/eeg/sub-HS4_task-eyesOpen_eeg.edf,3480064,295.0,4.92,256.0,23,19,3,True,False,OK
+sub-HS5,Healthy Control,HC,0,P300,1,sub-HS5/eeg/sub-HS5_task-P300_eeg.edf,7213056,612.0,10.2,256.0,23,19,3,True,False,OK
+sub-HS5,Healthy Control,HC,0,eyesClosed,1,sub-HS5/eeg/sub-HS5_task-eyesClosed_eeg.edf,3574272,303.0,5.05,256.0,23,19,3,True,False,OK
+sub-HS5,Healthy Control,HC,0,eyesOpen,1,sub-HS5/eeg/sub-HS5_task-eyesOpen_eeg.edf,3680256,312.0,5.2,256.0,23,19,3,True,False,OK
+sub-HS6,Healthy Control,HC,0,P300,1,sub-HS6/eeg/sub-HS6_task-P300_eeg.edf,7201280,611.0,10.18,256.0,23,19,3,True,False,OK
+sub-HS6,Healthy Control,HC,0,eyesClosed,1,sub-HS6/eeg/sub-HS6_task-eyesClosed_eeg.edf,3550720,301.0,5.02,256.0,23,19,3,True,False,OK
+sub-HS6,Healthy Control,HC,0,eyesOpen,1,sub-HS6/eeg/sub-HS6_task-eyesOpen_eeg.edf,3574272,303.0,5.05,256.0,23,19,3,True,False,OK
+sub-HS7,Healthy Control,HC,0,P300,1,sub-HS7/eeg/sub-HS7_task-P300_eeg.edf,7130624,605.0,10.08,256.0,23,19,3,True,False,OK
+sub-HS7,Healthy Control,HC,0,eyesClosed,1,sub-HS7/eeg/sub-HS7_task-eyesClosed_eeg.edf,4198400,356.0,5.93,256.0,23,19,3,True,False,OK
+sub-HS7,Healthy Control,HC,0,eyesOpen,1,sub-HS7/eeg/sub-HS7_task-eyesOpen_eeg.edf,3574272,303.0,5.05,256.0,23,19,3,True,False,OK
+sub-HS8,Healthy Control,HC,0,P300,1,sub-HS8/eeg/sub-HS8_task-P300_eeg.edf,7177728,609.0,10.15,256.0,23,19,3,True,False,OK
+sub-HS8,Healthy Control,HC,0,eyesClosed,1,sub-HS8/eeg/sub-HS8_task-eyesClosed_eeg.edf,3562496,302.0,5.03,256.0,23,19,3,True,False,OK
+sub-HS8,Healthy Control,HC,0,eyesOpen,1,sub-HS8/eeg/sub-HS8_task-eyesOpen_eeg.edf,3562496,302.0,5.03,256.0,23,19,3,True,False,OK
+sub-HS9,Healthy Control,HC,0,P300,1,sub-HS9/eeg/sub-HS9_task-P300_eeg.edf,7083520,601.0,10.02,256.0,23,19,3,True,False,OK
+sub-HS9,Healthy Control,HC,0,eyesClosed,1,sub-HS9/eeg/sub-HS9_task-eyesClosed_eeg.edf,3550720,301.0,5.02,256.0,23,19,3,True,False,OK
+sub-HS9,Healthy Control,HC,0,eyesOpen,1,sub-HS9/eeg/sub-HS9_task-eyesOpen_eeg.edf,3562496,302.0,5.03,256.0,23,19,3,True,False,OK
+sub-MDDS1,Major Depressive Disorder,MDD,1,P300,1,sub-MDDS1/eeg/sub-MDDS1_task-P300_eeg.edf,7448576,632.0,10.53,256.0,23,19,3,True,False,OK
+sub-MDDS1,Major Depressive Disorder,MDD,1,eyesClosed,1,sub-MDDS1/eeg/sub-MDDS1_task-eyesClosed_eeg.edf,3263488,303.0,5.05,256.0,21,19,1,True,False,OK
+sub-MDDS1,Major Depressive Disorder,MDD,1,eyesOpen,1,sub-MDDS1/eeg/sub-MDDS1_task-eyesOpen_eeg.edf,3241984,301.0,5.02,256.0,21,19,1,True,False,OK
+sub-MDDS10,Major Depressive Disorder,MDD,1,P300,1,sub-MDDS10/eeg/sub-MDDS10_task-P300_eeg.edf,8084480,686.0,11.43,256.0,23,19,3,True,False,OK
+sub-MDDS10,Major Depressive Disorder,MDD,1,eyesClosed,1,sub-MDDS10/eeg/sub-MDDS10_task-eyesClosed_eeg.edf,3241984,301.0,5.02,256.0,21,19,1,True,False,OK
+sub-MDDS10,Major Depressive Disorder,MDD,1,eyesOpen,1,sub-MDDS10/eeg/sub-MDDS10_task-eyesOpen_eeg.edf,3231232,300.0,5.0,256.0,21,19,1,True,False,OK
+sub-MDDS11,Major Depressive Disorder,MDD,1,P300,1,sub-MDDS11/eeg/sub-MDDS11_task-P300_eeg.edf,7507456,637.0,10.62,256.0,23,19,3,True,False,OK
+sub-MDDS11,Major Depressive Disorder,MDD,1,eyesClosed,1,sub-MDDS11/eeg/sub-MDDS11_task-eyesClosed_eeg.edf,3220480,299.0,4.98,256.0,21,19,1,True,False,OK
+sub-MDDS11,Major Depressive Disorder,MDD,1,eyesOpen,1,sub-MDDS11/eeg/sub-MDDS11_task-eyesOpen_eeg.edf,3220480,299.0,4.98,256.0,21,19,1,True,False,OK
+sub-MDDS12,Major Depressive Disorder,MDD,1,P300,1,sub-MDDS12/eeg/sub-MDDS12_task-P300_eeg.edf,7648768,649.0,10.82,256.0,23,19,3,True,False,OK
+sub-MDDS12,Major Depressive Disorder,MDD,1,eyesOpen,1,sub-MDDS12/eeg/sub-MDDS12_task-eyesOpen_eeg.edf,2037760,189.0,3.15,256.0,21,19,1,True,False,OK
+sub-MDDS13,Major Depressive Disorder,MDD,1,P300,1,sub-MDDS13/eeg/sub-MDDS13_task-P300_eeg.edf,7436800,631.0,10.52,256.0,23,19,3,True,False,OK
+sub-MDDS13,Major Depressive Disorder,MDD,1,eyesClosed,1,sub-MDDS13/eeg/sub-MDDS13_task-eyesClosed_eeg.edf,3231232,300.0,5.0,256.0,21,19,1,True,False,OK
+sub-MDDS13,Major Depressive Disorder,MDD,1,eyesOpen,1,sub-MDDS13/eeg/sub-MDDS13_task-eyesOpen_eeg.edf,3349504,311.0,5.18,256.0,21,19,1,True,False,OK
+sub-MDDS14,Major Depressive Disorder,MDD,1,P300,1,sub-MDDS14/eeg/sub-MDDS14_task-P300_eeg.edf,7483904,635.0,10.58,256.0,23,19,3,True,False,OK
+sub-MDDS14,Major Depressive Disorder,MDD,1,eyesClosed,1,sub-MDDS14/eeg/sub-MDDS14_task-eyesClosed_eeg.edf,3231232,300.0,5.0,256.0,21,19,1,True,False,OK
+sub-MDDS14,Major Depressive Disorder,MDD,1,eyesOpen,1,sub-MDDS14/eeg/sub-MDDS14_task-eyesOpen_eeg.edf,3241984,301.0,5.02,256.0,21,19,1,True,False,OK
+sub-MDDS15,Major Depressive Disorder,MDD,1,P300,1,sub-MDDS15/eeg/sub-MDDS15_task-P300_eeg.edf,7389696,627.0,10.45,256.0,23,19,3,True,False,OK
+sub-MDDS15,Major Depressive Disorder,MDD,1,eyesClosed,1,sub-MDDS15/eeg/sub-MDDS15_task-eyesClosed_eeg.edf,3231232,300.0,5.0,256.0,21,19,1,True,False,OK
+sub-MDDS15,Major Depressive Disorder,MDD,1,eyesOpen,1,sub-MDDS15/eeg/sub-MDDS15_task-eyesOpen_eeg.edf,3231232,300.0,5.0,256.0,21,19,1,True,False,OK
+sub-MDDS16,Major Depressive Disorder,MDD,1,P300,1,sub-MDDS16/eeg/sub-MDDS16_task-P300_eeg.edf,7519232,638.0,10.63,256.0,23,19,3,True,False,OK
+sub-MDDS16,Major Depressive Disorder,MDD,1,eyesOpen,1,sub-MDDS16/eeg/sub-MDDS16_task-eyesOpen_eeg.edf,3209728,298.0,4.97,256.0,21,19,1,True,False,OK
+sub-MDDS17,Major Depressive Disorder,MDD,1,P300,1,sub-MDDS17/eeg/sub-MDDS17_task-P300_eeg.edf,7436800,631.0,10.52,256.0,23,19,3,True,False,OK
+sub-MDDS17,Major Depressive Disorder,MDD,1,eyesClosed,1,sub-MDDS17/eeg/sub-MDDS17_task-eyesClosed_eeg.edf,3198976,297.0,4.95,256.0,21,19,1,True,False,OK
+sub-MDDS17,Major Depressive Disorder,MDD,1,eyesOpen,1,sub-MDDS17/eeg/sub-MDDS17_task-eyesOpen_eeg.edf,3220480,299.0,4.98,256.0,21,19,1,True,False,OK
+sub-MDDS18,Major Depressive Disorder,MDD,1,P300,1,sub-MDDS18/eeg/sub-MDDS18_task-P300_eeg.edf,7495680,636.0,10.6,256.0,23,19,3,True,False,OK
+sub-MDDS18,Major Depressive Disorder,MDD,1,eyesClosed,1,sub-MDDS18/eeg/sub-MDDS18_task-eyesClosed_eeg.edf,3231232,300.0,5.0,256.0,21,19,1,True,False,OK
+sub-MDDS18,Major Depressive Disorder,MDD,1,eyesOpen,1,sub-MDDS18/eeg/sub-MDDS18_task-eyesOpen_eeg.edf,3252736,302.0,5.03,256.0,21,19,1,True,False,OK
+sub-MDDS19,Major Depressive Disorder,MDD,1,P300,1,sub-MDDS19/eeg/sub-MDDS19_task-P300_eeg.edf,7495680,636.0,10.6,256.0,23,19,3,True,False,OK
+sub-MDDS19,Major Depressive Disorder,MDD,1,eyesClosed,1,sub-MDDS19/eeg/sub-MDDS19_task-eyesClosed_eeg.edf,3220480,299.0,4.98,256.0,21,19,1,True,False,OK
+sub-MDDS19,Major Depressive Disorder,MDD,1,eyesOpen,1,sub-MDDS19/eeg/sub-MDDS19_task-eyesOpen_eeg.edf,3209728,298.0,4.97,256.0,21,19,1,True,False,OK
+sub-MDDS2,Major Depressive Disorder,MDD,1,P300,1,sub-MDDS2/eeg/sub-MDDS2_task-P300_eeg.edf,7589888,644.0,10.73,256.0,23,19,3,True,False,OK
+sub-MDDS2,Major Depressive Disorder,MDD,1,eyesClosed,1,sub-MDDS2/eeg/sub-MDDS2_task-eyesClosed_eeg.edf,3198976,297.0,4.95,256.0,21,19,1,True,False,OK
+sub-MDDS2,Major Depressive Disorder,MDD,1,eyesOpen,1,sub-MDDS2/eeg/sub-MDDS2_task-eyesOpen_eeg.edf,3198976,297.0,4.95,256.0,21,19,1,True,False,OK
+sub-MDDS20,Major Depressive Disorder,MDD,1,P300,1,sub-MDDS20/eeg/sub-MDDS20_task-P300_eeg.edf,7436800,631.0,10.52,256.0,23,19,3,True,False,OK
+sub-MDDS20,Major Depressive Disorder,MDD,1,eyesClosed,1,sub-MDDS20/eeg/sub-MDDS20_task-eyesClosed_eeg.edf,3220480,299.0,4.98,256.0,21,19,1,True,False,OK
+sub-MDDS20,Major Depressive Disorder,MDD,1,eyesOpen,1,sub-MDDS20/eeg/sub-MDDS20_task-eyesOpen_eeg.edf,3252736,302.0,5.03,256.0,21,19,1,True,False,OK
+sub-MDDS21,Major Depressive Disorder,MDD,1,P300,1,sub-MDDS21/eeg/sub-MDDS21_task-P300_eeg.edf,7448576,632.0,10.53,256.0,23,19,3,True,False,OK
+sub-MDDS21,Major Depressive Disorder,MDD,1,eyesClosed,1,sub-MDDS21/eeg/sub-MDDS21_task-eyesClosed_eeg.edf,3231232,300.0,5.0,256.0,21,19,1,True,False,OK
+sub-MDDS21,Major Depressive Disorder,MDD,1,eyesOpen,1,sub-MDDS21/eeg/sub-MDDS21_task-eyesOpen_eeg.edf,3231232,300.0,5.0,256.0,21,19,1,True,False,OK
+sub-MDDS22,Major Depressive Disorder,MDD,1,P300,1,sub-MDDS22/eeg/sub-MDDS22_task-P300_eeg.edf,7554560,641.0,10.68,256.0,23,19,3,True,False,OK
+sub-MDDS22,Major Depressive Disorder,MDD,1,eyesClosed,1,sub-MDDS22/eeg/sub-MDDS22_task-eyesClosed_eeg.edf,3198976,297.0,4.95,256.0,21,19,1,True,False,OK
+sub-MDDS22,Major Depressive Disorder,MDD,1,eyesOpen,1,sub-MDDS22/eeg/sub-MDDS22_task-eyesOpen_eeg.edf,3198976,297.0,4.95,256.0,21,19,1,True,False,OK
+sub-MDDS23,Major Depressive Disorder,MDD,1,P300,1,sub-MDDS23/eeg/sub-MDDS23_task-P300_eeg.edf,7448576,632.0,10.53,256.0,23,19,3,True,False,OK
+sub-MDDS23,Major Depressive Disorder,MDD,1,eyesClosed,1,sub-MDDS23/eeg/sub-MDDS23_task-eyesClosed_eeg.edf,3263488,303.0,5.05,256.0,21,19,1,True,False,OK
+sub-MDDS23,Major Depressive Disorder,MDD,1,eyesOpen,1,sub-MDDS23/eeg/sub-MDDS23_task-eyesOpen_eeg.edf,3306496,307.0,5.12,256.0,21,19,1,True,False,OK
+sub-MDDS24,Major Depressive Disorder,MDD,1,P300,1,sub-MDDS24/eeg/sub-MDDS24_task-P300_eeg.edf,7460352,633.0,10.55,256.0,23,19,3,True,False,OK
+sub-MDDS24,Major Depressive Disorder,MDD,1,eyesClosed,1,sub-MDDS24/eeg/sub-MDDS24_task-eyesClosed_eeg.edf,3241984,301.0,5.02,256.0,21,19,1,True,False,OK
+sub-MDDS24,Major Depressive Disorder,MDD,1,eyesOpen,1,sub-MDDS24/eeg/sub-MDDS24_task-eyesOpen_eeg.edf,3231232,300.0,5.0,256.0,21,19,1,True,False,OK
+sub-MDDS25,Major Depressive Disorder,MDD,1,P300,1,sub-MDDS25/eeg/sub-MDDS25_task-P300_eeg.edf,7401472,628.0,10.47,256.0,23,19,3,True,False,OK
+sub-MDDS25,Major Depressive Disorder,MDD,1,eyesClosed,1,sub-MDDS25/eeg/sub-MDDS25_task-eyesClosed_eeg.edf,3231232,300.0,5.0,256.0,21,19,1,True,False,OK
+sub-MDDS25,Major Depressive Disorder,MDD,1,eyesOpen,1,sub-MDDS25/eeg/sub-MDDS25_task-eyesOpen_eeg.edf,3538944,300.0,5.0,256.0,23,19,3,True,False,OK
+sub-MDDS26,Major Depressive Disorder,MDD,1,P300,1,sub-MDDS26/eeg/sub-MDDS26_task-P300_eeg.edf,7507456,637.0,10.62,256.0,23,19,3,True,False,OK
+sub-MDDS26,Major Depressive Disorder,MDD,1,eyesClosed,1,sub-MDDS26/eeg/sub-MDDS26_task-eyesClosed_eeg.edf,3231232,300.0,5.0,256.0,21,19,1,True,False,OK
+sub-MDDS26,Major Depressive Disorder,MDD,1,eyesOpen,1,sub-MDDS26/eeg/sub-MDDS26_task-eyesOpen_eeg.edf,3231232,300.0,5.0,256.0,21,19,1,True,False,OK
+sub-MDDS27,Major Depressive Disorder,MDD,1,P300,1,sub-MDDS27/eeg/sub-MDDS27_task-P300_eeg.edf,7189504,610.0,10.17,256.0,23,19,3,True,False,OK
+sub-MDDS27,Major Depressive Disorder,MDD,1,eyesClosed,1,sub-MDDS27/eeg/sub-MDDS27_task-eyesClosed_eeg.edf,3241984,301.0,5.02,256.0,21,19,1,True,False,OK
+sub-MDDS27,Major Depressive Disorder,MDD,1,eyesOpen,1,sub-MDDS27/eeg/sub-MDDS27_task-eyesOpen_eeg.edf,3527168,299.0,4.98,256.0,23,19,3,True,False,OK
+sub-MDDS28,Major Depressive Disorder,MDD,1,P300,1,sub-MDDS28/eeg/sub-MDDS28_task-P300_eeg.edf,7448576,632.0,10.53,256.0,23,19,3,True,False,OK
+sub-MDDS28,Major Depressive Disorder,MDD,1,eyesClosed,1,sub-MDDS28/eeg/sub-MDDS28_task-eyesClosed_eeg.edf,3241984,301.0,5.02,256.0,21,19,1,True,False,OK
+sub-MDDS28,Major Depressive Disorder,MDD,1,eyesOpen,1,sub-MDDS28/eeg/sub-MDDS28_task-eyesOpen_eeg.edf,3252736,302.0,5.03,256.0,21,19,1,True,False,OK
+sub-MDDS29,Major Depressive Disorder,MDD,1,P300,1,sub-MDDS29/eeg/sub-MDDS29_task-P300_eeg.edf,7436800,631.0,10.52,256.0,23,19,3,True,False,OK
+sub-MDDS29,Major Depressive Disorder,MDD,1,eyesClosed,1,sub-MDDS29/eeg/sub-MDDS29_task-eyesClosed_eeg.edf,3231232,300.0,5.0,256.0,21,19,1,True,False,OK
+sub-MDDS29,Major Depressive Disorder,MDD,1,eyesOpen,1,sub-MDDS29/eeg/sub-MDDS29_task-eyesOpen_eeg.edf,3231232,300.0,5.0,256.0,21,19,1,True,False,OK
+sub-MDDS3,Major Depressive Disorder,MDD,1,P300,1,sub-MDDS3/eeg/sub-MDDS3_task-P300_eeg.edf,7436800,631.0,10.52,256.0,23,19,3,True,False,OK
+sub-MDDS3,Major Depressive Disorder,MDD,1,eyesClosed,1,sub-MDDS3/eeg/sub-MDDS3_task-eyesClosed_eeg.edf,1940992,180.0,3.0,256.0,21,19,1,True,False,OK
+sub-MDDS3,Major Depressive Disorder,MDD,1,eyesOpen,1,sub-MDDS3/eeg/sub-MDDS3_task-eyesOpen_eeg.edf,3241984,301.0,5.02,256.0,21,19,1,True,False,OK
+sub-MDDS30,Major Depressive Disorder,MDD,1,P300,1,sub-MDDS30/eeg/sub-MDDS30_task-P300_eeg.edf,7413248,629.0,10.48,256.0,23,19,3,True,False,OK
+sub-MDDS30,Major Depressive Disorder,MDD,1,eyesClosed,1,sub-MDDS30/eeg/sub-MDDS30_task-eyesClosed_eeg.edf,2596864,241.0,4.02,256.0,21,19,1,True,False,OK
+sub-MDDS30,Major Depressive Disorder,MDD,1,eyesOpen,1,sub-MDDS30/eeg/sub-MDDS30_task-eyesOpen_eeg.edf,3231232,300.0,5.0,256.0,21,19,1,True,False,OK
+sub-MDDS31,Major Depressive Disorder,MDD,1,P300,1,sub-MDDS31/eeg/sub-MDDS31_task-P300_eeg.edf,7460352,633.0,10.55,256.0,23,19,3,True,False,OK
+sub-MDDS31,Major Depressive Disorder,MDD,1,eyesClosed,1,sub-MDDS31/eeg/sub-MDDS31_task-eyesClosed_eeg.edf,3252736,302.0,5.03,256.0,21,19,1,True,False,OK
+sub-MDDS31,Major Depressive Disorder,MDD,1,eyesOpen,1,sub-MDDS31/eeg/sub-MDDS31_task-eyesOpen_eeg.edf,3241984,301.0,5.02,256.0,21,19,1,True,False,OK
+sub-MDDS32,Major Depressive Disorder,MDD,1,P300,1,sub-MDDS32/eeg/sub-MDDS32_task-P300_eeg.edf,7401472,628.0,10.47,256.0,23,19,3,True,False,OK
+sub-MDDS32,Major Depressive Disorder,MDD,1,eyesClosed,1,sub-MDDS32/eeg/sub-MDDS32_task-eyesClosed_eeg.edf,3220480,299.0,4.98,256.0,21,19,1,True,False,OK
+sub-MDDS32,Major Depressive Disorder,MDD,1,eyesOpen,1,sub-MDDS32/eeg/sub-MDDS32_task-eyesOpen_eeg.edf,3231232,300.0,5.0,256.0,21,19,1,True,False,OK
+sub-MDDS33,Major Depressive Disorder,MDD,1,P300,1,sub-MDDS33/eeg/sub-MDDS33_task-P300_eeg.edf,7754752,658.0,10.97,256.0,23,19,3,True,False,OK
+sub-MDDS33,Major Depressive Disorder,MDD,1,eyesClosed,1,sub-MDDS33/eeg/sub-MDDS33_task-eyesClosed_eeg.edf,3209728,298.0,4.97,256.0,21,19,1,True,False,OK
+sub-MDDS33,Major Depressive Disorder,MDD,1,eyesOpen,1,sub-MDDS33/eeg/sub-MDDS33_task-eyesOpen_eeg.edf,3188224,296.0,4.93,256.0,21,19,1,True,False,OK
+sub-MDDS34,Major Depressive Disorder,MDD,1,P300,1,sub-MDDS34/eeg/sub-MDDS34_task-P300_eeg.edf,7754752,658.0,10.97,256.0,23,19,3,True,False,OK
+sub-MDDS34,Major Depressive Disorder,MDD,1,eyesClosed,1,sub-MDDS34/eeg/sub-MDDS34_task-eyesClosed_eeg.edf,3209728,298.0,4.97,256.0,21,19,1,True,False,OK
+sub-MDDS34,Major Depressive Disorder,MDD,1,eyesOpen,1,sub-MDDS34/eeg/sub-MDDS34_task-eyesOpen_eeg.edf,3188224,296.0,4.93,256.0,21,19,1,True,False,OK
+sub-MDDS4,Major Depressive Disorder,MDD,1,P300,1,sub-MDDS4/eeg/sub-MDDS4_task-P300_eeg.edf,7460352,633.0,10.55,256.0,23,19,3,True,False,OK
+sub-MDDS4,Major Depressive Disorder,MDD,1,eyesOpen,1,sub-MDDS4/eeg/sub-MDDS4_task-eyesOpen_eeg.edf,3241984,301.0,5.02,256.0,21,19,1,True,False,OK
+sub-MDDS5,Major Depressive Disorder,MDD,1,P300,1,sub-MDDS5/eeg/sub-MDDS5_task-P300_eeg.edf,7236608,614.0,10.23,256.0,23,19,3,True,False,OK
+sub-MDDS5,Major Depressive Disorder,MDD,1,eyesClosed,1,sub-MDDS5/eeg/sub-MDDS5_task-eyesClosed_eeg.edf,3562496,302.0,5.03,256.0,23,19,3,True,False,OK
+sub-MDDS5,Major Depressive Disorder,MDD,1,eyesOpen,1,sub-MDDS5/eeg/sub-MDDS5_task-eyesOpen_eeg.edf,3562496,302.0,5.03,256.0,23,19,3,True,False,OK
+sub-MDDS6,Major Depressive Disorder,MDD,1,P300,1,sub-MDDS6/eeg/sub-MDDS6_task-P300_eeg.edf,7531008,639.0,10.65,256.0,23,19,3,True,False,OK
+sub-MDDS6,Major Depressive Disorder,MDD,1,eyesClosed,1,sub-MDDS6/eeg/sub-MDDS6_task-eyesClosed_eeg.edf,3252736,302.0,5.03,256.0,21,19,1,True,False,OK
+sub-MDDS6,Major Depressive Disorder,MDD,1,eyesOpen,1,sub-MDDS6/eeg/sub-MDDS6_task-eyesOpen_eeg.edf,3241984,301.0,5.02,256.0,21,19,1,True,False,OK
+sub-MDDS7,Major Depressive Disorder,MDD,1,P300,1,sub-MDDS7/eeg/sub-MDDS7_task-P300_eeg.edf,7495680,636.0,10.6,256.0,23,19,3,True,False,OK
+sub-MDDS7,Major Depressive Disorder,MDD,1,eyesClosed,1,sub-MDDS7/eeg/sub-MDDS7_task-eyesClosed_eeg.edf,3231232,300.0,5.0,256.0,21,19,1,True,False,OK
+sub-MDDS8,Major Depressive Disorder,MDD,1,P300,1,sub-MDDS8/eeg/sub-MDDS8_task-P300_eeg.edf,7154176,607.0,10.12,256.0,23,19,3,True,False,OK
+sub-MDDS9,Major Depressive Disorder,MDD,1,eyesClosed,1,sub-MDDS9/eeg/sub-MDDS9_task-eyesClosed_eeg.edf,3231232,300.0,5.0,256.0,21,19,1,True,False,OK
+sub-MDDS9,Major Depressive Disorder,MDD,1,eyesOpen,1,sub-MDDS9/eeg/sub-MDDS9_task-eyesOpen_eeg.edf,3231232,300.0,5.0,256.0,21,19,1,True,False,OK

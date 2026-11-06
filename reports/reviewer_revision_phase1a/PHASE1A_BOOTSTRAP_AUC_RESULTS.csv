@@ -1,0 +1,17 @@
+condition,cohort_name,classifier,n_participants,participant_auc,bootstrap_iterations,bootstrap_mean_auc,bootstrap_se,bootstrap_95ci_low,bootstrap_95ci_high,random_state_seed
+eyesClosed,Eyes-Closed,Linear SVM,58,0.9536,1000,0.9536,0.0259,0.8909,0.9952,42
+eyesClosed,Eyes-Closed,Medium Gaussian SVM,58,0.9357,1000,0.9366,0.0291,0.8709,0.9833,42
+eyesClosed,Eyes-Closed,Neural Network Classifier,58,0.944,1000,0.9444,0.027,0.8832,0.9869,42
+eyesClosed,Eyes-Closed,Cubic SVM,58,0.9274,1000,0.9282,0.0325,0.8559,0.981,42
+eyesClosed,Eyes-Closed,Quadratic SVM,58,0.9095,1000,0.9082,0.0398,0.8185,0.9743,42
+eyesClosed,Eyes-Closed,Weighted KNN,58,0.9214,1000,0.9219,0.0339,0.846,0.976,42
+eyesClosed,Eyes-Closed,Ensemble Bagged Tree,58,0.9143,1000,0.9152,0.0369,0.8329,0.9768,42
+eyesClosed,Eyes-Closed,Fine Gaussian SVM,58,0.4274,1000,0.4281,0.0769,0.277,0.5766,42
+eyesOpen,Eyes-Open,Linear SVM,61,0.9569,1000,0.9561,0.0223,0.9048,0.9925,42
+eyesOpen,Eyes-Open,Medium Gaussian SVM,61,0.9332,1000,0.9316,0.0342,0.8578,0.9891,42
+eyesOpen,Eyes-Open,Neural Network Classifier,61,0.9601,1000,0.9591,0.0235,0.9073,0.9956,42
+eyesOpen,Eyes-Open,Cubic SVM,61,0.9256,1000,0.9243,0.0399,0.8333,0.9914,42
+eyesOpen,Eyes-Open,Quadratic SVM,61,0.9526,1000,0.9521,0.0255,0.8939,0.9936,42
+eyesOpen,Eyes-Open,Weighted KNN,61,0.9461,1000,0.9456,0.0303,0.8742,0.9946,42
+eyesOpen,Eyes-Open,Ensemble Bagged Tree,61,0.9343,1000,0.933,0.0363,0.8496,0.9931,42
+eyesOpen,Eyes-Open,Fine Gaussian SVM,61,0.4407,1000,0.4433,0.0748,0.305,0.586,42

@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "skills": {
+    "deep-learning": {
+      "source": "mindrally/skills",
+      "sourceType": "github",
+      "skillPath": "deep-learning/SKILL.md",
+      "computedHash": "8bd9954198dd476bc9ebebd540c4c3d34c27a0a61e3ba7876349c5bbe5226551"
+    },
+    "deep-learning-python": {
+      "source": "mindrally/skills",
+      "sourceType": "github",
+      "skillPath": "deep-learning-python/SKILL.md",
+      "computedHash": "d4694ef2846f89168cc0c73be25577ebfc7c0d4057ff2c29d8dee7b5c4104349"
+    },
+    "deep-learning-pytorch": {
+      "source": "mindrally/skills",
+      "sourceType": "github",
+      "skillPath": "deep-learning-pytorch/SKILL.md",
+      "computedHash": "d178008f9284ea6c0826d5130212251a5d4245c5ba5a7ada4c1769e9fa48f1c9"
+    },
+    "machine-learning": {
+      "source": "mindrally/skills",
+      "sourceType": "github",
+      "skillPath": "machine-learning/SKILL.md",
+      "computedHash": "91e6464affa1d6d2c30793fa63bb3bff61f2b529580cf28a0aaef78be1a8473a"
+    },
+    "python-mcp-server-generator": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "skillPath": "skills/python-mcp-server-generator/SKILL.md",
+      "computedHash": "c56654f26edbf18b482a5c35f2569d633692ed311b09d3aa40423a1813981d7c"
+    },
+    "scikit-learn-machine-learning": {
+      "source": "jaechang-hits/sciagent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/scientific-computing/scikit-learn-machine-learning/SKILL.md",
+      "computedHash": "f12b03b88ba62a588cbcb0c8a7e81e713d8fcde8861e885c047ae90ba4f0f35b"
+    }
+  }
+}

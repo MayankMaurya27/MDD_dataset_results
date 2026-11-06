@@ -1,0 +1,17 @@
+condition,cohort_name,classifier,n_participants,n_segments,correct_participants,pooled_accuracy_pct,wilson_95ci_low_pct,wilson_95ci_high_pct,sensitivity_pct,specificity_pct,f1_score_pct,fold_mean_accuracy_pct,fold_sd_sample_ddof1_pct,fold_sd_pop_ddof0_pct,participant_auc,bootstrap_auc_95ci,segment_accuracy_pct,segment_auc,true_positives,true_negatives,false_positives,false_negatives
+eyesClosed,Eyes-Closed,Linear SVM,58,870,52,89.66,79.21,95.17,93.33,85.71,90.32,89.9,8.79,8.34,0.9536,"[0.8909, 0.9952]",80.34,0.8752,28,24,4,2
+eyesClosed,Eyes-Closed,Medium Gaussian SVM,58,870,52,89.66,79.21,95.17,90.0,89.29,90.0,89.9,11.79,11.19,0.9357,"[0.8709, 0.9833]",81.72,0.8999,27,25,3,3
+eyesClosed,Eyes-Closed,Neural Network Classifier,58,870,52,89.66,79.21,95.17,90.0,89.29,90.0,89.9,11.79,11.19,0.944,"[0.8832, 0.9869]",81.84,0.9021,27,25,3,3
+eyesClosed,Eyes-Closed,Cubic SVM,58,870,52,89.66,79.21,95.17,93.33,85.71,90.32,89.9,11.79,11.19,0.9274,"[0.8559, 0.9810]",77.7,0.8865,28,24,4,2
+eyesClosed,Eyes-Closed,Quadratic SVM,58,870,51,87.93,77.12,94.03,93.33,82.14,88.89,88.24,11.38,10.79,0.9095,"[0.8185, 0.9743]",79.77,0.8594,28,23,5,2
+eyesClosed,Eyes-Closed,Weighted KNN,58,870,50,86.21,75.07,92.84,86.67,85.71,86.67,86.57,10.66,10.11,0.9214,"[0.8460, 0.9760]",78.16,0.8729,26,24,4,4
+eyesClosed,Eyes-Closed,Ensemble Bagged Tree,58,870,50,86.21,75.07,92.84,93.33,78.57,87.5,86.81,14.82,14.06,0.9143,"[0.8329, 0.9768]",78.97,0.8737,28,22,6,2
+eyesClosed,Eyes-Closed,Fine Gaussian SVM,58,870,29,50.0,37.54,62.46,86.67,10.71,64.2,49.71,10.03,9.52,0.4274,"[0.2770, 0.5766]",55.17,0.4274,26,3,25,4
+eyesOpen,Eyes-Open,Linear SVM,61,930,54,88.52,78.16,94.33,90.62,86.21,89.23,88.14,12.63,11.98,0.9569,"[0.9048, 0.9925]",80.65,0.8807,29,25,4,3
+eyesOpen,Eyes-Open,Medium Gaussian SVM,61,930,56,91.8,82.21,96.45,90.62,93.1,92.06,91.48,13.16,12.49,0.9332,"[0.8578, 0.9891]",84.19,0.909,29,27,2,3
+eyesOpen,Eyes-Open,Neural Network Classifier,61,930,56,91.8,82.21,96.45,90.62,93.1,92.06,91.48,13.16,12.49,0.9601,"[0.9073, 0.9956]",85.27,0.9159,29,27,2,3
+eyesOpen,Eyes-Open,Cubic SVM,61,930,54,88.52,78.16,94.33,90.62,86.21,89.23,88.14,14.87,14.11,0.9256,"[0.8333, 0.9914]",81.51,0.8987,29,25,4,3
+eyesOpen,Eyes-Open,Quadratic SVM,61,930,54,88.52,78.16,94.33,90.62,86.21,89.23,88.14,12.63,11.98,0.9526,"[0.8939, 0.9936]",80.75,0.89,29,25,4,3
+eyesOpen,Eyes-Open,Weighted KNN,61,930,54,88.52,78.16,94.33,90.62,86.21,89.23,88.14,12.63,11.98,0.9461,"[0.8742, 0.9946]",81.94,0.8914,29,25,4,3
+eyesOpen,Eyes-Open,Ensemble Bagged Tree,61,930,53,86.89,76.2,93.2,90.62,82.76,87.88,86.48,14.32,13.59,0.9343,"[0.8496, 0.9931]",83.01,0.9003,29,24,5,3
+eyesOpen,Eyes-Open,Fine Gaussian SVM,61,930,32,52.46,40.16,64.47,96.88,3.45,68.13,51.86,11.21,10.64,0.4407,"[0.3050, 0.5860]",54.84,0.448,31,1,28,1
