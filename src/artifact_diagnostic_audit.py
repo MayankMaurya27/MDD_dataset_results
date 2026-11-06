@@ -340,3 +340,4 @@ def generate_diagnostic_plots(rec_df, ch_df, rep_files):
 
 if __name__ == "__main__":
     run_diagnostic()
+

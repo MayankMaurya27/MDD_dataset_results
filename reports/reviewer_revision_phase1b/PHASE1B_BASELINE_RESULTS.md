@@ -78,3 +78,4 @@ To address Reviewer Concern 11 (absence of classical spectral and time-frequency
 These findings will be incorporated directly into Section 4 (Discussion & Benchmarks):
 - Rather than presenting SPWVD as an isolated miracle method, it is now grounded as a rigorous time-frequency representation that matches and modestly exceeds classical Fourier and wavelet 2D embeddings, with deep transfer learning providing high linear separability without manual feature engineering.
 - Transparent reporting of the strong Welch PSD + RBF SVM baseline strengthens the paper's scientific credibility and directly answers Reviewer Comment 11.
+

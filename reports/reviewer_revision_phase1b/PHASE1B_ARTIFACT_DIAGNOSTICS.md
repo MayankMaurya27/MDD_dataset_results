@@ -83,3 +83,4 @@ To evaluate Independent Component Analysis (ICA) as requested by the reviewer:
    - Because ocular blinks are concentrated in 2 leads (`Fp1`, `Fp2`) and attenuate rapidly with scalp distance, the 17 non-polar sensors dilute blink energy by a factor of $\approx 10\times$.
    - Furthermore, the 0.5–45.0 Hz zero-phase filter eliminates low-frequency baseline wander (<0.5 Hz) and muscle EMG harmonics (>45 Hz).
    - *Conclusion:* Applying automated wholesale epoch rejection (e.g., throwing out any epoch with `Fp1` > 100 $\mu V$) would unnecessarily discard over 32% of Eyes-Open recordings. Preserving these segments while relying on multi-channel spatial averaging and deep transfer learning feature extraction provides robust classification without data loss.
+
