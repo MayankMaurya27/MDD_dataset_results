@@ -1,0 +1,9 @@
+baseline_name,classifier,n_participants,n_segments,correct_participants,pooled_accuracy_pct,wilson_95ci,sensitivity_pct,specificity_pct,f1_score_pct,fold_mean_acc_pct,fold_sd_sample_ddof1,fold_sd_pop_ddof0,participant_auc,bootstrap_auc_95ci,bootstrap_se,segment_accuracy_pct,segment_auc,condition,cohort_name
+Welch PSD + Linear SVM,Linear SVM,58,870,50,86.21,"[75.07%, 92.84%]",83.33,89.29,86.21,86.0,19.8,18.79,0.9417,"[0.8793, 0.9881]",0.0288,82.64,0.8931,eyesClosed,Eyes-Closed
+Welch PSD + RBF SVM,Medium Gaussian SVM,58,870,52,89.66,"[79.21%, 95.17%]",96.67,82.14,90.62,89.9,8.79,8.34,0.9631,"[0.9143, 1.0000]",0.0222,86.67,0.9315,eyesClosed,Eyes-Closed
+STFT + ResNet-18 (Linear SVM),Linear SVM,58,870,52,89.66,"[79.21%, 95.17%]",93.33,85.71,90.32,89.9,11.79,11.19,0.9429,"[0.8829, 0.9865]",0.027,80.57,0.8826,eyesClosed,Eyes-Closed
+CWT Morlet + ResNet-18 (Linear SVM),Linear SVM,58,870,50,86.21,"[75.07%, 92.84%]",93.33,78.57,87.5,86.24,10.83,10.27,0.944,"[0.8787, 0.9893]",0.0279,79.54,0.8626,eyesClosed,Eyes-Closed
+Welch PSD + Linear SVM,Linear SVM,61,930,52,85.25,"[74.28%, 92.04%]",87.5,82.76,86.15,85.38,14.08,13.35,0.9375,"[0.8667, 0.9874]",0.0304,84.3,0.9214,eyesOpen,Eyes-Open
+Welch PSD + RBF SVM,Medium Gaussian SVM,61,930,56,91.8,"[82.21%, 96.45%]",96.88,86.21,92.54,91.81,8.77,8.32,0.9569,"[0.8946, 0.9935]",0.0245,87.53,0.9494,eyesOpen,Eyes-Open
+STFT + ResNet-18 (Linear SVM),Linear SVM,61,930,53,86.89,"[76.20%, 93.20%]",90.62,82.76,87.88,86.48,11.97,11.36,0.9364,"[0.8604, 0.9890]",0.0317,80.22,0.8751,eyesOpen,Eyes-Open
+CWT Morlet + ResNet-18 (Linear SVM),Linear SVM,61,930,55,90.16,"[80.16%, 95.41%]",93.75,86.21,90.91,89.81,13.02,12.35,0.9526,"[0.8879, 0.9989]",0.0294,81.08,0.8699,eyesOpen,Eyes-Open

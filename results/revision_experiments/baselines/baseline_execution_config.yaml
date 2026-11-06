@@ -1,0 +1,63 @@
+execution_time_seconds: 31.03
+hardware:
+  device: mps
+  mne_version: 1.13.2
+  platform: Apple Silicon (macOS)
+  scikit_learn_version: 1.6.1
+  torch_version: !!python/object/new:torch.torch_version.TorchVersion
+  - 2.14.1
+parameters:
+  bandpass_filter_hz:
+  - 0.5
+  - 45.0
+  bands:
+    alpha: !!python/tuple
+    - 8.0
+    - 13.0
+    beta: !!python/tuple
+    - 13.0
+    - 30.0
+    delta: !!python/tuple
+    - 0.5
+    - 4.0
+    gamma: !!python/tuple
+    - 30.0
+    - 45.0
+    theta: !!python/tuple
+    - 4.0
+    - 8.0
+  bootstrap_iterations: 1000
+  cv_folds: 10
+  cv_type: StratifiedGroupKFold
+  cwt_freqs_hz:
+  - 1.0
+  - 45.0
+  cwt_n_scales: 32
+  epoch_duration_sec: 2.0
+  epoch_samples: 512
+  n_study_epochs_per_recording: 15
+  random_seed: 42
+  sampling_rate: 256.0
+  standard_channels:
+  - Fp1
+  - F3
+  - C3
+  - P3
+  - O1
+  - F7
+  - T3
+  - T5
+  - Fz
+  - Fp2
+  - F4
+  - C4
+  - P4
+  - O2
+  - F8
+  - T4
+  - T6
+  - Cz
+  - Pz
+  stft_noverlap: 32
+  stft_nperseg: 64
+  stft_window: hann
