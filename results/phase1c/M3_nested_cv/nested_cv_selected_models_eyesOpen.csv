@@ -1,0 +1,11 @@
+outer_fold,cohort,selected_rep,selected_backbone,selected_classifier,selected_params,inner_cv_mean_auc,inner_cv_mean_bacc,fold_runtime_sec
+0,EyesOpen,CWT_Morlet,ResNet-18,Logistic Regression,"{""C"": 1.0}",0.98,0.8867,4.74
+1,EyesOpen,CWT_Morlet,ResNet-18,Linear SVM,"{""C"": 1.0}",0.9767,0.87,4.89
+2,EyesOpen,Welch_PSD,Direct_Features,Linear SVM,"{""C"": 1.0}",0.96,0.8733,4.87
+3,EyesOpen,Welch_PSD,Direct_Features,RBF SVM,"{""C"": 1.0, ""gamma"": ""scale""}",0.9867,0.91,4.82
+4,EyesOpen,CWT_Morlet,ResNet-18,Logistic Regression,"{""C"": 1.0}",0.9833,0.8967,4.89
+5,EyesOpen,Welch_PSD,Direct_Features,RBF SVM,"{""C"": 1.0, ""gamma"": ""scale""}",0.9667,0.8867,4.88
+6,EyesOpen,Welch_PSD,Direct_Features,Random Forest,"{""n_estimators"": 100}",0.98,0.9067,4.98
+7,EyesOpen,Welch_PSD,Direct_Features,MLP,"{""alpha"": 0.0001}",0.96,0.8567,5.11
+8,EyesOpen,CWT_Morlet,ResNet-18,Linear SVM,"{""C"": 1.0}",0.9467,0.9033,4.78
+9,EyesOpen,CWT_Morlet,ResNet-18,Logistic Regression,"{""C"": 1.0}",0.96,0.87,4.98

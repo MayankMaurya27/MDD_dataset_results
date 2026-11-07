@@ -1,0 +1,11 @@
+outer_fold,cohort,selected_rep,selected_backbone,selected_classifier,selected_params,inner_cv_mean_auc,inner_cv_mean_bacc,fold_runtime_sec
+0,EyesClosed,STFT,ResNet-18,Logistic Regression,"{""C"": 1.0}",0.9787,0.8467,4.89
+1,EyesClosed,SPWVD,ResNet-18,Logistic Regression,"{""C"": 1.0}",0.984,0.94,4.75
+2,EyesClosed,Welch_PSD,Direct_Features,Random Forest,"{""n_estimators"": 100}",0.9773,0.92,4.83
+3,EyesClosed,Welch_PSD,Direct_Features,Logistic Regression,"{""C"": 1.0}",0.96,0.84,4.66
+4,EyesClosed,STFT,ResNet-18,MLP,"{""alpha"": 0.0001}",0.9707,0.9033,4.82
+5,EyesClosed,STFT,ResNet-18,Logistic Regression,"{""C"": 1.0}",0.9413,0.8833,4.8
+6,EyesClosed,Welch_PSD,Direct_Features,MLP,"{""alpha"": 0.0001}",0.9653,0.9067,4.85
+7,EyesClosed,Welch_PSD,Direct_Features,Random Forest,"{""n_estimators"": 100}",0.9867,0.8633,4.94
+8,EyesClosed,STFT,ResNet-18,Linear SVM,"{""C"": 1.0}",0.9933,0.98,4.58
+9,EyesClosed,Welch_PSD,Direct_Features,MLP,"{""alpha"": 0.0001}",0.972,0.86,4.99

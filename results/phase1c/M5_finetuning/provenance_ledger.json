@@ -1,0 +1,19 @@
+{
+  "execution_date": "2026-11-07 13:57:44",
+  "hardware_device": "mps",
+  "pytorch_version": "2.14.1",
+  "backbones": {
+    "ResNet-18": "ResNet18_Weights.IMAGENET1K_V1",
+    "ResNet-50": "ResNet50_Weights.IMAGENET1K_V2"
+  },
+  "hyperparameters": {
+    "optimizer": "AdamW",
+    "backbone_learning_rate": 1e-05,
+    "head_learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "batch_size": 32,
+    "max_epochs": 8,
+    "early_stopping_patience": 3,
+    "criterion": "CrossEntropyLoss"
+  }
+}

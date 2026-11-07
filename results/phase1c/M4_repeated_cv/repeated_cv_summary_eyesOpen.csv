@@ -1,0 +1,4 @@
+cohort,pipeline,n_repeats,mean_accuracy_pct,sd_accuracy_ddof1,min_accuracy_pct,max_accuracy_pct,mean_roc_auc,sd_roc_auc_ddof1,min_roc_auc,max_roc_auc,mean_sensitivity_pct,mean_specificity_pct,mean_f1_score_pct
+EyesOpen,SPWVD_ResNet18_LinearSVM,10,88.85,2.16,83.61,91.8,0.9346,0.014,0.8966,0.945,90.62,86.9,89.54
+EyesOpen,SPWVD_ResNet18_MLP,10,91.14,1.15,88.52,91.8,0.948,0.0211,0.8933,0.9688,90.62,91.72,91.49
+EyesOpen,Welch_PSD_RBFSVM,10,90.0,1.43,86.89,91.8,0.9587,0.0182,0.9127,0.9731,93.44,86.21,90.74

@@ -1,0 +1,36 @@
+pipeline,classifier,n_participants,n_segments,accuracy_pct,sensitivity_pct,specificity_pct,f1_score_pct,roc_auc,auc_95ci_low,auc_95ci_high,auc_ci_str,representation,backbone,cohort
+SPWVD + ResNet-18,Linear SVM,58,870,87.93,90.0,85.71,88.52,0.9512,0.8877,0.9939,"[0.8877, 0.9939]",SPWVD,ResNet-18,EyesClosed
+SPWVD + ResNet-18,RBF SVM,58,870,87.93,90.0,85.71,88.52,0.931,0.857,0.9842,"[0.8570, 0.9842]",SPWVD,ResNet-18,EyesClosed
+SPWVD + ResNet-18,MLP,58,870,89.66,90.0,89.29,90.0,0.944,0.8788,0.9886,"[0.8788, 0.9886]",SPWVD,ResNet-18,EyesClosed
+SPWVD + ResNet-18,Logistic Regression,58,870,91.38,93.33,89.29,91.8,0.9524,0.8869,0.9976,"[0.8869, 0.9976]",SPWVD,ResNet-18,EyesClosed
+SPWVD + ResNet-18,Random Forest,58,870,84.48,93.33,75.0,86.15,0.9048,0.8125,0.9688,"[0.8125, 0.9688]",SPWVD,ResNet-18,EyesClosed
+STFT + ResNet-18,Linear SVM,58,870,91.38,93.33,89.29,91.8,0.9488,0.8785,0.9964,"[0.8785, 0.9964]",STFT,ResNet-18,EyesClosed
+STFT + ResNet-18,RBF SVM,58,870,91.38,96.67,85.71,92.06,0.9274,0.8394,0.9952,"[0.8394, 0.9952]",STFT,ResNet-18,EyesClosed
+STFT + ResNet-18,MLP,58,870,93.1,96.67,89.29,93.55,0.9631,0.9095,0.9971,"[0.9095, 0.9971]",STFT,ResNet-18,EyesClosed
+STFT + ResNet-18,Logistic Regression,58,870,89.66,90.0,89.29,90.0,0.9536,0.8777,0.9988,"[0.8777, 0.9988]",STFT,ResNet-18,EyesClosed
+STFT + ResNet-18,Random Forest,58,870,91.38,93.33,89.29,91.8,0.9298,0.8424,0.9952,"[0.8424, 0.9952]",STFT,ResNet-18,EyesClosed
+CWT_Morlet + ResNet-18,Linear SVM,58,870,93.1,96.67,89.29,93.55,0.9405,0.8631,0.9939,"[0.8631, 0.9939]",CWT_Morlet,ResNet-18,EyesClosed
+CWT_Morlet + ResNet-18,RBF SVM,58,870,91.38,93.33,89.29,91.8,0.9131,0.8226,0.9826,"[0.8226, 0.9826]",CWT_Morlet,ResNet-18,EyesClosed
+CWT_Morlet + ResNet-18,MLP,58,870,91.38,93.33,89.29,91.8,0.9286,0.8459,0.9867,"[0.8459, 0.9867]",CWT_Morlet,ResNet-18,EyesClosed
+CWT_Morlet + ResNet-18,Logistic Regression,58,870,93.1,96.67,89.29,93.55,0.944,0.8667,0.9975,"[0.8667, 0.9975]",CWT_Morlet,ResNet-18,EyesClosed
+CWT_Morlet + ResNet-18,Random Forest,58,870,91.38,93.33,89.29,91.8,0.9262,0.8435,0.9892,"[0.8435, 0.9892]",CWT_Morlet,ResNet-18,EyesClosed
+SPWVD + ResNet-50,Linear SVM,58,870,89.66,93.33,85.71,90.32,0.9262,0.8468,0.983,"[0.8468, 0.9830]",SPWVD,ResNet-50,EyesClosed
+SPWVD + ResNet-50,RBF SVM,58,870,89.66,93.33,85.71,90.32,0.9226,0.8363,0.9868,"[0.8363, 0.9868]",SPWVD,ResNet-50,EyesClosed
+SPWVD + ResNet-50,MLP,58,870,89.66,93.33,85.71,90.32,0.9286,0.8497,0.9844,"[0.8497, 0.9844]",SPWVD,ResNet-50,EyesClosed
+SPWVD + ResNet-50,Logistic Regression,58,870,91.38,93.33,89.29,91.8,0.9298,0.8468,0.9879,"[0.8468, 0.9879]",SPWVD,ResNet-50,EyesClosed
+SPWVD + ResNet-50,Random Forest,58,870,87.93,90.0,85.71,88.52,0.9202,0.8345,0.9822,"[0.8345, 0.9822]",SPWVD,ResNet-50,EyesClosed
+STFT + ResNet-50,Linear SVM,58,870,93.1,96.67,89.29,93.55,0.9405,0.8667,0.9917,"[0.8667, 0.9917]",STFT,ResNet-50,EyesClosed
+STFT + ResNet-50,RBF SVM,58,870,87.93,93.33,82.14,88.89,0.9226,0.8309,0.9897,"[0.8309, 0.9897]",STFT,ResNet-50,EyesClosed
+STFT + ResNet-50,MLP,58,870,93.1,96.67,89.29,93.55,0.944,0.8654,1.0,"[0.8654, 1.0000]",STFT,ResNet-50,EyesClosed
+STFT + ResNet-50,Logistic Regression,58,870,93.1,96.67,89.29,93.55,0.9452,0.8712,0.9976,"[0.8712, 0.9976]",STFT,ResNet-50,EyesClosed
+STFT + ResNet-50,Random Forest,58,870,91.38,93.33,89.29,91.8,0.9357,0.8518,0.995,"[0.8518, 0.9950]",STFT,ResNet-50,EyesClosed
+CWT_Morlet + ResNet-50,Linear SVM,58,870,91.38,93.33,89.29,91.8,0.9321,0.8509,0.9917,"[0.8509, 0.9917]",CWT_Morlet,ResNet-50,EyesClosed
+CWT_Morlet + ResNet-50,RBF SVM,58,870,91.38,93.33,89.29,91.8,0.9131,0.8164,0.9845,"[0.8164, 0.9845]",CWT_Morlet,ResNet-50,EyesClosed
+CWT_Morlet + ResNet-50,MLP,58,870,91.38,93.33,89.29,91.8,0.9452,0.8702,0.9988,"[0.8702, 0.9988]",CWT_Morlet,ResNet-50,EyesClosed
+CWT_Morlet + ResNet-50,Logistic Regression,58,870,91.38,93.33,89.29,91.8,0.9298,0.8422,0.9964,"[0.8422, 0.9964]",CWT_Morlet,ResNet-50,EyesClosed
+CWT_Morlet + ResNet-50,Random Forest,58,870,91.38,93.33,89.29,91.8,0.9167,0.8233,0.9905,"[0.8233, 0.9905]",CWT_Morlet,ResNet-50,EyesClosed
+Welch_PSD (Direct Features),Linear SVM,58,870,91.38,93.33,89.29,91.8,0.9452,0.8738,0.991,"[0.8738, 0.9910]",Welch_PSD,Direct_Features,EyesClosed
+Welch_PSD (Direct Features),RBF SVM,58,870,89.66,96.67,82.14,90.62,0.9571,0.8916,1.0,"[0.8916, 1.0000]",Welch_PSD,Direct_Features,EyesClosed
+Welch_PSD (Direct Features),MLP,58,870,86.21,90.0,82.14,87.1,0.9595,0.9066,0.9923,"[0.9066, 0.9923]",Welch_PSD,Direct_Features,EyesClosed
+Welch_PSD (Direct Features),Logistic Regression,58,870,89.66,90.0,89.29,90.0,0.9536,0.8907,0.9936,"[0.8907, 0.9936]",Welch_PSD,Direct_Features,EyesClosed
+Welch_PSD (Direct Features),Random Forest,58,870,91.38,96.67,85.71,92.06,0.9667,0.9179,0.9964,"[0.9179, 0.9964]",Welch_PSD,Direct_Features,EyesClosed

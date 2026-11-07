@@ -1,0 +1,871 @@
+segment_global_idx,participant_id,fold,y_true,y_prob,selected_rep,selected_backbone,selected_classifier
+195,sub-HS23,0,0,0.10397013276815414,STFT,ResNet-18,Logistic Regression
+196,sub-HS23,0,0,3.443313471507281e-05,STFT,ResNet-18,Logistic Regression
+197,sub-HS23,0,0,0.00019410041568335146,STFT,ResNet-18,Logistic Regression
+198,sub-HS23,0,0,0.000139456577016972,STFT,ResNet-18,Logistic Regression
+199,sub-HS23,0,0,0.9028394222259521,STFT,ResNet-18,Logistic Regression
+200,sub-HS23,0,0,1.5081520814419491e-06,STFT,ResNet-18,Logistic Regression
+201,sub-HS23,0,0,0.0034060406032949686,STFT,ResNet-18,Logistic Regression
+202,sub-HS23,0,0,0.00029566886951215565,STFT,ResNet-18,Logistic Regression
+203,sub-HS23,0,0,7.648956739103596e-07,STFT,ResNet-18,Logistic Regression
+204,sub-HS23,0,0,0.0005262357881292701,STFT,ResNet-18,Logistic Regression
+205,sub-HS23,0,0,1.7805921743274666e-05,STFT,ResNet-18,Logistic Regression
+206,sub-HS23,0,0,7.612977060489357e-05,STFT,ResNet-18,Logistic Regression
+207,sub-HS23,0,0,0.08801024407148361,STFT,ResNet-18,Logistic Regression
+208,sub-HS23,0,0,0.0006277456996031106,STFT,ResNet-18,Logistic Regression
+209,sub-HS23,0,0,0.001725437818095088,STFT,ResNet-18,Logistic Regression
+315,sub-HS30,0,0,0.06106606870889664,STFT,ResNet-18,Logistic Regression
+316,sub-HS30,0,0,3.7800041354785208e-06,STFT,ResNet-18,Logistic Regression
+317,sub-HS30,0,0,0.011301162652671337,STFT,ResNet-18,Logistic Regression
+318,sub-HS30,0,0,0.0005237272707745433,STFT,ResNet-18,Logistic Regression
+319,sub-HS30,0,0,0.03836381062865257,STFT,ResNet-18,Logistic Regression
+320,sub-HS30,0,0,0.0038636738900095224,STFT,ResNet-18,Logistic Regression
+321,sub-HS30,0,0,0.004032162018120289,STFT,ResNet-18,Logistic Regression
+322,sub-HS30,0,0,0.09041739255189896,STFT,ResNet-18,Logistic Regression
+323,sub-HS30,0,0,0.020813772454857826,STFT,ResNet-18,Logistic Regression
+324,sub-HS30,0,0,0.011196213774383068,STFT,ResNet-18,Logistic Regression
+325,sub-HS30,0,0,0.08093974739313126,STFT,ResNet-18,Logistic Regression
+326,sub-HS30,0,0,0.026960251852869987,STFT,ResNet-18,Logistic Regression
+327,sub-HS30,0,0,0.005355749279260635,STFT,ResNet-18,Logistic Regression
+328,sub-HS30,0,0,0.07425688952207565,STFT,ResNet-18,Logistic Regression
+329,sub-HS30,0,0,0.07366639375686646,STFT,ResNet-18,Logistic Regression
+375,sub-HS7,0,0,2.232948714819827e-09,STFT,ResNet-18,Logistic Regression
+376,sub-HS7,0,0,0.03908675163984299,STFT,ResNet-18,Logistic Regression
+377,sub-HS7,0,0,3.811740498349536e-06,STFT,ResNet-18,Logistic Regression
+378,sub-HS7,0,0,0.0022785693872720003,STFT,ResNet-18,Logistic Regression
+379,sub-HS7,0,0,3.329456887968263e-07,STFT,ResNet-18,Logistic Regression
+380,sub-HS7,0,0,4.34371003166234e-07,STFT,ResNet-18,Logistic Regression
+381,sub-HS7,0,0,1.6017726011341438e-05,STFT,ResNet-18,Logistic Regression
+382,sub-HS7,0,0,7.065875252010301e-06,STFT,ResNet-18,Logistic Regression
+383,sub-HS7,0,0,0.0014669193187728524,STFT,ResNet-18,Logistic Regression
+384,sub-HS7,0,0,1.9066066670347936e-05,STFT,ResNet-18,Logistic Regression
+385,sub-HS7,0,0,0.032628681510686874,STFT,ResNet-18,Logistic Regression
+386,sub-HS7,0,0,0.013608387671411037,STFT,ResNet-18,Logistic Regression
+387,sub-HS7,0,0,0.0011557142715901136,STFT,ResNet-18,Logistic Regression
+388,sub-HS7,0,0,3.274311529821716e-05,STFT,ResNet-18,Logistic Regression
+389,sub-HS7,0,0,0.011162104085087776,STFT,ResNet-18,Logistic Regression
+420,sub-MDDS1,0,1,0.9999507665634155,STFT,ResNet-18,Logistic Regression
+421,sub-MDDS1,0,1,1.0,STFT,ResNet-18,Logistic Regression
+422,sub-MDDS1,0,1,0.998938262462616,STFT,ResNet-18,Logistic Regression
+423,sub-MDDS1,0,1,1.0,STFT,ResNet-18,Logistic Regression
+424,sub-MDDS1,0,1,0.9991355538368225,STFT,ResNet-18,Logistic Regression
+425,sub-MDDS1,0,1,0.9995930790901184,STFT,ResNet-18,Logistic Regression
+426,sub-MDDS1,0,1,0.9999850988388062,STFT,ResNet-18,Logistic Regression
+427,sub-MDDS1,0,1,0.594580352306366,STFT,ResNet-18,Logistic Regression
+428,sub-MDDS1,0,1,0.9998825788497925,STFT,ResNet-18,Logistic Regression
+429,sub-MDDS1,0,1,0.9881142973899841,STFT,ResNet-18,Logistic Regression
+430,sub-MDDS1,0,1,0.9999998807907104,STFT,ResNet-18,Logistic Regression
+431,sub-MDDS1,0,1,0.9999998807907104,STFT,ResNet-18,Logistic Regression
+432,sub-MDDS1,0,1,0.9999997615814209,STFT,ResNet-18,Logistic Regression
+433,sub-MDDS1,0,1,0.9935990571975708,STFT,ResNet-18,Logistic Regression
+434,sub-MDDS1,0,1,0.10130208730697632,STFT,ResNet-18,Logistic Regression
+540,sub-MDDS19,0,1,0.9999436140060425,STFT,ResNet-18,Logistic Regression
+541,sub-MDDS19,0,1,0.08651189506053925,STFT,ResNet-18,Logistic Regression
+542,sub-MDDS19,0,1,0.5744479894638062,STFT,ResNet-18,Logistic Regression
+543,sub-MDDS19,0,1,0.9983654618263245,STFT,ResNet-18,Logistic Regression
+544,sub-MDDS19,0,1,0.9994617104530334,STFT,ResNet-18,Logistic Regression
+545,sub-MDDS19,0,1,0.9140663146972656,STFT,ResNet-18,Logistic Regression
+546,sub-MDDS19,0,1,0.6981934905052185,STFT,ResNet-18,Logistic Regression
+547,sub-MDDS19,0,1,0.9658412933349609,STFT,ResNet-18,Logistic Regression
+548,sub-MDDS19,0,1,0.9745599031448364,STFT,ResNet-18,Logistic Regression
+549,sub-MDDS19,0,1,0.0028349589556455612,STFT,ResNet-18,Logistic Regression
+550,sub-MDDS19,0,1,0.0002213724801549688,STFT,ResNet-18,Logistic Regression
+551,sub-MDDS19,0,1,0.0010637312661856413,STFT,ResNet-18,Logistic Regression
+552,sub-MDDS19,0,1,0.002018064958974719,STFT,ResNet-18,Logistic Regression
+553,sub-MDDS19,0,1,7.578245913464343e-06,STFT,ResNet-18,Logistic Regression
+554,sub-MDDS19,0,1,0.01239568181335926,STFT,ResNet-18,Logistic Regression
+735,sub-MDDS30,0,1,0.9998043179512024,STFT,ResNet-18,Logistic Regression
+736,sub-MDDS30,0,1,0.2730335593223572,STFT,ResNet-18,Logistic Regression
+737,sub-MDDS30,0,1,0.9271445274353027,STFT,ResNet-18,Logistic Regression
+738,sub-MDDS30,0,1,0.9999997615814209,STFT,ResNet-18,Logistic Regression
+739,sub-MDDS30,0,1,0.8094850182533264,STFT,ResNet-18,Logistic Regression
+740,sub-MDDS30,0,1,0.9070495367050171,STFT,ResNet-18,Logistic Regression
+741,sub-MDDS30,0,1,0.9999520778656006,STFT,ResNet-18,Logistic Regression
+742,sub-MDDS30,0,1,0.9906936287879944,STFT,ResNet-18,Logistic Regression
+743,sub-MDDS30,0,1,0.9888923764228821,STFT,ResNet-18,Logistic Regression
+744,sub-MDDS30,0,1,0.9998031258583069,STFT,ResNet-18,Logistic Regression
+745,sub-MDDS30,0,1,0.9999896287918091,STFT,ResNet-18,Logistic Regression
+746,sub-MDDS30,0,1,0.9999450445175171,STFT,ResNet-18,Logistic Regression
+747,sub-MDDS30,0,1,0.9999366998672485,STFT,ResNet-18,Logistic Regression
+748,sub-MDDS30,0,1,0.9999998807907104,STFT,ResNet-18,Logistic Regression
+749,sub-MDDS30,0,1,0.9999984502792358,STFT,ResNet-18,Logistic Regression
+105,sub-HS17,1,0,0.0004981031524948776,SPWVD,ResNet-18,Logistic Regression
+106,sub-HS17,1,0,0.0013210601173341274,SPWVD,ResNet-18,Logistic Regression
+107,sub-HS17,1,0,4.818055003852351e-06,SPWVD,ResNet-18,Logistic Regression
+108,sub-HS17,1,0,4.48697073807125e-06,SPWVD,ResNet-18,Logistic Regression
+109,sub-HS17,1,0,0.9999918937683105,SPWVD,ResNet-18,Logistic Regression
+110,sub-HS17,1,0,0.024086030200123787,SPWVD,ResNet-18,Logistic Regression
+111,sub-HS17,1,0,1.899575727293268e-05,SPWVD,ResNet-18,Logistic Regression
+112,sub-HS17,1,0,0.10661929100751877,SPWVD,ResNet-18,Logistic Regression
+113,sub-HS17,1,0,2.0754567231051624e-05,SPWVD,ResNet-18,Logistic Regression
+114,sub-HS17,1,0,0.9993582367897034,SPWVD,ResNet-18,Logistic Regression
+115,sub-HS17,1,0,0.0569477342069149,SPWVD,ResNet-18,Logistic Regression
+116,sub-HS17,1,0,0.00011661882308544591,SPWVD,ResNet-18,Logistic Regression
+117,sub-HS17,1,0,0.0008017279324121773,SPWVD,ResNet-18,Logistic Regression
+118,sub-HS17,1,0,0.09270099550485611,SPWVD,ResNet-18,Logistic Regression
+119,sub-HS17,1,0,0.00017531125922687352,SPWVD,ResNet-18,Logistic Regression
+225,sub-HS25,1,0,0.01670883037149906,SPWVD,ResNet-18,Logistic Regression
+226,sub-HS25,1,0,0.5577559471130371,SPWVD,ResNet-18,Logistic Regression
+227,sub-HS25,1,0,0.9968993663787842,SPWVD,ResNet-18,Logistic Regression
+228,sub-HS25,1,0,0.992821991443634,SPWVD,ResNet-18,Logistic Regression
+229,sub-HS25,1,0,0.9995550513267517,SPWVD,ResNet-18,Logistic Regression
+230,sub-HS25,1,0,0.9990680813789368,SPWVD,ResNet-18,Logistic Regression
+231,sub-HS25,1,0,0.9999945163726807,SPWVD,ResNet-18,Logistic Regression
+232,sub-HS25,1,0,0.7077111005783081,SPWVD,ResNet-18,Logistic Regression
+233,sub-HS25,1,0,0.8448453545570374,SPWVD,ResNet-18,Logistic Regression
+234,sub-HS25,1,0,0.8631144762039185,SPWVD,ResNet-18,Logistic Regression
+235,sub-HS25,1,0,0.677747368812561,SPWVD,ResNet-18,Logistic Regression
+236,sub-HS25,1,0,0.9999947547912598,SPWVD,ResNet-18,Logistic Regression
+237,sub-HS25,1,0,0.07008633762598038,SPWVD,ResNet-18,Logistic Regression
+238,sub-HS25,1,0,0.999932050704956,SPWVD,ResNet-18,Logistic Regression
+239,sub-HS25,1,0,0.9967848062515259,SPWVD,ResNet-18,Logistic Regression
+480,sub-MDDS14,1,1,0.9982896447181702,SPWVD,ResNet-18,Logistic Regression
+481,sub-MDDS14,1,1,0.9979438185691833,SPWVD,ResNet-18,Logistic Regression
+482,sub-MDDS14,1,1,0.9999978542327881,SPWVD,ResNet-18,Logistic Regression
+483,sub-MDDS14,1,1,0.9999842643737793,SPWVD,ResNet-18,Logistic Regression
+484,sub-MDDS14,1,1,0.9927136301994324,SPWVD,ResNet-18,Logistic Regression
+485,sub-MDDS14,1,1,0.9999998807907104,SPWVD,ResNet-18,Logistic Regression
+486,sub-MDDS14,1,1,0.5526044368743896,SPWVD,ResNet-18,Logistic Regression
+487,sub-MDDS14,1,1,0.999950647354126,SPWVD,ResNet-18,Logistic Regression
+488,sub-MDDS14,1,1,1.0,SPWVD,ResNet-18,Logistic Regression
+489,sub-MDDS14,1,1,0.9996800422668457,SPWVD,ResNet-18,Logistic Regression
+490,sub-MDDS14,1,1,0.5058148503303528,SPWVD,ResNet-18,Logistic Regression
+491,sub-MDDS14,1,1,0.999993085861206,SPWVD,ResNet-18,Logistic Regression
+492,sub-MDDS14,1,1,0.9994118213653564,SPWVD,ResNet-18,Logistic Regression
+493,sub-MDDS14,1,1,0.9994732737541199,SPWVD,ResNet-18,Logistic Regression
+494,sub-MDDS14,1,1,1.0,SPWVD,ResNet-18,Logistic Regression
+570,sub-MDDS20,1,1,0.07336420565843582,SPWVD,ResNet-18,Logistic Regression
+571,sub-MDDS20,1,1,0.9858701229095459,SPWVD,ResNet-18,Logistic Regression
+572,sub-MDDS20,1,1,0.033610716462135315,SPWVD,ResNet-18,Logistic Regression
+573,sub-MDDS20,1,1,0.9998399019241333,SPWVD,ResNet-18,Logistic Regression
+574,sub-MDDS20,1,1,0.5521202683448792,SPWVD,ResNet-18,Logistic Regression
+575,sub-MDDS20,1,1,0.0030508602503687143,SPWVD,ResNet-18,Logistic Regression
+576,sub-MDDS20,1,1,0.9975365400314331,SPWVD,ResNet-18,Logistic Regression
+577,sub-MDDS20,1,1,0.9983072280883789,SPWVD,ResNet-18,Logistic Regression
+578,sub-MDDS20,1,1,0.9586114883422852,SPWVD,ResNet-18,Logistic Regression
+579,sub-MDDS20,1,1,9.446468902751803e-05,SPWVD,ResNet-18,Logistic Regression
+580,sub-MDDS20,1,1,0.9505609273910522,SPWVD,ResNet-18,Logistic Regression
+581,sub-MDDS20,1,1,0.007043275982141495,SPWVD,ResNet-18,Logistic Regression
+582,sub-MDDS20,1,1,0.9999775886535645,SPWVD,ResNet-18,Logistic Regression
+583,sub-MDDS20,1,1,0.7860901951789856,SPWVD,ResNet-18,Logistic Regression
+584,sub-MDDS20,1,1,0.9913398623466492,SPWVD,ResNet-18,Logistic Regression
+630,sub-MDDS24,1,1,0.9994718432426453,SPWVD,ResNet-18,Logistic Regression
+631,sub-MDDS24,1,1,0.9999529123306274,SPWVD,ResNet-18,Logistic Regression
+632,sub-MDDS24,1,1,0.999996542930603,SPWVD,ResNet-18,Logistic Regression
+633,sub-MDDS24,1,1,1.0,SPWVD,ResNet-18,Logistic Regression
+634,sub-MDDS24,1,1,0.9999974966049194,SPWVD,ResNet-18,Logistic Regression
+635,sub-MDDS24,1,1,0.9210340976715088,SPWVD,ResNet-18,Logistic Regression
+636,sub-MDDS24,1,1,0.9999986886978149,SPWVD,ResNet-18,Logistic Regression
+637,sub-MDDS24,1,1,0.9999673366546631,SPWVD,ResNet-18,Logistic Regression
+638,sub-MDDS24,1,1,0.9999998807907104,SPWVD,ResNet-18,Logistic Regression
+639,sub-MDDS24,1,1,0.9999918937683105,SPWVD,ResNet-18,Logistic Regression
+640,sub-MDDS24,1,1,0.9998134970664978,SPWVD,ResNet-18,Logistic Regression
+641,sub-MDDS24,1,1,0.9998130202293396,SPWVD,ResNet-18,Logistic Regression
+642,sub-MDDS24,1,1,0.999836802482605,SPWVD,ResNet-18,Logistic Regression
+643,sub-MDDS24,1,1,0.9999740123748779,SPWVD,ResNet-18,Logistic Regression
+644,sub-MDDS24,1,1,0.9999141693115234,SPWVD,ResNet-18,Logistic Regression
+705,sub-MDDS29,1,1,0.476286381483078,SPWVD,ResNet-18,Logistic Regression
+706,sub-MDDS29,1,1,0.9726269841194153,SPWVD,ResNet-18,Logistic Regression
+707,sub-MDDS29,1,1,0.9522778391838074,SPWVD,ResNet-18,Logistic Regression
+708,sub-MDDS29,1,1,0.9988419413566589,SPWVD,ResNet-18,Logistic Regression
+709,sub-MDDS29,1,1,0.9990707039833069,SPWVD,ResNet-18,Logistic Regression
+710,sub-MDDS29,1,1,0.999997615814209,SPWVD,ResNet-18,Logistic Regression
+711,sub-MDDS29,1,1,0.9999961853027344,SPWVD,ResNet-18,Logistic Regression
+712,sub-MDDS29,1,1,1.0,SPWVD,ResNet-18,Logistic Regression
+713,sub-MDDS29,1,1,0.9999997615814209,SPWVD,ResNet-18,Logistic Regression
+714,sub-MDDS29,1,1,0.9808096289634705,SPWVD,ResNet-18,Logistic Regression
+715,sub-MDDS29,1,1,0.9884252548217773,SPWVD,ResNet-18,Logistic Regression
+716,sub-MDDS29,1,1,0.9999232292175293,SPWVD,ResNet-18,Logistic Regression
+717,sub-MDDS29,1,1,0.9994440674781799,SPWVD,ResNet-18,Logistic Regression
+718,sub-MDDS29,1,1,0.9999996423721313,SPWVD,ResNet-18,Logistic Regression
+719,sub-MDDS29,1,1,0.9999386072158813,SPWVD,ResNet-18,Logistic Regression
+150,sub-HS20,2,0,0.4903846153846154,Welch_PSD,Direct_Features,Random Forest
+151,sub-HS20,2,0,0.42385989010989017,Welch_PSD,Direct_Features,Random Forest
+152,sub-HS20,2,0,0.4503846153846154,Welch_PSD,Direct_Features,Random Forest
+153,sub-HS20,2,0,0.3903846153846154,Welch_PSD,Direct_Features,Random Forest
+154,sub-HS20,2,0,0.4199986064659978,Welch_PSD,Direct_Features,Random Forest
+155,sub-HS20,2,0,0.31142857142857144,Welch_PSD,Direct_Features,Random Forest
+156,sub-HS20,2,0,0.2805908009516257,Welch_PSD,Direct_Features,Random Forest
+157,sub-HS20,2,0,0.57,Welch_PSD,Direct_Features,Random Forest
+158,sub-HS20,2,0,0.41808060902647215,Welch_PSD,Direct_Features,Random Forest
+159,sub-HS20,2,0,0.2903846153846154,Welch_PSD,Direct_Features,Random Forest
+160,sub-HS20,2,0,0.4303846153846154,Welch_PSD,Direct_Features,Random Forest
+161,sub-HS20,2,0,0.5103846153846154,Welch_PSD,Direct_Features,Random Forest
+162,sub-HS20,2,0,0.5343846153846153,Welch_PSD,Direct_Features,Random Forest
+163,sub-HS20,2,0,0.5803846153846154,Welch_PSD,Direct_Features,Random Forest
+164,sub-HS20,2,0,0.4103846153846154,Welch_PSD,Direct_Features,Random Forest
+330,sub-HS4,2,0,0.040098039215686276,Welch_PSD,Direct_Features,Random Forest
+331,sub-HS4,2,0,0.02048265460030166,Welch_PSD,Direct_Features,Random Forest
+332,sub-HS4,2,0,0.01048265460030166,Welch_PSD,Direct_Features,Random Forest
+333,sub-HS4,2,0,0.060384615384615384,Welch_PSD,Direct_Features,Random Forest
+334,sub-HS4,2,0,0.020098039215686272,Welch_PSD,Direct_Features,Random Forest
+335,sub-HS4,2,0,0.020098039215686272,Welch_PSD,Direct_Features,Random Forest
+336,sub-HS4,2,0,0.020098039215686272,Welch_PSD,Direct_Features,Random Forest
+337,sub-HS4,2,0,0.030384615384615385,Welch_PSD,Direct_Features,Random Forest
+338,sub-HS4,2,0,0.01048265460030166,Welch_PSD,Direct_Features,Random Forest
+339,sub-HS4,2,0,0.010098039215686274,Welch_PSD,Direct_Features,Random Forest
+340,sub-HS4,2,0,0.010098039215686274,Welch_PSD,Direct_Features,Random Forest
+341,sub-HS4,2,0,9.80392156862745e-05,Welch_PSD,Direct_Features,Random Forest
+342,sub-HS4,2,0,9.80392156862745e-05,Welch_PSD,Direct_Features,Random Forest
+343,sub-HS4,2,0,0.020098039215686272,Welch_PSD,Direct_Features,Random Forest
+344,sub-HS4,2,0,0.010098039215686274,Welch_PSD,Direct_Features,Random Forest
+390,sub-HS8,2,0,9.80392156862745e-05,Welch_PSD,Direct_Features,Random Forest
+391,sub-HS8,2,0,9.80392156862745e-05,Welch_PSD,Direct_Features,Random Forest
+392,sub-HS8,2,0,9.80392156862745e-05,Welch_PSD,Direct_Features,Random Forest
+393,sub-HS8,2,0,9.80392156862745e-05,Welch_PSD,Direct_Features,Random Forest
+394,sub-HS8,2,0,9.80392156862745e-05,Welch_PSD,Direct_Features,Random Forest
+395,sub-HS8,2,0,9.80392156862745e-05,Welch_PSD,Direct_Features,Random Forest
+396,sub-HS8,2,0,9.80392156862745e-05,Welch_PSD,Direct_Features,Random Forest
+397,sub-HS8,2,0,0.09,Welch_PSD,Direct_Features,Random Forest
+398,sub-HS8,2,0,9.80392156862745e-05,Welch_PSD,Direct_Features,Random Forest
+399,sub-HS8,2,0,9.80392156862745e-05,Welch_PSD,Direct_Features,Random Forest
+400,sub-HS8,2,0,9.80392156862745e-05,Welch_PSD,Direct_Features,Random Forest
+401,sub-HS8,2,0,9.80392156862745e-05,Welch_PSD,Direct_Features,Random Forest
+402,sub-HS8,2,0,9.80392156862745e-05,Welch_PSD,Direct_Features,Random Forest
+403,sub-HS8,2,0,9.80392156862745e-05,Welch_PSD,Direct_Features,Random Forest
+404,sub-HS8,2,0,0.020098039215686272,Welch_PSD,Direct_Features,Random Forest
+525,sub-MDDS18,2,1,0.8997101449275362,Welch_PSD,Direct_Features,Random Forest
+526,sub-MDDS18,2,1,0.99,Welch_PSD,Direct_Features,Random Forest
+527,sub-MDDS18,2,1,0.9504166666666667,Welch_PSD,Direct_Features,Random Forest
+528,sub-MDDS18,2,1,0.9288153846153846,Welch_PSD,Direct_Features,Random Forest
+529,sub-MDDS18,2,1,0.8733994628779347,Welch_PSD,Direct_Features,Random Forest
+530,sub-MDDS18,2,1,0.8997101449275362,Welch_PSD,Direct_Features,Random Forest
+531,sub-MDDS18,2,1,0.945,Welch_PSD,Direct_Features,Random Forest
+532,sub-MDDS18,2,1,0.7408053830227743,Welch_PSD,Direct_Features,Random Forest
+533,sub-MDDS18,2,1,0.9513915103683124,Welch_PSD,Direct_Features,Random Forest
+534,sub-MDDS18,2,1,0.94,Welch_PSD,Direct_Features,Random Forest
+535,sub-MDDS18,2,1,0.829608286252354,Welch_PSD,Direct_Features,Random Forest
+536,sub-MDDS18,2,1,0.9598305084745763,Welch_PSD,Direct_Features,Random Forest
+537,sub-MDDS18,2,1,0.9411387163561077,Welch_PSD,Direct_Features,Random Forest
+538,sub-MDDS18,2,1,0.8514285714285714,Welch_PSD,Direct_Features,Random Forest
+539,sub-MDDS18,2,1,0.8045963963963964,Welch_PSD,Direct_Features,Random Forest
+765,sub-MDDS32,2,1,0.9791756228196907,Welch_PSD,Direct_Features,Random Forest
+766,sub-MDDS32,2,1,0.7637203148053531,Welch_PSD,Direct_Features,Random Forest
+767,sub-MDDS32,2,1,0.661888586391704,Welch_PSD,Direct_Features,Random Forest
+768,sub-MDDS32,2,1,0.9497297297297297,Welch_PSD,Direct_Features,Random Forest
+769,sub-MDDS32,2,1,0.8997297297297296,Welch_PSD,Direct_Features,Random Forest
+770,sub-MDDS32,2,1,0.7293451143451144,Welch_PSD,Direct_Features,Random Forest
+771,sub-MDDS32,2,1,0.8813800904977375,Welch_PSD,Direct_Features,Random Forest
+772,sub-MDDS32,2,1,0.9001756228196908,Welch_PSD,Direct_Features,Random Forest
+773,sub-MDDS32,2,1,0.7399038461538461,Welch_PSD,Direct_Features,Random Forest
+774,sub-MDDS32,2,1,0.893,Welch_PSD,Direct_Features,Random Forest
+775,sub-MDDS32,2,1,0.9620000000000001,Welch_PSD,Direct_Features,Random Forest
+776,sub-MDDS32,2,1,0.7812745098039217,Welch_PSD,Direct_Features,Random Forest
+777,sub-MDDS32,2,1,0.95,Welch_PSD,Direct_Features,Random Forest
+778,sub-MDDS32,2,1,0.6201189700130378,Welch_PSD,Direct_Features,Random Forest
+779,sub-MDDS32,2,1,0.97,Welch_PSD,Direct_Features,Random Forest
+0,sub-HS1,3,0,0.013678873708124187,Welch_PSD,Direct_Features,Logistic Regression
+1,sub-HS1,3,0,0.09407579067741886,Welch_PSD,Direct_Features,Logistic Regression
+2,sub-HS1,3,0,0.19087218671935355,Welch_PSD,Direct_Features,Logistic Regression
+3,sub-HS1,3,0,0.265086606711582,Welch_PSD,Direct_Features,Logistic Regression
+4,sub-HS1,3,0,0.2433936098187011,Welch_PSD,Direct_Features,Logistic Regression
+5,sub-HS1,3,0,0.020214162737813814,Welch_PSD,Direct_Features,Logistic Regression
+6,sub-HS1,3,0,0.7615353016466221,Welch_PSD,Direct_Features,Logistic Regression
+7,sub-HS1,3,0,0.7843033942106487,Welch_PSD,Direct_Features,Logistic Regression
+8,sub-HS1,3,0,0.5579170377550462,Welch_PSD,Direct_Features,Logistic Regression
+9,sub-HS1,3,0,0.18803473615685112,Welch_PSD,Direct_Features,Logistic Regression
+10,sub-HS1,3,0,0.007336004361714358,Welch_PSD,Direct_Features,Logistic Regression
+11,sub-HS1,3,0,0.2524747165595746,Welch_PSD,Direct_Features,Logistic Regression
+12,sub-HS1,3,0,0.009783860967128188,Welch_PSD,Direct_Features,Logistic Regression
+13,sub-HS1,3,0,0.9572308280091187,Welch_PSD,Direct_Features,Logistic Regression
+14,sub-HS1,3,0,0.3122048334943575,Welch_PSD,Direct_Features,Logistic Regression
+45,sub-HS13,3,0,0.20010385681514758,Welch_PSD,Direct_Features,Logistic Regression
+46,sub-HS13,3,0,0.011665507938815238,Welch_PSD,Direct_Features,Logistic Regression
+47,sub-HS13,3,0,0.006187331289996119,Welch_PSD,Direct_Features,Logistic Regression
+48,sub-HS13,3,0,0.0006101739679532466,Welch_PSD,Direct_Features,Logistic Regression
+49,sub-HS13,3,0,0.00529958972145364,Welch_PSD,Direct_Features,Logistic Regression
+50,sub-HS13,3,0,0.002977329001030825,Welch_PSD,Direct_Features,Logistic Regression
+51,sub-HS13,3,0,0.00277250718594014,Welch_PSD,Direct_Features,Logistic Regression
+52,sub-HS13,3,0,0.001156577640432516,Welch_PSD,Direct_Features,Logistic Regression
+53,sub-HS13,3,0,0.039937682545625505,Welch_PSD,Direct_Features,Logistic Regression
+54,sub-HS13,3,0,0.0014575390656960169,Welch_PSD,Direct_Features,Logistic Regression
+55,sub-HS13,3,0,0.009363015974311,Welch_PSD,Direct_Features,Logistic Regression
+56,sub-HS13,3,0,0.022951374468048714,Welch_PSD,Direct_Features,Logistic Regression
+57,sub-HS13,3,0,0.0024696755202819366,Welch_PSD,Direct_Features,Logistic Regression
+58,sub-HS13,3,0,0.011399571675856668,Welch_PSD,Direct_Features,Logistic Regression
+59,sub-HS13,3,0,0.00043723685949326446,Welch_PSD,Direct_Features,Logistic Regression
+210,sub-HS24,3,0,0.35370003997566213,Welch_PSD,Direct_Features,Logistic Regression
+211,sub-HS24,3,0,0.002121140636214716,Welch_PSD,Direct_Features,Logistic Regression
+212,sub-HS24,3,0,0.011819774281043992,Welch_PSD,Direct_Features,Logistic Regression
+213,sub-HS24,3,0,0.22086949875296155,Welch_PSD,Direct_Features,Logistic Regression
+214,sub-HS24,3,0,0.005487703390917632,Welch_PSD,Direct_Features,Logistic Regression
+215,sub-HS24,3,0,0.31823450064174386,Welch_PSD,Direct_Features,Logistic Regression
+216,sub-HS24,3,0,0.026466781353353237,Welch_PSD,Direct_Features,Logistic Regression
+217,sub-HS24,3,0,0.02047961118128406,Welch_PSD,Direct_Features,Logistic Regression
+218,sub-HS24,3,0,0.09857563682083746,Welch_PSD,Direct_Features,Logistic Regression
+219,sub-HS24,3,0,0.00684717492044991,Welch_PSD,Direct_Features,Logistic Regression
+220,sub-HS24,3,0,0.07695685449663611,Welch_PSD,Direct_Features,Logistic Regression
+221,sub-HS24,3,0,0.054872777518846304,Welch_PSD,Direct_Features,Logistic Regression
+222,sub-HS24,3,0,0.16595716614247166,Welch_PSD,Direct_Features,Logistic Regression
+223,sub-HS24,3,0,0.12613029629165273,Welch_PSD,Direct_Features,Logistic Regression
+224,sub-HS24,3,0,0.14454771686429166,Welch_PSD,Direct_Features,Logistic Regression
+435,sub-MDDS10,3,1,0.9899736251851878,Welch_PSD,Direct_Features,Logistic Regression
+436,sub-MDDS10,3,1,0.9864456572026149,Welch_PSD,Direct_Features,Logistic Regression
+437,sub-MDDS10,3,1,0.9979403008000959,Welch_PSD,Direct_Features,Logistic Regression
+438,sub-MDDS10,3,1,0.9944460245584315,Welch_PSD,Direct_Features,Logistic Regression
+439,sub-MDDS10,3,1,0.9989995885440615,Welch_PSD,Direct_Features,Logistic Regression
+440,sub-MDDS10,3,1,0.999921101584128,Welch_PSD,Direct_Features,Logistic Regression
+441,sub-MDDS10,3,1,0.9995435657566402,Welch_PSD,Direct_Features,Logistic Regression
+442,sub-MDDS10,3,1,0.9972896740508288,Welch_PSD,Direct_Features,Logistic Regression
+443,sub-MDDS10,3,1,0.9998655230469847,Welch_PSD,Direct_Features,Logistic Regression
+444,sub-MDDS10,3,1,0.9730481756132444,Welch_PSD,Direct_Features,Logistic Regression
+445,sub-MDDS10,3,1,0.9997722692670434,Welch_PSD,Direct_Features,Logistic Regression
+446,sub-MDDS10,3,1,0.9941276280954925,Welch_PSD,Direct_Features,Logistic Regression
+447,sub-MDDS10,3,1,0.9953478255492617,Welch_PSD,Direct_Features,Logistic Regression
+448,sub-MDDS10,3,1,0.9984886468220178,Welch_PSD,Direct_Features,Logistic Regression
+449,sub-MDDS10,3,1,0.968112137097402,Welch_PSD,Direct_Features,Logistic Regression
+585,sub-MDDS21,3,1,0.9999858597050417,Welch_PSD,Direct_Features,Logistic Regression
+586,sub-MDDS21,3,1,0.9999726649619674,Welch_PSD,Direct_Features,Logistic Regression
+587,sub-MDDS21,3,1,0.9999541212407836,Welch_PSD,Direct_Features,Logistic Regression
+588,sub-MDDS21,3,1,0.9999738002096016,Welch_PSD,Direct_Features,Logistic Regression
+589,sub-MDDS21,3,1,0.9999913181058937,Welch_PSD,Direct_Features,Logistic Regression
+590,sub-MDDS21,3,1,0.999916832443555,Welch_PSD,Direct_Features,Logistic Regression
+591,sub-MDDS21,3,1,0.9999805985392183,Welch_PSD,Direct_Features,Logistic Regression
+592,sub-MDDS21,3,1,0.9999806899171512,Welch_PSD,Direct_Features,Logistic Regression
+593,sub-MDDS21,3,1,0.9996396014180545,Welch_PSD,Direct_Features,Logistic Regression
+594,sub-MDDS21,3,1,0.9963583523805128,Welch_PSD,Direct_Features,Logistic Regression
+595,sub-MDDS21,3,1,0.9999183439013356,Welch_PSD,Direct_Features,Logistic Regression
+596,sub-MDDS21,3,1,0.9998682624377732,Welch_PSD,Direct_Features,Logistic Regression
+597,sub-MDDS21,3,1,0.9997300738938537,Welch_PSD,Direct_Features,Logistic Regression
+598,sub-MDDS21,3,1,0.9994645838324296,Welch_PSD,Direct_Features,Logistic Regression
+599,sub-MDDS21,3,1,0.9997505711279115,Welch_PSD,Direct_Features,Logistic Regression
+750,sub-MDDS31,3,1,0.9997131823184867,Welch_PSD,Direct_Features,Logistic Regression
+751,sub-MDDS31,3,1,0.9987676457546565,Welch_PSD,Direct_Features,Logistic Regression
+752,sub-MDDS31,3,1,0.9991128672788222,Welch_PSD,Direct_Features,Logistic Regression
+753,sub-MDDS31,3,1,0.9636787392227689,Welch_PSD,Direct_Features,Logistic Regression
+754,sub-MDDS31,3,1,0.9992807610279726,Welch_PSD,Direct_Features,Logistic Regression
+755,sub-MDDS31,3,1,0.9999980254671551,Welch_PSD,Direct_Features,Logistic Regression
+756,sub-MDDS31,3,1,0.998505097929153,Welch_PSD,Direct_Features,Logistic Regression
+757,sub-MDDS31,3,1,0.8933980794631791,Welch_PSD,Direct_Features,Logistic Regression
+758,sub-MDDS31,3,1,0.9947447315460072,Welch_PSD,Direct_Features,Logistic Regression
+759,sub-MDDS31,3,1,0.9996796956872026,Welch_PSD,Direct_Features,Logistic Regression
+760,sub-MDDS31,3,1,0.9998885490598145,Welch_PSD,Direct_Features,Logistic Regression
+761,sub-MDDS31,3,1,0.9996780969253632,Welch_PSD,Direct_Features,Logistic Regression
+762,sub-MDDS31,3,1,0.9751597475722916,Welch_PSD,Direct_Features,Logistic Regression
+763,sub-MDDS31,3,1,0.9991083011982841,Welch_PSD,Direct_Features,Logistic Regression
+764,sub-MDDS31,3,1,0.997151616614855,Welch_PSD,Direct_Features,Logistic Regression
+780,sub-MDDS33,3,1,0.9940612300577902,Welch_PSD,Direct_Features,Logistic Regression
+781,sub-MDDS33,3,1,0.9999318479805088,Welch_PSD,Direct_Features,Logistic Regression
+782,sub-MDDS33,3,1,0.9984442810495326,Welch_PSD,Direct_Features,Logistic Regression
+783,sub-MDDS33,3,1,0.9996288573124987,Welch_PSD,Direct_Features,Logistic Regression
+784,sub-MDDS33,3,1,0.9999450413960007,Welch_PSD,Direct_Features,Logistic Regression
+785,sub-MDDS33,3,1,0.9996547311053983,Welch_PSD,Direct_Features,Logistic Regression
+786,sub-MDDS33,3,1,0.9994640125688741,Welch_PSD,Direct_Features,Logistic Regression
+787,sub-MDDS33,3,1,0.9977188754946761,Welch_PSD,Direct_Features,Logistic Regression
+788,sub-MDDS33,3,1,0.9999179044763025,Welch_PSD,Direct_Features,Logistic Regression
+789,sub-MDDS33,3,1,0.9995882941933859,Welch_PSD,Direct_Features,Logistic Regression
+790,sub-MDDS33,3,1,0.9992400578801407,Welch_PSD,Direct_Features,Logistic Regression
+791,sub-MDDS33,3,1,0.9996546545882165,Welch_PSD,Direct_Features,Logistic Regression
+792,sub-MDDS33,3,1,0.9999454341177578,Welch_PSD,Direct_Features,Logistic Regression
+793,sub-MDDS33,3,1,0.9973603991595058,Welch_PSD,Direct_Features,Logistic Regression
+794,sub-MDDS33,3,1,0.9571107935122972,Welch_PSD,Direct_Features,Logistic Regression
+60,sub-HS14,4,0,0.0046926564536988735,STFT,ResNet-18,MLP
+61,sub-HS14,4,0,0.00023125164443627,STFT,ResNet-18,MLP
+62,sub-HS14,4,0,4.6909491402402637e-08,STFT,ResNet-18,MLP
+63,sub-HS14,4,0,0.00029929057927802205,STFT,ResNet-18,MLP
+64,sub-HS14,4,0,4.976673608325655e-06,STFT,ResNet-18,MLP
+65,sub-HS14,4,0,1.3858932561561232e-06,STFT,ResNet-18,MLP
+66,sub-HS14,4,0,3.974335882617197e-08,STFT,ResNet-18,MLP
+67,sub-HS14,4,0,0.001119915279559791,STFT,ResNet-18,MLP
+68,sub-HS14,4,0,1.433028683095472e-05,STFT,ResNet-18,MLP
+69,sub-HS14,4,0,0.00666611734777689,STFT,ResNet-18,MLP
+70,sub-HS14,4,0,5.121743740232887e-08,STFT,ResNet-18,MLP
+71,sub-HS14,4,0,1.5682593584642746e-05,STFT,ResNet-18,MLP
+72,sub-HS14,4,0,0.0005430225282907486,STFT,ResNet-18,MLP
+73,sub-HS14,4,0,6.099983693275135e-06,STFT,ResNet-18,MLP
+74,sub-HS14,4,0,2.5656507318672084e-07,STFT,ResNet-18,MLP
+135,sub-HS2,4,0,2.4606615625089034e-05,STFT,ResNet-18,MLP
+136,sub-HS2,4,0,0.0018349166493862867,STFT,ResNet-18,MLP
+137,sub-HS2,4,0,2.6646938522389974e-07,STFT,ResNet-18,MLP
+138,sub-HS2,4,0,0.0003876896807923913,STFT,ResNet-18,MLP
+139,sub-HS2,4,0,0.0012563966447487473,STFT,ResNet-18,MLP
+140,sub-HS2,4,0,0.003732566023245454,STFT,ResNet-18,MLP
+141,sub-HS2,4,0,0.001113352132961154,STFT,ResNet-18,MLP
+142,sub-HS2,4,0,0.00029419883503578603,STFT,ResNet-18,MLP
+143,sub-HS2,4,0,0.00022357211855705827,STFT,ResNet-18,MLP
+144,sub-HS2,4,0,0.00045975076500326395,STFT,ResNet-18,MLP
+145,sub-HS2,4,0,0.00981971062719822,STFT,ResNet-18,MLP
+146,sub-HS2,4,0,0.0524730384349823,STFT,ResNet-18,MLP
+147,sub-HS2,4,0,0.0012941196328029037,STFT,ResNet-18,MLP
+148,sub-HS2,4,0,0.026774227619171143,STFT,ResNet-18,MLP
+149,sub-HS2,4,0,2.880360625567846e-06,STFT,ResNet-18,MLP
+165,sub-HS21,4,0,5.276897923067736e-07,STFT,ResNet-18,MLP
+166,sub-HS21,4,0,9.345785478842572e-09,STFT,ResNet-18,MLP
+167,sub-HS21,4,0,1.4483946870313957e-05,STFT,ResNet-18,MLP
+168,sub-HS21,4,0,7.803353219060227e-05,STFT,ResNet-18,MLP
+169,sub-HS21,4,0,5.321293272686489e-08,STFT,ResNet-18,MLP
+170,sub-HS21,4,0,0.02875240333378315,STFT,ResNet-18,MLP
+171,sub-HS21,4,0,2.3007455638435204e-06,STFT,ResNet-18,MLP
+172,sub-HS21,4,0,7.158558582887053e-05,STFT,ResNet-18,MLP
+173,sub-HS21,4,0,2.1059013306512497e-05,STFT,ResNet-18,MLP
+174,sub-HS21,4,0,0.006888541392982006,STFT,ResNet-18,MLP
+175,sub-HS21,4,0,3.7121178593224613e-06,STFT,ResNet-18,MLP
+176,sub-HS21,4,0,0.0002335552271688357,STFT,ResNet-18,MLP
+177,sub-HS21,4,0,6.287812084337929e-07,STFT,ResNet-18,MLP
+178,sub-HS21,4,0,0.014493223279714584,STFT,ResNet-18,MLP
+179,sub-HS21,4,0,5.747056638938375e-05,STFT,ResNet-18,MLP
+645,sub-MDDS25,4,1,0.9907925128936768,STFT,ResNet-18,MLP
+646,sub-MDDS25,4,1,0.6394793391227722,STFT,ResNet-18,MLP
+647,sub-MDDS25,4,1,0.8713546395301819,STFT,ResNet-18,MLP
+648,sub-MDDS25,4,1,0.6897563338279724,STFT,ResNet-18,MLP
+649,sub-MDDS25,4,1,0.9892733693122864,STFT,ResNet-18,MLP
+650,sub-MDDS25,4,1,0.9620511531829834,STFT,ResNet-18,MLP
+651,sub-MDDS25,4,1,0.46861371397972107,STFT,ResNet-18,MLP
+652,sub-MDDS25,4,1,0.03145827353000641,STFT,ResNet-18,MLP
+653,sub-MDDS25,4,1,0.7386292815208435,STFT,ResNet-18,MLP
+654,sub-MDDS25,4,1,0.541674017906189,STFT,ResNet-18,MLP
+655,sub-MDDS25,4,1,0.9719864130020142,STFT,ResNet-18,MLP
+656,sub-MDDS25,4,1,0.057421475648880005,STFT,ResNet-18,MLP
+657,sub-MDDS25,4,1,0.6453303694725037,STFT,ResNet-18,MLP
+658,sub-MDDS25,4,1,0.03916185349225998,STFT,ResNet-18,MLP
+659,sub-MDDS25,4,1,0.9994766116142273,STFT,ResNet-18,MLP
+690,sub-MDDS28,4,1,0.9932888150215149,STFT,ResNet-18,MLP
+691,sub-MDDS28,4,1,0.7390518188476562,STFT,ResNet-18,MLP
+692,sub-MDDS28,4,1,0.959632158279419,STFT,ResNet-18,MLP
+693,sub-MDDS28,4,1,0.9999988079071045,STFT,ResNet-18,MLP
+694,sub-MDDS28,4,1,0.9990876913070679,STFT,ResNet-18,MLP
+695,sub-MDDS28,4,1,0.9999891519546509,STFT,ResNet-18,MLP
+696,sub-MDDS28,4,1,0.9971031546592712,STFT,ResNet-18,MLP
+697,sub-MDDS28,4,1,0.999987006187439,STFT,ResNet-18,MLP
+698,sub-MDDS28,4,1,0.9999279975891113,STFT,ResNet-18,MLP
+699,sub-MDDS28,4,1,0.9999717473983765,STFT,ResNet-18,MLP
+700,sub-MDDS28,4,1,0.9999815225601196,STFT,ResNet-18,MLP
+701,sub-MDDS28,4,1,0.9999299049377441,STFT,ResNet-18,MLP
+702,sub-MDDS28,4,1,0.999996542930603,STFT,ResNet-18,MLP
+703,sub-MDDS28,4,1,0.12136033922433853,STFT,ResNet-18,MLP
+704,sub-MDDS28,4,1,0.9956492781639099,STFT,ResNet-18,MLP
+15,sub-HS10,5,0,0.040358059108257294,STFT,ResNet-18,Logistic Regression
+16,sub-HS10,5,0,0.45979052782058716,STFT,ResNet-18,Logistic Regression
+17,sub-HS10,5,0,0.00011191723024239764,STFT,ResNet-18,Logistic Regression
+18,sub-HS10,5,0,7.086029654601589e-05,STFT,ResNet-18,Logistic Regression
+19,sub-HS10,5,0,0.09070497006177902,STFT,ResNet-18,Logistic Regression
+20,sub-HS10,5,0,0.9952321648597717,STFT,ResNet-18,Logistic Regression
+21,sub-HS10,5,0,0.00017901157843880355,STFT,ResNet-18,Logistic Regression
+22,sub-HS10,5,0,0.00023860811779741198,STFT,ResNet-18,Logistic Regression
+23,sub-HS10,5,0,0.031629528850317,STFT,ResNet-18,Logistic Regression
+24,sub-HS10,5,0,0.0006327086011879146,STFT,ResNet-18,Logistic Regression
+25,sub-HS10,5,0,4.152007932134438e-06,STFT,ResNet-18,Logistic Regression
+26,sub-HS10,5,0,2.9708364309044555e-05,STFT,ResNet-18,Logistic Regression
+27,sub-HS10,5,0,8.817434718366712e-05,STFT,ResNet-18,Logistic Regression
+28,sub-HS10,5,0,0.00043404733878560364,STFT,ResNet-18,Logistic Regression
+29,sub-HS10,5,0,0.03546746075153351,STFT,ResNet-18,Logistic Regression
+30,sub-HS11,5,0,0.0034606577828526497,STFT,ResNet-18,Logistic Regression
+31,sub-HS11,5,0,0.9235434532165527,STFT,ResNet-18,Logistic Regression
+32,sub-HS11,5,0,0.7097459435462952,STFT,ResNet-18,Logistic Regression
+33,sub-HS11,5,0,0.05469299852848053,STFT,ResNet-18,Logistic Regression
+34,sub-HS11,5,0,0.0017516769003123045,STFT,ResNet-18,Logistic Regression
+35,sub-HS11,5,0,0.0887993797659874,STFT,ResNet-18,Logistic Regression
+36,sub-HS11,5,0,0.9106050729751587,STFT,ResNet-18,Logistic Regression
+37,sub-HS11,5,0,0.10017595440149307,STFT,ResNet-18,Logistic Regression
+38,sub-HS11,5,0,0.0008184696198441088,STFT,ResNet-18,Logistic Regression
+39,sub-HS11,5,0,0.001832077745348215,STFT,ResNet-18,Logistic Regression
+40,sub-HS11,5,0,0.015663081780076027,STFT,ResNet-18,Logistic Regression
+41,sub-HS11,5,0,0.0004195350920781493,STFT,ResNet-18,Logistic Regression
+42,sub-HS11,5,0,7.584319519082783e-06,STFT,ResNet-18,Logistic Regression
+43,sub-HS11,5,0,1.1628171705524437e-05,STFT,ResNet-18,Logistic Regression
+44,sub-HS11,5,0,7.585965704492992e-07,STFT,ResNet-18,Logistic Regression
+300,sub-HS3,5,0,0.028722399845719337,STFT,ResNet-18,Logistic Regression
+301,sub-HS3,5,0,0.000722342636436224,STFT,ResNet-18,Logistic Regression
+302,sub-HS3,5,0,0.006126992870122194,STFT,ResNet-18,Logistic Regression
+303,sub-HS3,5,0,0.00040148277184925973,STFT,ResNet-18,Logistic Regression
+304,sub-HS3,5,0,8.047706796787679e-05,STFT,ResNet-18,Logistic Regression
+305,sub-HS3,5,0,0.3697081208229065,STFT,ResNet-18,Logistic Regression
+306,sub-HS3,5,0,0.04075636342167854,STFT,ResNet-18,Logistic Regression
+307,sub-HS3,5,0,0.05168072134256363,STFT,ResNet-18,Logistic Regression
+308,sub-HS3,5,0,0.9245156049728394,STFT,ResNet-18,Logistic Regression
+309,sub-HS3,5,0,0.09069003909826279,STFT,ResNet-18,Logistic Regression
+310,sub-HS3,5,0,0.009096359834074974,STFT,ResNet-18,Logistic Regression
+311,sub-HS3,5,0,2.5350773285026662e-05,STFT,ResNet-18,Logistic Regression
+312,sub-HS3,5,0,0.00020349235273897648,STFT,ResNet-18,Logistic Regression
+313,sub-HS3,5,0,0.22849373519420624,STFT,ResNet-18,Logistic Regression
+314,sub-HS3,5,0,0.0001295306283282116,STFT,ResNet-18,Logistic Regression
+495,sub-MDDS15,5,1,0.9503306746482849,STFT,ResNet-18,Logistic Regression
+496,sub-MDDS15,5,1,0.9992455244064331,STFT,ResNet-18,Logistic Regression
+497,sub-MDDS15,5,1,0.7128639221191406,STFT,ResNet-18,Logistic Regression
+498,sub-MDDS15,5,1,0.5335183143615723,STFT,ResNet-18,Logistic Regression
+499,sub-MDDS15,5,1,0.9968644976615906,STFT,ResNet-18,Logistic Regression
+500,sub-MDDS15,5,1,0.9985448122024536,STFT,ResNet-18,Logistic Regression
+501,sub-MDDS15,5,1,0.9972153902053833,STFT,ResNet-18,Logistic Regression
+502,sub-MDDS15,5,1,0.05262722447514534,STFT,ResNet-18,Logistic Regression
+503,sub-MDDS15,5,1,0.9999277591705322,STFT,ResNet-18,Logistic Regression
+504,sub-MDDS15,5,1,0.9972935318946838,STFT,ResNet-18,Logistic Regression
+505,sub-MDDS15,5,1,0.9930346012115479,STFT,ResNet-18,Logistic Regression
+506,sub-MDDS15,5,1,0.9977510571479797,STFT,ResNet-18,Logistic Regression
+507,sub-MDDS15,5,1,0.2433287352323532,STFT,ResNet-18,Logistic Regression
+508,sub-MDDS15,5,1,0.005846256855875254,STFT,ResNet-18,Logistic Regression
+509,sub-MDDS15,5,1,0.9357854127883911,STFT,ResNet-18,Logistic Regression
+510,sub-MDDS17,5,1,0.9977067708969116,STFT,ResNet-18,Logistic Regression
+511,sub-MDDS17,5,1,0.9996707439422607,STFT,ResNet-18,Logistic Regression
+512,sub-MDDS17,5,1,0.9987603425979614,STFT,ResNet-18,Logistic Regression
+513,sub-MDDS17,5,1,0.9950956106185913,STFT,ResNet-18,Logistic Regression
+514,sub-MDDS17,5,1,0.6546922922134399,STFT,ResNet-18,Logistic Regression
+515,sub-MDDS17,5,1,0.9931939840316772,STFT,ResNet-18,Logistic Regression
+516,sub-MDDS17,5,1,0.9952166080474854,STFT,ResNet-18,Logistic Regression
+517,sub-MDDS17,5,1,0.9999996423721313,STFT,ResNet-18,Logistic Regression
+518,sub-MDDS17,5,1,0.9949047565460205,STFT,ResNet-18,Logistic Regression
+519,sub-MDDS17,5,1,0.9832761287689209,STFT,ResNet-18,Logistic Regression
+520,sub-MDDS17,5,1,0.09425648301839828,STFT,ResNet-18,Logistic Regression
+521,sub-MDDS17,5,1,0.9999817609786987,STFT,ResNet-18,Logistic Regression
+522,sub-MDDS17,5,1,0.9983409643173218,STFT,ResNet-18,Logistic Regression
+523,sub-MDDS17,5,1,0.2347715198993683,STFT,ResNet-18,Logistic Regression
+524,sub-MDDS17,5,1,0.9961534142494202,STFT,ResNet-18,Logistic Regression
+855,sub-MDDS9,5,1,0.0013281531864777207,STFT,ResNet-18,Logistic Regression
+856,sub-MDDS9,5,1,0.9999434947967529,STFT,ResNet-18,Logistic Regression
+857,sub-MDDS9,5,1,0.9993882179260254,STFT,ResNet-18,Logistic Regression
+858,sub-MDDS9,5,1,1.0,STFT,ResNet-18,Logistic Regression
+859,sub-MDDS9,5,1,0.9991894364356995,STFT,ResNet-18,Logistic Regression
+860,sub-MDDS9,5,1,0.997735857963562,STFT,ResNet-18,Logistic Regression
+861,sub-MDDS9,5,1,0.9999862909317017,STFT,ResNet-18,Logistic Regression
+862,sub-MDDS9,5,1,0.9997546076774597,STFT,ResNet-18,Logistic Regression
+863,sub-MDDS9,5,1,0.9890900254249573,STFT,ResNet-18,Logistic Regression
+864,sub-MDDS9,5,1,0.999964714050293,STFT,ResNet-18,Logistic Regression
+865,sub-MDDS9,5,1,0.977734386920929,STFT,ResNet-18,Logistic Regression
+866,sub-MDDS9,5,1,0.9996800422668457,STFT,ResNet-18,Logistic Regression
+867,sub-MDDS9,5,1,0.9618388414382935,STFT,ResNet-18,Logistic Regression
+868,sub-MDDS9,5,1,0.9999988079071045,STFT,ResNet-18,Logistic Regression
+869,sub-MDDS9,5,1,0.7099508047103882,STFT,ResNet-18,Logistic Regression
+285,sub-HS29,6,0,5.27401564729532e-05,Welch_PSD,Direct_Features,MLP
+286,sub-HS29,6,0,0.005446246259432117,Welch_PSD,Direct_Features,MLP
+287,sub-HS29,6,0,0.0010348284428707767,Welch_PSD,Direct_Features,MLP
+288,sub-HS29,6,0,0.0010863810675234068,Welch_PSD,Direct_Features,MLP
+289,sub-HS29,6,0,0.004076831723006837,Welch_PSD,Direct_Features,MLP
+290,sub-HS29,6,0,9.722746285553856e-05,Welch_PSD,Direct_Features,MLP
+291,sub-HS29,6,0,0.0009008716398908346,Welch_PSD,Direct_Features,MLP
+292,sub-HS29,6,0,0.021856155873340485,Welch_PSD,Direct_Features,MLP
+293,sub-HS29,6,0,0.00017992799424034376,Welch_PSD,Direct_Features,MLP
+294,sub-HS29,6,0,0.0003045181568886685,Welch_PSD,Direct_Features,MLP
+295,sub-HS29,6,0,0.000673596784863489,Welch_PSD,Direct_Features,MLP
+296,sub-HS29,6,0,0.00022673140095517868,Welch_PSD,Direct_Features,MLP
+297,sub-HS29,6,0,9.728683780905953e-06,Welch_PSD,Direct_Features,MLP
+298,sub-HS29,6,0,0.0015645653001158844,Welch_PSD,Direct_Features,MLP
+299,sub-HS29,6,0,7.964411429358771e-05,Welch_PSD,Direct_Features,MLP
+345,sub-HS5,6,0,0.006960460539760565,Welch_PSD,Direct_Features,MLP
+346,sub-HS5,6,0,0.0008754371833072875,Welch_PSD,Direct_Features,MLP
+347,sub-HS5,6,0,0.00027675748207757266,Welch_PSD,Direct_Features,MLP
+348,sub-HS5,6,0,0.002404296403096213,Welch_PSD,Direct_Features,MLP
+349,sub-HS5,6,0,0.0001073791932334205,Welch_PSD,Direct_Features,MLP
+350,sub-HS5,6,0,0.004509622718757176,Welch_PSD,Direct_Features,MLP
+351,sub-HS5,6,0,1.784305603421876e-05,Welch_PSD,Direct_Features,MLP
+352,sub-HS5,6,0,1.8012453778167192e-05,Welch_PSD,Direct_Features,MLP
+353,sub-HS5,6,0,0.0007062077003273933,Welch_PSD,Direct_Features,MLP
+354,sub-HS5,6,0,7.129686429330501e-06,Welch_PSD,Direct_Features,MLP
+355,sub-HS5,6,0,0.00013688919144603666,Welch_PSD,Direct_Features,MLP
+356,sub-HS5,6,0,7.665562243775427e-05,Welch_PSD,Direct_Features,MLP
+357,sub-HS5,6,0,8.605461036680065e-05,Welch_PSD,Direct_Features,MLP
+358,sub-HS5,6,0,0.0008059978600149268,Welch_PSD,Direct_Features,MLP
+359,sub-HS5,6,0,0.018478949489754547,Welch_PSD,Direct_Features,MLP
+450,sub-MDDS11,6,1,0.9924933679939595,Welch_PSD,Direct_Features,MLP
+451,sub-MDDS11,6,1,0.9776001510610955,Welch_PSD,Direct_Features,MLP
+452,sub-MDDS11,6,1,0.08613719354023124,Welch_PSD,Direct_Features,MLP
+453,sub-MDDS11,6,1,0.6732493823882909,Welch_PSD,Direct_Features,MLP
+454,sub-MDDS11,6,1,0.22337867642976733,Welch_PSD,Direct_Features,MLP
+455,sub-MDDS11,6,1,0.4367189447388275,Welch_PSD,Direct_Features,MLP
+456,sub-MDDS11,6,1,0.3111907311174663,Welch_PSD,Direct_Features,MLP
+457,sub-MDDS11,6,1,0.8660591960202273,Welch_PSD,Direct_Features,MLP
+458,sub-MDDS11,6,1,0.9974556181331022,Welch_PSD,Direct_Features,MLP
+459,sub-MDDS11,6,1,0.9820504209786225,Welch_PSD,Direct_Features,MLP
+460,sub-MDDS11,6,1,0.018161740301857195,Welch_PSD,Direct_Features,MLP
+461,sub-MDDS11,6,1,0.9729604263152523,Welch_PSD,Direct_Features,MLP
+462,sub-MDDS11,6,1,0.30400875365199514,Welch_PSD,Direct_Features,MLP
+463,sub-MDDS11,6,1,0.9821998186357069,Welch_PSD,Direct_Features,MLP
+464,sub-MDDS11,6,1,0.18392120730645659,Welch_PSD,Direct_Features,MLP
+465,sub-MDDS13,6,1,0.9987518673495421,Welch_PSD,Direct_Features,MLP
+466,sub-MDDS13,6,1,0.9986016131951703,Welch_PSD,Direct_Features,MLP
+467,sub-MDDS13,6,1,0.999940324306491,Welch_PSD,Direct_Features,MLP
+468,sub-MDDS13,6,1,0.9999853870172123,Welch_PSD,Direct_Features,MLP
+469,sub-MDDS13,6,1,0.9960645086592228,Welch_PSD,Direct_Features,MLP
+470,sub-MDDS13,6,1,0.9996274723931073,Welch_PSD,Direct_Features,MLP
+471,sub-MDDS13,6,1,0.9977978699897249,Welch_PSD,Direct_Features,MLP
+472,sub-MDDS13,6,1,0.9989222841314293,Welch_PSD,Direct_Features,MLP
+473,sub-MDDS13,6,1,0.9757160033348796,Welch_PSD,Direct_Features,MLP
+474,sub-MDDS13,6,1,0.9999851587601144,Welch_PSD,Direct_Features,MLP
+475,sub-MDDS13,6,1,0.9999927548279086,Welch_PSD,Direct_Features,MLP
+476,sub-MDDS13,6,1,0.9999830240719088,Welch_PSD,Direct_Features,MLP
+477,sub-MDDS13,6,1,0.9999703768753968,Welch_PSD,Direct_Features,MLP
+478,sub-MDDS13,6,1,0.9999970668198603,Welch_PSD,Direct_Features,MLP
+479,sub-MDDS13,6,1,0.07779178580341012,Welch_PSD,Direct_Features,MLP
+675,sub-MDDS27,6,1,0.000418767931085675,Welch_PSD,Direct_Features,MLP
+676,sub-MDDS27,6,1,0.00013897507789259098,Welch_PSD,Direct_Features,MLP
+677,sub-MDDS27,6,1,0.0010402982303307049,Welch_PSD,Direct_Features,MLP
+678,sub-MDDS27,6,1,6.233132011215282e-05,Welch_PSD,Direct_Features,MLP
+679,sub-MDDS27,6,1,0.6775056287277025,Welch_PSD,Direct_Features,MLP
+680,sub-MDDS27,6,1,0.0002736382957234469,Welch_PSD,Direct_Features,MLP
+681,sub-MDDS27,6,1,0.002851372071076961,Welch_PSD,Direct_Features,MLP
+682,sub-MDDS27,6,1,0.003006233912198212,Welch_PSD,Direct_Features,MLP
+683,sub-MDDS27,6,1,0.0003294341356488398,Welch_PSD,Direct_Features,MLP
+684,sub-MDDS27,6,1,0.0005284026421416853,Welch_PSD,Direct_Features,MLP
+685,sub-MDDS27,6,1,0.002276328996527846,Welch_PSD,Direct_Features,MLP
+686,sub-MDDS27,6,1,0.19109774342212774,Welch_PSD,Direct_Features,MLP
+687,sub-MDDS27,6,1,0.00442918273043003,Welch_PSD,Direct_Features,MLP
+688,sub-MDDS27,6,1,0.002846573842414935,Welch_PSD,Direct_Features,MLP
+689,sub-MDDS27,6,1,0.006807688534839406,Welch_PSD,Direct_Features,MLP
+240,sub-HS26,7,0,0.56,Welch_PSD,Direct_Features,Random Forest
+241,sub-HS26,7,0,0.65,Welch_PSD,Direct_Features,Random Forest
+242,sub-HS26,7,0,0.22699999999999998,Welch_PSD,Direct_Features,Random Forest
+243,sub-HS26,7,0,0.187,Welch_PSD,Direct_Features,Random Forest
+244,sub-HS26,7,0,0.13699999999999998,Welch_PSD,Direct_Features,Random Forest
+245,sub-HS26,7,0,0.27699999999999997,Welch_PSD,Direct_Features,Random Forest
+246,sub-HS26,7,0,0.13,Welch_PSD,Direct_Features,Random Forest
+247,sub-HS26,7,0,0.175,Welch_PSD,Direct_Features,Random Forest
+248,sub-HS26,7,0,0.57,Welch_PSD,Direct_Features,Random Forest
+249,sub-HS26,7,0,0.155,Welch_PSD,Direct_Features,Random Forest
+250,sub-HS26,7,0,0.23,Welch_PSD,Direct_Features,Random Forest
+251,sub-HS26,7,0,0.155,Welch_PSD,Direct_Features,Random Forest
+252,sub-HS26,7,0,0.34,Welch_PSD,Direct_Features,Random Forest
+253,sub-HS26,7,0,0.185,Welch_PSD,Direct_Features,Random Forest
+254,sub-HS26,7,0,0.125,Welch_PSD,Direct_Features,Random Forest
+360,sub-HS6,7,0,0.0705,Welch_PSD,Direct_Features,Random Forest
+361,sub-HS6,7,0,0.087,Welch_PSD,Direct_Features,Random Forest
+362,sub-HS6,7,0,0.0825,Welch_PSD,Direct_Features,Random Forest
+363,sub-HS6,7,0,0.125,Welch_PSD,Direct_Features,Random Forest
+364,sub-HS6,7,0,0.06961538461538462,Welch_PSD,Direct_Features,Random Forest
+365,sub-HS6,7,0,0.1578125,Welch_PSD,Direct_Features,Random Forest
+366,sub-HS6,7,0,0.0723125,Welch_PSD,Direct_Features,Random Forest
+367,sub-HS6,7,0,0.1903125,Welch_PSD,Direct_Features,Random Forest
+368,sub-HS6,7,0,0.3099278846153846,Welch_PSD,Direct_Features,Random Forest
+369,sub-HS6,7,0,0.14881250000000001,Welch_PSD,Direct_Features,Random Forest
+370,sub-HS6,7,0,0.09383333333333332,Welch_PSD,Direct_Features,Random Forest
+371,sub-HS6,7,0,0.3,Welch_PSD,Direct_Features,Random Forest
+372,sub-HS6,7,0,0.75,Welch_PSD,Direct_Features,Random Forest
+373,sub-HS6,7,0,0.2203125,Welch_PSD,Direct_Features,Random Forest
+374,sub-HS6,7,0,0.17,Welch_PSD,Direct_Features,Random Forest
+405,sub-HS9,7,0,0.08,Welch_PSD,Direct_Features,Random Forest
+406,sub-HS9,7,0,0.05,Welch_PSD,Direct_Features,Random Forest
+407,sub-HS9,7,0,0.02,Welch_PSD,Direct_Features,Random Forest
+408,sub-HS9,7,0,0.09,Welch_PSD,Direct_Features,Random Forest
+409,sub-HS9,7,0,0.085,Welch_PSD,Direct_Features,Random Forest
+410,sub-HS9,7,0,0.07,Welch_PSD,Direct_Features,Random Forest
+411,sub-HS9,7,0,0.01,Welch_PSD,Direct_Features,Random Forest
+412,sub-HS9,7,0,0.02,Welch_PSD,Direct_Features,Random Forest
+413,sub-HS9,7,0,0.03,Welch_PSD,Direct_Features,Random Forest
+414,sub-HS9,7,0,0.05,Welch_PSD,Direct_Features,Random Forest
+415,sub-HS9,7,0,0.04,Welch_PSD,Direct_Features,Random Forest
+416,sub-HS9,7,0,0.04,Welch_PSD,Direct_Features,Random Forest
+417,sub-HS9,7,0,0.03,Welch_PSD,Direct_Features,Random Forest
+418,sub-HS9,7,0,0.054615384615384614,Welch_PSD,Direct_Features,Random Forest
+419,sub-HS9,7,0,0.05,Welch_PSD,Direct_Features,Random Forest
+555,sub-MDDS2,7,1,0.6692261904761904,Welch_PSD,Direct_Features,Random Forest
+556,sub-MDDS2,7,1,0.7175595238095238,Welch_PSD,Direct_Features,Random Forest
+557,sub-MDDS2,7,1,0.6804166666666667,Welch_PSD,Direct_Features,Random Forest
+558,sub-MDDS2,7,1,0.42,Welch_PSD,Direct_Features,Random Forest
+559,sub-MDDS2,7,1,0.87,Welch_PSD,Direct_Features,Random Forest
+560,sub-MDDS2,7,1,0.6999043062200957,Welch_PSD,Direct_Features,Random Forest
+561,sub-MDDS2,7,1,0.8304166666666667,Welch_PSD,Direct_Features,Random Forest
+562,sub-MDDS2,7,1,0.71,Welch_PSD,Direct_Features,Random Forest
+563,sub-MDDS2,7,1,0.7079043062200957,Welch_PSD,Direct_Features,Random Forest
+564,sub-MDDS2,7,1,0.5324679487179488,Welch_PSD,Direct_Features,Random Forest
+565,sub-MDDS2,7,1,0.7371428571428572,Welch_PSD,Direct_Features,Random Forest
+566,sub-MDDS2,7,1,0.6504166666666668,Welch_PSD,Direct_Features,Random Forest
+567,sub-MDDS2,7,1,0.8894787743052021,Welch_PSD,Direct_Features,Random Forest
+568,sub-MDDS2,7,1,0.6446749084249085,Welch_PSD,Direct_Features,Random Forest
+569,sub-MDDS2,7,1,0.7304166666666667,Welch_PSD,Direct_Features,Random Forest
+660,sub-MDDS26,7,1,0.9499043062200957,Welch_PSD,Direct_Features,Random Forest
+661,sub-MDDS26,7,1,0.7405530034386419,Welch_PSD,Direct_Features,Random Forest
+662,sub-MDDS26,7,1,0.9289494680851064,Welch_PSD,Direct_Features,Random Forest
+663,sub-MDDS26,7,1,0.84,Welch_PSD,Direct_Features,Random Forest
+664,sub-MDDS26,7,1,0.829375,Welch_PSD,Direct_Features,Random Forest
+665,sub-MDDS26,7,1,0.949197084164357,Welch_PSD,Direct_Features,Random Forest
+666,sub-MDDS26,7,1,0.9803900709219859,Welch_PSD,Direct_Features,Random Forest
+667,sub-MDDS26,7,1,0.4263849765258216,Welch_PSD,Direct_Features,Random Forest
+668,sub-MDDS26,7,1,0.8796226160792506,Welch_PSD,Direct_Features,Random Forest
+669,sub-MDDS26,7,1,0.9265709728867624,Welch_PSD,Direct_Features,Random Forest
+670,sub-MDDS26,7,1,0.9393487506645402,Welch_PSD,Direct_Features,Random Forest
+671,sub-MDDS26,7,1,0.9278726868347529,Welch_PSD,Direct_Features,Random Forest
+672,sub-MDDS26,7,1,0.3526136363636364,Welch_PSD,Direct_Features,Random Forest
+673,sub-MDDS26,7,1,0.7596226160792505,Welch_PSD,Direct_Features,Random Forest
+674,sub-MDDS26,7,1,0.9068940538613268,Welch_PSD,Direct_Features,Random Forest
+720,sub-MDDS3,7,1,0.7905,Welch_PSD,Direct_Features,Random Forest
+721,sub-MDDS3,7,1,0.932,Welch_PSD,Direct_Features,Random Forest
+722,sub-MDDS3,7,1,0.81,Welch_PSD,Direct_Features,Random Forest
+723,sub-MDDS3,7,1,0.9199043062200957,Welch_PSD,Direct_Features,Random Forest
+724,sub-MDDS3,7,1,0.96,Welch_PSD,Direct_Features,Random Forest
+725,sub-MDDS3,7,1,0.9899043062200957,Welch_PSD,Direct_Features,Random Forest
+726,sub-MDDS3,7,1,0.6396881044487428,Welch_PSD,Direct_Features,Random Forest
+727,sub-MDDS3,7,1,0.9599043062200957,Welch_PSD,Direct_Features,Random Forest
+728,sub-MDDS3,7,1,0.8929559494125838,Welch_PSD,Direct_Features,Random Forest
+729,sub-MDDS3,7,1,0.8404166666666666,Welch_PSD,Direct_Features,Random Forest
+730,sub-MDDS3,7,1,0.95,Welch_PSD,Direct_Features,Random Forest
+731,sub-MDDS3,7,1,0.9365709728867623,Welch_PSD,Direct_Features,Random Forest
+732,sub-MDDS3,7,1,0.9599043062200957,Welch_PSD,Direct_Features,Random Forest
+733,sub-MDDS3,7,1,0.9099043062200957,Welch_PSD,Direct_Features,Random Forest
+734,sub-MDDS3,7,1,0.862,Welch_PSD,Direct_Features,Random Forest
+90,sub-HS16,8,0,0.9202848046933866,STFT,ResNet-18,Linear SVM
+91,sub-HS16,8,0,0.9322549939429864,STFT,ResNet-18,Linear SVM
+92,sub-HS16,8,0,0.8825532159695221,STFT,ResNet-18,Linear SVM
+93,sub-HS16,8,0,0.83238967824736,STFT,ResNet-18,Linear SVM
+94,sub-HS16,8,0,0.6385787898221306,STFT,ResNet-18,Linear SVM
+95,sub-HS16,8,0,0.8320064621791344,STFT,ResNet-18,Linear SVM
+96,sub-HS16,8,0,0.8647160542638627,STFT,ResNet-18,Linear SVM
+97,sub-HS16,8,0,0.9468298824498497,STFT,ResNet-18,Linear SVM
+98,sub-HS16,8,0,0.7917519106696487,STFT,ResNet-18,Linear SVM
+99,sub-HS16,8,0,0.845366788152769,STFT,ResNet-18,Linear SVM
+100,sub-HS16,8,0,0.8784475525863377,STFT,ResNet-18,Linear SVM
+101,sub-HS16,8,0,0.7582446762361416,STFT,ResNet-18,Linear SVM
+102,sub-HS16,8,0,0.9382248217088472,STFT,ResNet-18,Linear SVM
+103,sub-HS16,8,0,0.7555553003401488,STFT,ResNet-18,Linear SVM
+104,sub-HS16,8,0,0.5931044738897149,STFT,ResNet-18,Linear SVM
+120,sub-HS19,8,0,0.17501382547942043,STFT,ResNet-18,Linear SVM
+121,sub-HS19,8,0,0.05949031783699058,STFT,ResNet-18,Linear SVM
+122,sub-HS19,8,0,0.15151436005875976,STFT,ResNet-18,Linear SVM
+123,sub-HS19,8,0,0.05747684628337094,STFT,ResNet-18,Linear SVM
+124,sub-HS19,8,0,0.027118909220404195,STFT,ResNet-18,Linear SVM
+125,sub-HS19,8,0,0.1164199575664873,STFT,ResNet-18,Linear SVM
+126,sub-HS19,8,0,0.13749008587160202,STFT,ResNet-18,Linear SVM
+127,sub-HS19,8,0,0.0578692939355356,STFT,ResNet-18,Linear SVM
+128,sub-HS19,8,0,0.010998298304452888,STFT,ResNet-18,Linear SVM
+129,sub-HS19,8,0,0.05897535272415067,STFT,ResNet-18,Linear SVM
+130,sub-HS19,8,0,0.034801802139922046,STFT,ResNet-18,Linear SVM
+131,sub-HS19,8,0,0.06475111171866749,STFT,ResNet-18,Linear SVM
+132,sub-HS19,8,0,0.16786063366556347,STFT,ResNet-18,Linear SVM
+133,sub-HS19,8,0,0.35044359091492744,STFT,ResNet-18,Linear SVM
+134,sub-HS19,8,0,0.015137721375020417,STFT,ResNet-18,Linear SVM
+270,sub-HS28,8,0,0.026190268714591097,STFT,ResNet-18,Linear SVM
+271,sub-HS28,8,0,0.038230913733738846,STFT,ResNet-18,Linear SVM
+272,sub-HS28,8,0,0.026999329825139102,STFT,ResNet-18,Linear SVM
+273,sub-HS28,8,0,0.02116099896849308,STFT,ResNet-18,Linear SVM
+274,sub-HS28,8,0,0.08405242913231799,STFT,ResNet-18,Linear SVM
+275,sub-HS28,8,0,0.09646987418934055,STFT,ResNet-18,Linear SVM
+276,sub-HS28,8,0,0.18613992787269376,STFT,ResNet-18,Linear SVM
+277,sub-HS28,8,0,0.06349405235589511,STFT,ResNet-18,Linear SVM
+278,sub-HS28,8,0,0.2362602237736577,STFT,ResNet-18,Linear SVM
+279,sub-HS28,8,0,0.03559400887374372,STFT,ResNet-18,Linear SVM
+280,sub-HS28,8,0,0.05792496511357401,STFT,ResNet-18,Linear SVM
+281,sub-HS28,8,0,0.06886223744378268,STFT,ResNet-18,Linear SVM
+282,sub-HS28,8,0,0.02076354802407813,STFT,ResNet-18,Linear SVM
+283,sub-HS28,8,0,0.013538759162684643,STFT,ResNet-18,Linear SVM
+284,sub-HS28,8,0,0.012247023631029525,STFT,ResNet-18,Linear SVM
+810,sub-MDDS5,8,1,0.6347931630449367,STFT,ResNet-18,Linear SVM
+811,sub-MDDS5,8,1,0.025967112840957342,STFT,ResNet-18,Linear SVM
+812,sub-MDDS5,8,1,0.040007383945775,STFT,ResNet-18,Linear SVM
+813,sub-MDDS5,8,1,0.7224296040270065,STFT,ResNet-18,Linear SVM
+814,sub-MDDS5,8,1,0.04738208264833901,STFT,ResNet-18,Linear SVM
+815,sub-MDDS5,8,1,0.2243811369797608,STFT,ResNet-18,Linear SVM
+816,sub-MDDS5,8,1,0.23356367869963615,STFT,ResNet-18,Linear SVM
+817,sub-MDDS5,8,1,0.25299817321486967,STFT,ResNet-18,Linear SVM
+818,sub-MDDS5,8,1,0.0810377363324144,STFT,ResNet-18,Linear SVM
+819,sub-MDDS5,8,1,0.11569914479704456,STFT,ResNet-18,Linear SVM
+820,sub-MDDS5,8,1,0.05546376151802468,STFT,ResNet-18,Linear SVM
+821,sub-MDDS5,8,1,0.534138820198637,STFT,ResNet-18,Linear SVM
+822,sub-MDDS5,8,1,0.1827269955271357,STFT,ResNet-18,Linear SVM
+823,sub-MDDS5,8,1,0.6334009206909048,STFT,ResNet-18,Linear SVM
+824,sub-MDDS5,8,1,0.02192940392410668,STFT,ResNet-18,Linear SVM
+825,sub-MDDS6,8,1,0.9165393342865169,STFT,ResNet-18,Linear SVM
+826,sub-MDDS6,8,1,0.9087653172402015,STFT,ResNet-18,Linear SVM
+827,sub-MDDS6,8,1,0.760010176895949,STFT,ResNet-18,Linear SVM
+828,sub-MDDS6,8,1,0.6826876074940674,STFT,ResNet-18,Linear SVM
+829,sub-MDDS6,8,1,0.819684522422455,STFT,ResNet-18,Linear SVM
+830,sub-MDDS6,8,1,0.8766134934715177,STFT,ResNet-18,Linear SVM
+831,sub-MDDS6,8,1,0.9191079712996414,STFT,ResNet-18,Linear SVM
+832,sub-MDDS6,8,1,0.7427296115353766,STFT,ResNet-18,Linear SVM
+833,sub-MDDS6,8,1,0.6567884560930136,STFT,ResNet-18,Linear SVM
+834,sub-MDDS6,8,1,0.9294325365049857,STFT,ResNet-18,Linear SVM
+835,sub-MDDS6,8,1,0.3239178568519117,STFT,ResNet-18,Linear SVM
+836,sub-MDDS6,8,1,0.9389030073545573,STFT,ResNet-18,Linear SVM
+837,sub-MDDS6,8,1,0.8826967445896293,STFT,ResNet-18,Linear SVM
+838,sub-MDDS6,8,1,0.8825895845651269,STFT,ResNet-18,Linear SVM
+839,sub-MDDS6,8,1,0.5104852912155388,STFT,ResNet-18,Linear SVM
+840,sub-MDDS7,8,1,0.9631340530703311,STFT,ResNet-18,Linear SVM
+841,sub-MDDS7,8,1,0.8098111488214578,STFT,ResNet-18,Linear SVM
+842,sub-MDDS7,8,1,0.9451664512503534,STFT,ResNet-18,Linear SVM
+843,sub-MDDS7,8,1,0.8126124759172315,STFT,ResNet-18,Linear SVM
+844,sub-MDDS7,8,1,0.8428980472811852,STFT,ResNet-18,Linear SVM
+845,sub-MDDS7,8,1,0.8747311247234176,STFT,ResNet-18,Linear SVM
+846,sub-MDDS7,8,1,0.3744848817353734,STFT,ResNet-18,Linear SVM
+847,sub-MDDS7,8,1,0.3250787539261653,STFT,ResNet-18,Linear SVM
+848,sub-MDDS7,8,1,0.740268308544779,STFT,ResNet-18,Linear SVM
+849,sub-MDDS7,8,1,0.7162236835479829,STFT,ResNet-18,Linear SVM
+850,sub-MDDS7,8,1,0.8370321644654656,STFT,ResNet-18,Linear SVM
+851,sub-MDDS7,8,1,0.8420788231497381,STFT,ResNet-18,Linear SVM
+852,sub-MDDS7,8,1,0.8406934370083352,STFT,ResNet-18,Linear SVM
+853,sub-MDDS7,8,1,0.604134904355586,STFT,ResNet-18,Linear SVM
+854,sub-MDDS7,8,1,0.9281805403689681,STFT,ResNet-18,Linear SVM
+75,sub-HS15,9,0,0.00013568575547482308,Welch_PSD,Direct_Features,MLP
+76,sub-HS15,9,0,9.034027614750652e-05,Welch_PSD,Direct_Features,MLP
+77,sub-HS15,9,0,0.003994736520461594,Welch_PSD,Direct_Features,MLP
+78,sub-HS15,9,0,0.0010243693399985842,Welch_PSD,Direct_Features,MLP
+79,sub-HS15,9,0,0.0023084351290458185,Welch_PSD,Direct_Features,MLP
+80,sub-HS15,9,0,0.0005831891569563207,Welch_PSD,Direct_Features,MLP
+81,sub-HS15,9,0,0.00013549520958234374,Welch_PSD,Direct_Features,MLP
+82,sub-HS15,9,0,0.0002955890983826688,Welch_PSD,Direct_Features,MLP
+83,sub-HS15,9,0,0.0013096111884979107,Welch_PSD,Direct_Features,MLP
+84,sub-HS15,9,0,0.00010583131879372007,Welch_PSD,Direct_Features,MLP
+85,sub-HS15,9,0,0.0007809088252299212,Welch_PSD,Direct_Features,MLP
+86,sub-HS15,9,0,0.0004855247704292507,Welch_PSD,Direct_Features,MLP
+87,sub-HS15,9,0,0.0003778442159747052,Welch_PSD,Direct_Features,MLP
+88,sub-HS15,9,0,0.00020847131984658686,Welch_PSD,Direct_Features,MLP
+89,sub-HS15,9,0,0.001333034050921028,Welch_PSD,Direct_Features,MLP
+180,sub-HS22,9,0,0.06777978284980146,Welch_PSD,Direct_Features,MLP
+181,sub-HS22,9,0,0.9979672063693458,Welch_PSD,Direct_Features,MLP
+182,sub-HS22,9,0,0.030398424318797614,Welch_PSD,Direct_Features,MLP
+183,sub-HS22,9,0,0.9999933170881314,Welch_PSD,Direct_Features,MLP
+184,sub-HS22,9,0,0.046394352802774576,Welch_PSD,Direct_Features,MLP
+185,sub-HS22,9,0,0.9973667469607549,Welch_PSD,Direct_Features,MLP
+186,sub-HS22,9,0,0.8160388927260707,Welch_PSD,Direct_Features,MLP
+187,sub-HS22,9,0,0.9325612007504592,Welch_PSD,Direct_Features,MLP
+188,sub-HS22,9,0,0.9999643062701128,Welch_PSD,Direct_Features,MLP
+189,sub-HS22,9,0,0.004861811999400755,Welch_PSD,Direct_Features,MLP
+190,sub-HS22,9,0,0.9602549658249903,Welch_PSD,Direct_Features,MLP
+191,sub-HS22,9,0,0.011495734924530099,Welch_PSD,Direct_Features,MLP
+192,sub-HS22,9,0,0.9947756217511549,Welch_PSD,Direct_Features,MLP
+193,sub-HS22,9,0,0.6546706964120033,Welch_PSD,Direct_Features,MLP
+194,sub-HS22,9,0,0.0427826968629897,Welch_PSD,Direct_Features,MLP
+255,sub-HS27,9,0,0.0010935514019376005,Welch_PSD,Direct_Features,MLP
+256,sub-HS27,9,0,0.035495314083657824,Welch_PSD,Direct_Features,MLP
+257,sub-HS27,9,0,0.005792611267863882,Welch_PSD,Direct_Features,MLP
+258,sub-HS27,9,0,0.006474846426055789,Welch_PSD,Direct_Features,MLP
+259,sub-HS27,9,0,0.002784105332097945,Welch_PSD,Direct_Features,MLP
+260,sub-HS27,9,0,0.00039294660191048356,Welch_PSD,Direct_Features,MLP
+261,sub-HS27,9,0,0.00013848813132485069,Welch_PSD,Direct_Features,MLP
+262,sub-HS27,9,0,0.0014135170863845508,Welch_PSD,Direct_Features,MLP
+263,sub-HS27,9,0,6.189677535636735e-05,Welch_PSD,Direct_Features,MLP
+264,sub-HS27,9,0,0.0003455781794457166,Welch_PSD,Direct_Features,MLP
+265,sub-HS27,9,0,0.007481955636130593,Welch_PSD,Direct_Features,MLP
+266,sub-HS27,9,0,0.007686819645232842,Welch_PSD,Direct_Features,MLP
+267,sub-HS27,9,0,0.00031442472584227235,Welch_PSD,Direct_Features,MLP
+268,sub-HS27,9,0,0.0033003612073754366,Welch_PSD,Direct_Features,MLP
+269,sub-HS27,9,0,0.0015397019279835785,Welch_PSD,Direct_Features,MLP
+600,sub-MDDS22,9,1,0.9987179041925467,Welch_PSD,Direct_Features,MLP
+601,sub-MDDS22,9,1,0.9982713223908405,Welch_PSD,Direct_Features,MLP
+602,sub-MDDS22,9,1,0.9999992459156821,Welch_PSD,Direct_Features,MLP
+603,sub-MDDS22,9,1,0.9999951532677046,Welch_PSD,Direct_Features,MLP
+604,sub-MDDS22,9,1,0.9840981950459958,Welch_PSD,Direct_Features,MLP
+605,sub-MDDS22,9,1,0.9998852529670543,Welch_PSD,Direct_Features,MLP
+606,sub-MDDS22,9,1,0.9999997698999371,Welch_PSD,Direct_Features,MLP
+607,sub-MDDS22,9,1,0.9995408436913488,Welch_PSD,Direct_Features,MLP
+608,sub-MDDS22,9,1,0.9999999728568149,Welch_PSD,Direct_Features,MLP
+609,sub-MDDS22,9,1,0.9999988021585655,Welch_PSD,Direct_Features,MLP
+610,sub-MDDS22,9,1,0.9988854542576558,Welch_PSD,Direct_Features,MLP
+611,sub-MDDS22,9,1,0.9996593313982985,Welch_PSD,Direct_Features,MLP
+612,sub-MDDS22,9,1,0.9999818539673401,Welch_PSD,Direct_Features,MLP
+613,sub-MDDS22,9,1,0.9999976329313105,Welch_PSD,Direct_Features,MLP
+614,sub-MDDS22,9,1,0.9996714837542653,Welch_PSD,Direct_Features,MLP
+615,sub-MDDS23,9,1,0.9878571108362701,Welch_PSD,Direct_Features,MLP
+616,sub-MDDS23,9,1,0.970424770772425,Welch_PSD,Direct_Features,MLP
+617,sub-MDDS23,9,1,0.629379710600513,Welch_PSD,Direct_Features,MLP
+618,sub-MDDS23,9,1,0.9863519070725769,Welch_PSD,Direct_Features,MLP
+619,sub-MDDS23,9,1,0.9937743003758004,Welch_PSD,Direct_Features,MLP
+620,sub-MDDS23,9,1,0.9956291851792054,Welch_PSD,Direct_Features,MLP
+621,sub-MDDS23,9,1,0.9884224145138211,Welch_PSD,Direct_Features,MLP
+622,sub-MDDS23,9,1,0.9918818429595265,Welch_PSD,Direct_Features,MLP
+623,sub-MDDS23,9,1,0.9956701734308627,Welch_PSD,Direct_Features,MLP
+624,sub-MDDS23,9,1,0.9999973741590834,Welch_PSD,Direct_Features,MLP
+625,sub-MDDS23,9,1,0.910344014372046,Welch_PSD,Direct_Features,MLP
+626,sub-MDDS23,9,1,0.7035809921256578,Welch_PSD,Direct_Features,MLP
+627,sub-MDDS23,9,1,0.9999999696849913,Welch_PSD,Direct_Features,MLP
+628,sub-MDDS23,9,1,0.9989389641477895,Welch_PSD,Direct_Features,MLP
+629,sub-MDDS23,9,1,0.9999607439617031,Welch_PSD,Direct_Features,MLP
+795,sub-MDDS34,9,1,0.9998477090826746,Welch_PSD,Direct_Features,MLP
+796,sub-MDDS34,9,1,0.9999999425713673,Welch_PSD,Direct_Features,MLP
+797,sub-MDDS34,9,1,0.9999760023617819,Welch_PSD,Direct_Features,MLP
+798,sub-MDDS34,9,1,0.9999695032974129,Welch_PSD,Direct_Features,MLP
+799,sub-MDDS34,9,1,0.9999999968280979,Welch_PSD,Direct_Features,MLP
+800,sub-MDDS34,9,1,0.9999961025137974,Welch_PSD,Direct_Features,MLP
+801,sub-MDDS34,9,1,0.999999125639589,Welch_PSD,Direct_Features,MLP
+802,sub-MDDS34,9,1,0.9999970698431486,Welch_PSD,Direct_Features,MLP
+803,sub-MDDS34,9,1,0.9999998011205129,Welch_PSD,Direct_Features,MLP
+804,sub-MDDS34,9,1,0.9999937424152832,Welch_PSD,Direct_Features,MLP
+805,sub-MDDS34,9,1,0.9999993967604377,Welch_PSD,Direct_Features,MLP
+806,sub-MDDS34,9,1,0.9999980663760183,Welch_PSD,Direct_Features,MLP
+807,sub-MDDS34,9,1,0.9999994206762391,Welch_PSD,Direct_Features,MLP
+808,sub-MDDS34,9,1,0.9999824357726345,Welch_PSD,Direct_Features,MLP
+809,sub-MDDS34,9,1,0.9999711217741563,Welch_PSD,Direct_Features,MLP

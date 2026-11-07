@@ -1,0 +1,19 @@
+{
+  "title": "Deconstruction of Historical 1-Participant Ablation Claims",
+  "description": "Statistical power and significance audit of claimed single-participant diagnostic improvements.",
+  "case_study": {
+    "baseline_accuracy": "52 / 58 participants (89.66%)",
+    "ablated_accuracy": "53 / 58 participants (91.38%)",
+    "participant_delta": "+1 participant correctly classified",
+    "contingency_table": {
+      "both_correct": 52,
+      "baseline_correct_ablation_wrong": 0,
+      "baseline_wrong_ablation_correct": 1,
+      "both_wrong": 5
+    },
+    "discordant_pairs": 1,
+    "exact_binomial_mcnemar_p_value": 1.0,
+    "statistical_verdict": "NON-SIGNIFICANT (p = 1.000)",
+    "scientific_critique": "A difference of exactly 1 participant in a clinical cohort of N=58 yields exactly b=0, c=1 (1 discordant pair). Under the null hypothesis of equal performance, the exact two-sided binomial p-value is 1.000. Describing a 1-participant fluctuation as an algorithmic breakthrough or evidence of model superiority is mathematically invalid and constitutes overclaiming. In the revised manuscript, single-participant differences must be transparently reported as statistically indistinguishable random variations."
+  }
+}

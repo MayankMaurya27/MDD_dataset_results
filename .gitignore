@@ -34,3 +34,9 @@ Thumbs.db
 *.swo
 *~
 
+# Model checkpoints & large binary tensors (GitHub 100MB file limit)
+*.pt
+*.pth
+results/phase1c/**/checkpoints/
+results/phase1c/**/features_cache/raw_segments_*.npy
+

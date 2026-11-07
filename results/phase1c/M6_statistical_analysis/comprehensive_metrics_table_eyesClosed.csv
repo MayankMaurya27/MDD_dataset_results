@@ -1,0 +1,9 @@
+n_participants,accuracy_pct,acc_95ci,sensitivity_pct,specificity_pct,precision_pct,f1_score_pct,f1_95ci,roc_auc,auc_95ci,confusion_matrix,cohort,pipeline,classifier,short_name
+58,87.93,"[79.31, 94.83]",90.0,85.71,87.1,88.52,"[79.24, 95.77]",0.9512,"[0.8877, 0.9939]","{'TP': 27, 'TN': 24, 'FP': 4, 'FN': 3}",EyesClosed,SPWVD + ResNet-18,Linear SVM,SPWVD_ResNet18_LinearSVM
+58,89.66,"[81.03, 96.55]",90.0,89.29,90.0,90.0,"[81.34, 96.88]",0.944,"[0.8788, 0.9886]","{'TP': 27, 'TN': 25, 'FP': 3, 'FN': 3}",EyesClosed,SPWVD + ResNet-18,MLP,SPWVD_ResNet18_MLP
+58,91.38,"[82.76, 98.28]",93.33,89.29,90.32,91.8,"[83.33, 98.36]",0.9524,"[0.8869, 0.9976]","{'TP': 28, 'TN': 25, 'FP': 3, 'FN': 2}",EyesClosed,SPWVD + ResNet-18,Logistic Regression,SPWVD_ResNet18_LogReg
+58,91.38,"[82.76, 98.28]",93.33,89.29,90.32,91.8,"[83.33, 98.36]",0.9488,"[0.8785, 0.9964]","{'TP': 28, 'TN': 25, 'FP': 3, 'FN': 2}",EyesClosed,STFT + ResNet-18,Linear SVM,STFT_ResNet18_LinearSVM
+58,93.1,"[86.21, 98.28]",96.67,89.29,90.62,93.55,"[85.71, 98.59]",0.9405,"[0.8631, 0.9939]","{'TP': 29, 'TN': 25, 'FP': 3, 'FN': 1}",EyesClosed,CWT_Morlet + ResNet-18,Linear SVM,CWT_ResNet18_LinearSVM
+58,91.38,"[82.76, 98.28]",93.33,89.29,90.32,91.8,"[82.54, 97.96]",0.9452,"[0.8738, 0.991]","{'TP': 28, 'TN': 25, 'FP': 3, 'FN': 2}",EyesClosed,Welch_PSD (Direct Features),Linear SVM,Welch_PSD_LinearSVM
+58,89.66,"[81.03, 96.55]",96.67,82.14,85.29,90.62,"[81.36, 96.97]",0.9571,"[0.8916, 1.0]","{'TP': 29, 'TN': 23, 'FP': 5, 'FN': 1}",EyesClosed,Welch_PSD (Direct Features),RBF SVM,Welch_PSD_RBFSVM
+58,91.38,"[84.44, 98.28]",96.67,85.71,87.88,92.06,"[83.33, 98.36]",0.9667,"[0.9179, 0.9964]","{'TP': 29, 'TN': 24, 'FP': 4, 'FN': 1}",EyesClosed,Welch_PSD (Direct Features),Random Forest,Welch_PSD_RandomForest

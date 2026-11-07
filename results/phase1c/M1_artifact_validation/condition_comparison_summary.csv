@@ -1,0 +1,3 @@
+Cohort,Condition A (Historical Uncorrected) Frontal PTP,Condition B (ICA Cleaned) Frontal PTP,Condition B Posterior Alpha Retention,Condition C Epoch Replacement Rate,Condition B Validation
+"Eyes Closed (EC, N=58)",470.22 uV,352.28 uV (-15.3%),99.79%,2.41% (0.36/15 epochs),PASS
+"Eyes Open (EO, N=61, 62 recs)",576.45 uV,359.73 uV (-50.17%),98.85%,9.03% (1.35/15 epochs),PASS

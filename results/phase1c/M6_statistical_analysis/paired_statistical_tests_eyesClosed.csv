@@ -1,0 +1,5 @@
+cohort,comparison,model_A,model_B,table_both_correct,table_a_correct_b_wrong,table_a_wrong_b_correct,table_both_wrong,discordant_pairs,mcnemar_exact_p,wilcoxon_posterior_error_p,is_statistically_different,interpretation
+EyesClosed,SPWVD ResNet-18 Linear SVM vs Welch PSD RBF SVM,SPWVD_ResNet18_LinearSVM,Welch_PSD_RBFSVM,49,2,3,4,5,1.0,0.0,True,"Discordant pairs = 5 (b=2, c=3). Exact binomial p = 1.0000."
+EyesClosed,SPWVD ResNet-18 MLP vs Welch PSD RBF SVM,SPWVD_ResNet18_MLP,Welch_PSD_RBFSVM,49,3,3,3,6,1.0,0.003,True,"Discordant pairs = 6 (b=3, c=3). Exact binomial p = 1.0000."
+EyesClosed,SPWVD vs STFT (Linear SVM),SPWVD_ResNet18_LinearSVM,STFT_ResNet18_LinearSVM,51,0,2,5,2,0.5,0.0276,True,"Discordant pairs = 2 (b=0, c=2). Exact binomial p = 0.5000."
+EyesClosed,SPWVD vs CWT Morlet (Linear SVM),SPWVD_ResNet18_LinearSVM,CWT_ResNet18_LinearSVM,51,0,3,4,3,0.25,0.0005,True,"Discordant pairs = 3 (b=0, c=3). Exact binomial p = 0.2500."
